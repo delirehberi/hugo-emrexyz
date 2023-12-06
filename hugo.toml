@@ -1,0 +1,45 @@
+baseURL = 'https://emre.xyz'
+languageCode = 'en-us'
+title = 'emre.xyz | thought of delirehberi'
+theme="archie"
+copyright= "delirehberi"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "delirehberi"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/delirehberi"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/delirehberi/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Subscribe"
+url = "/subscribe"
+weight = 3
+
+enableEmoji = true
+enableInlineShortcodes = true
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 1.0
+[markup.goldmark.renderer]
+unsafe= true

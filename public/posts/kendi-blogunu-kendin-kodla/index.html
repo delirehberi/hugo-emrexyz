@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Kendi blogunu kendin kodla - emre.xyz | thought of delirehberi</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Şimdiye kadar öğrendiğimiz konuları birleştirerek, üzerine bir kaç parça daha ekleyerek kendi blogunuzu yapabilirsiniz." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Kendi blogunu kendin kodla" />
+<meta property="og:description" content="Şimdiye kadar öğrendiğimiz konuları birleştirerek, üzerine bir kaç parça daha ekleyerek kendi blogunuzu yapabilirsiniz." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://emre.xyz/posts/kendi-blogunu-kendin-kodla/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-09-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-15T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Kendi blogunu kendin kodla"/>
+<meta name="twitter:description" content="Şimdiye kadar öğrendiğimiz konuları birleştirerek, üzerine bir kaç parça daha ekleyerek kendi blogunuzu yapabilirsiniz."/>
+<script src="https://emre.xyzjs/feather.min.js"></script>
+	
+	
+        <link href="https://emre.xyz/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://emre.xyz/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+
+	
+	
+
+	
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://emre.xyz">emre.xyz | thought of delirehberi</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/subscribe">Subscribe</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Kendi blogunu kendin kodla</h1>
+			<div class="meta">Posted on Sep 15, 2020</div>
+		</div>
+		
+
+		<section class="body">
+			<p>Şimdiye kadar öğrendiğimiz konuları birleştirerek, üzerine bir kaç parça daha ekleyerek kendi blogunuzu yapabilirsiniz.</p>
+<p>Olabildiğince basit ve tam tutmaya çalışacağım. Yani fazladan iş kolaylaştırıcı ama kafa karıştırıcı paketler ve araçlar kullanmayacağım.</p>
+<p>Önce development ortamımızı kuracağız, bunun için Docker kullanacağız, docker bilmiyorsanız <a href="https://gokhansengun.com/docker-nedir-nasil-calisir-nerede-kullanilir/">Gökhan Şengün&rsquo;ün Docker dökümanlarını</a> inceleyebilirsiniz.</p>
+<p>Veritabanı olarak PostgreSQL kullanacağız.</p>
+<p>HTTP server olarak Nginx kullanacağız.</p>
+<p>3 adet Docker Container&rsquo;ı ayarlayacağız Nginx, PHP ve Postgresql.</p>
+<p>Bu containerlar sadece development ortamı için ayarlanmış olacaklar.</p>
+<p>Ardından işimiz kolay olsun diye Makefile yazacağız.</p>
+<p>Development ortamımız hazır olduktan sonra kodlamaya başlayacağız.</p>
+<p>İlk yapacağımız şey Entity&rsquo;lerimizi oluşturmak. Bu proje için ihtiyacımız olan tek entity Blog adındaki bir entity, kategori vb. hiç bir ek özelliği olmayacak.</p>
+<p>Uygulamamızın bir kaç kısımdan oluşacak,
+– anasayfada son eklenenden başlayarak blog içerikleri bulunacak
+– blog başlığına tıklanınca, detay sayfası açılacak
+– admin sayfasına girince yeni blog ekle, düzenle ve sil işlemlerini yapabileceğiz.</p>
+<p>İlerleyen süreçlerde yeni konular öğrendikçe yeni özellikler ekleyerek blogumuzu geliştireceğiz. Tasarımsal hiç bir şeye odaklanmayıp bootstrap ile basit bir layout kullanacağım. Siz de kendi temanızı bulabilir yada benim kullandığımı kullanabilirsiniz.</p>
+<p>Ayrıca projemizi geliştirirken git kullanacağız, kodları <a href="https://github.com/delirehberi/kendi-blogunu-kendin-kodla">github/delirehberi/kendi-blogunu-kendin-kodla</a> reposundan ulaşabilirsiniz.</p>
+<p>En son olarak da projemizi 5-10 dolarlık bir sunucuya nasıl kurabileceğinizi göstereceğim. SSH ile sunucuya bağlanıp kurulumu tamamlayacağız. Demo uygulamamızı ise youtube-demo.emre.xyz adresinden yayına alacağız.</p>
+<p>Şu ana kadar çekilmiş olan videolar;</p>
+<p><a href="https://www.youtube.com/watch?v=ECBGIWEjShY">Bölüm 1- Geliştirme ortamı hazırlamak</a>
+<a href="https://www.youtube.com/watch?v=g_s58-F8VpQ">Bölüm 2 - Önyüz ve altyapıyı hazırlamak</a>
+<a href="https://www.youtube.com/watch?v=pnWeidq-FjA">Bölüm 3 - Admin panelini hazırlamak</a></p>
+<p>Her hafta yeni bir bölüm eklenecektir.</p>
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        var disqus_shortname = 'delirehberi';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/delirehberi" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://twitter.com/delirehberi/" rel="me" title="Twitter"><i data-feather="twitter"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2023  delirehberi |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>
