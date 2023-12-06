@@ -1,140 +1,20 @@
-<!DOCTYPE html>
-<html><head lang="en">
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Unix girdi cikti yonlendirme - emre.xyz | thought of delirehberi</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Bir önceki yazıda belirttiğim unix türevi sistemlerde efektif çalışma konusunun bir tık ilerisine girdi-çıktı yönlendirme konusunu koyabiliriz. Bahsettiğimiz pipe(|) işlemi aslında bir girdi-çıktı yönlendirme operatörüdür. Önce terminalde girdi-çıktı türlerine bakıp nasıl ve neden yönlendirebiliriz bir görelim." />
-	<meta property="og:image" content=""/>
-	<meta property="og:title" content="Unix girdi cikti yonlendirme" />
-<meta property="og:description" content="Bir önceki yazıda belirttiğim unix türevi sistemlerde efektif çalışma konusunun bir tık ilerisine girdi-çıktı yönlendirme konusunu koyabiliriz. Bahsettiğimiz pipe(|) işlemi aslında bir girdi-çıktı yönlendirme operatörüdür. Önce terminalde girdi-çıktı türlerine bakıp nasıl ve neden yönlendirebiliriz bir görelim." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://emre.xyz/posts/unix-girdi-cikti-yonlendirme/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-09-23T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-09-23T00:00:00+00:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Unix girdi cikti yonlendirme"/>
-<meta name="twitter:description" content="Bir önceki yazıda belirttiğim unix türevi sistemlerde efektif çalışma konusunun bir tık ilerisine girdi-çıktı yönlendirme konusunu koyabiliriz. Bahsettiğimiz pipe(|) işlemi aslında bir girdi-çıktı yönlendirme operatörüdür. Önce terminalde girdi-çıktı türlerine bakıp nasıl ve neden yönlendirebiliriz bir görelim."/>
-<script src="https://emre.xyzjs/feather.min.js"></script>
-	
-	
-        <link href="https://emre.xyz/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
-	
-
-	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://emre.xyz/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-
-	
-	
-
-	
-	
-	
-	
-</head>
-<body>
-        <div class="content"><header>
-	<div class="main">
-		<a href="https://emre.xyz">emre.xyz | thought of delirehberi</a>
-	</div>
-	<nav>
-		
-		<a href="/">Home</a>
-		
-		<a href="/about">About</a>
-		
-		<a href="/subscribe">Subscribe</a>
-		
-		
-	</nav>
-</header>
-
-<main>
-	<article>
-		<div class="title">
-			<h1 class="title">Unix girdi cikti yonlendirme</h1>
-			<div class="meta">Posted on Sep 23, 2019</div>
-		</div>
-		
-
-		<section class="body">
-			<p>Bir önceki yazıda belirttiğim unix türevi sistemlerde efektif çalışma konusunun bir tık ilerisine girdi-çıktı yönlendirme konusunu koyabiliriz. Bahsettiğimiz pipe(|) işlemi aslında bir girdi-çıktı yönlendirme operatörüdür. Önce terminalde girdi-çıktı türlerine bakıp nasıl ve neden yönlendirebiliriz bir görelim.</p>
-<p>İlk bilmeniz gereken şey unix türevi sistemler üzerinde bulunan her şeyin birer dosya olduğudur. Tüm klasörler, linkler, cihaz bağlantıları vs birer dosyadır. Harddisk bir dosyadır, webcam bir dosyadır, ses kartı bir dosyadır.</p>
-<p>Her dosyanın ne olduğunu belirten bir <code>file descriptor</code> olarak ifade edilen  tanımlayıcısı vardır. Pozitif sayılardan oluşabilen bu değer dosyanın ne olduğunu belirtir. 3 adet standart file descriptor mevcuttur. 0,1,2 olarak belirtilmiş sayılar sırasıyla stdin, stdout, stderr olarak belirlenmiştir. 0 dosyanın (herşey dosya olduğu için girdi ve çıktılar da dosyadır) standart bir girdi olduğunu, 1 dosyanın standart çıktı olduğunu, 2 ise  dosyanın standart hata olduğunu gösterir.</p>
-<p>Yani biz <code>cat</code> komutunu parametre vermeden çalıştırdığımızda sonuç olarak <code>stdin</code> türünde bir dosyamız oluyor. Standart girdi türü haliyle bizim veri girmemizi bekliyor.</p>
-<p>Eğer <code>echo &quot;xyz&quot;</code> komutunu çalıştırırsak <code>stdout</code> türünde bir dosya üretmiş oluyoruz. Ekrana <code>xyz</code> basmış oluyor.</p>
-<p>Son olarak <code>ls /xyz</code> komutunu çalıştırdığımızda ise <code>stderr</code> türünde bir dosya üretmiş oluyoruz ve ekrana hata basılıyor.</p>
-<p>Geçen yazıda gördüğümüz pipe üzerinden basit bir örnek yapabiliriz. <code>ls /var/log/syslog</code> ve <code>sed &quot;s/syslog/xyz/&quot;</code> komutlarını birleştirerek ufak bir işlem yaparsak sonuç olarak ekranda <code>/var/log/xyz</code> çıktısını göreceğiz.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#f92672">$</span> ls <span style="color:#f92672">/</span><span style="color:#66d9ef">var</span><span style="color:#f92672">/</span>log<span style="color:#f92672">/</span>syslog<span style="color:#f92672">|</span>sed <span style="color:#e6db74">&#34;s/syslog/xyz/&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">/</span><span style="color:#66d9ef">var</span><span style="color:#f92672">/</span>log<span style="color:#f92672">/</span>xyz
-</span></span></code></pre></div><p>Pipelining bu kadardı zaten. Bir çıktıyı al diğer uygulamaya girdi olarak ver. Fakat eğer <code>ls /var/log/emre.xyz|sed &quot;s/syslog/xyz/&quot;</code> komut çalıştırırsak ne olur? Hata verecek ve <code>sed</code> komutu çalışmayacak değil mi? Hayır, <code>sed</code> komutumuz her durumda çalışacak. Çünkü mantıksal bir işlem yapmıyoruz. Peki o zaman, <code>sed</code> komutu çalışıyor ise, hata mesajındaki bir şeyi değiştirebilir miyiz?</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>ls <span style="color:#f92672">/</span><span style="color:#66d9ef">var</span><span style="color:#f92672">/</span>log<span style="color:#f92672">/</span>emre<span style="color:#f92672">.</span>xyz<span style="color:#f92672">|</span>sed <span style="color:#e6db74">&#34;s/syslog/xyz/&#34;</span>
-</span></span><span style="display:flex;"><span>ls: cannot access <span style="color:#e6db74">&#39;/var/log/emre.xyz&#39;</span>: No such file <span style="color:#f92672">or</span> directory
-</span></span></code></pre></div><p>Hata mesajımızdaki cannot kısmını değiştirmek isteyelim örneğin. <code>ls /var/log/emre.xyz|sed &quot;s/cannot/xyz/&quot;</code> komutunu çalıştırmamız gerekecek.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>ls <span style="color:#f92672">/</span><span style="color:#66d9ef">var</span><span style="color:#f92672">/</span>log<span style="color:#f92672">/</span>emre<span style="color:#f92672">.</span>xyz<span style="color:#f92672">|</span>sed <span style="color:#e6db74">&#34;s/cannot/xyz/&#34;</span>
-</span></span><span style="display:flex;"><span>ls: cannot access <span style="color:#e6db74">&#39;/var/log/emre.xyz&#39;</span>: No such file <span style="color:#f92672">or</span> directory
-</span></span></code></pre></div><p>Fakat o da ne? <code>sed</code> hata mesajını görmüyor. Çünkü <code>sed</code> in beklediği şey <code>stdout</code> fakat ekrandaki hata mesajı <code>stderr</code> türünde. Bu sebeple <code>sed</code> bu mesajı görmezden gelecek.</p>
-<p>Peki nasıl yapacağız? İşte konumuza geldik. Bir türü diğerine yönlendirmemiz gerekecek.</p>
-<p>Daha mantıklı bir senaryoda ise, yaptığınız tüm işlemlerin sonucunu bir dosyaya yazmak isteyebilirsiniz. Hata mesajını ya da başarılı işlemleri bir yere yazabilmek için de yine çıktı yönlendirme yapmanız gerekecek.</p>
-<p>Girdi - çıktı yönlendirme yapabilmek için kullanabileceğiz 6 adet operatör mevcut. Tabi ki sadece 6 tane değil. Ancak biz 6 tanesinden bahsedeceğiz sık kullanılabilecek olanlar olarak. Hepsini hızlıca birer örnek ile göreceğiz. <code>&gt;</code>,<code>&lt;</code>,<code>&gt;&gt;</code>,<code>&lt;&lt;</code>,<code>&lt;&amp;</code>,<code>|</code> olmak üzere 6 adet operatör mevcut.</p>
-<h3 id="şuraya-gönder-operatörü-">Şuraya gönder operatörü &gt;</h3>
-<p><code>echo &quot;hello world&quot; &gt; dosya.md</code> şeklinde kullanılıyor. Sol taraftan gelen <code>stdout</code> çıktısını <code>dosya.md</code> adında bir dosyaya yönlendiriyor. <code>stdout</code> bekleyen her yere yönlendirme yapabilirsiniz.</p>
-<h3 id="şuradan-al-operatörü-">Şuradan al operatörü &lt;</h3>
-<p><code>grep &quot;awesome&quot; &lt; ls *.aww</code>  şeklinde kullanılıyor. Sağ taraftan gelen <code>stdout</code> verisini sol tarafa parametre olarak yönlendiriyor.</p>
-<h3 id="şuraya-göm-operatörü-">Şuraya göm operatörü &raquo;</h3>
-<p><code>echo &quot;hello&quot; &gt;&gt; msgs.md</code> şeklinde kullanılıyor. Sol taraftaki çıktıyı sağ taraftaki dosyaya ekliyor. <code>&gt;</code> tüm çıktıyı eski veri var ise üzerine yazarken <code>&gt;&gt;</code> üzerine yazmak yerine eski verinin yanına ilişitiriveriyor.</p>
-<h3 id="şuradan-getir-operatörü-">Şuradan getir operatörü &laquo;</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>grep &#39;dene&#39; &lt;&lt; MSG
-</span></span><span style="display:flex;"><span>&gt; deneme
-</span></span><span style="display:flex;"><span>&gt; dene
-</span></span><span style="display:flex;"><span>&gt; densiz
-</span></span><span style="display:flex;"><span>&gt; MSG
-</span></span></code></pre></div><p>Şeklinde kullanılıyor. <code>stdin</code> kaynağına yönlendirmeyi sağlıyor. Operatörden sonra verilen kelimeyi görene kadar <code>stdin</code> sizden veri bekliyor, kelimeyi gördüğünde işleme başlıyor. Bu operatör en çok <code>bash</code> dosyaları yazarken işinize yarayacaktır.</p>
-<h3 id="şunla-birleştir-operatörü-">Şunla birleştir operatörü &gt;&amp;</h3>
-<p><code>ls / 1&gt;&amp;2 |sed 's/bin/can/'</code> şeklinde kullanılıyor. Normalde <code>stdout</code> olarak verilen çıktıyı <code>stderr</code> olarak çeviriyor. Bunu hata verse de <code>stdout</code> olarak işlemek istediğiniz yerlerde kullanabilirsiniz. Yukarıda bahsettiğimiz <code>ls /var/log/emre.xyz|sed &quot;s/syslog/xyz/&quot;</code> komutundan dönen hata mesajını artık şu şekilde kullanabiliriz.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>ls <span style="color:#f92672">/</span><span style="color:#66d9ef">var</span><span style="color:#f92672">/</span>log<span style="color:#f92672">/</span>emre<span style="color:#f92672">.</span>xyz <span style="color:#ae81ff">2</span><span style="color:#f92672">&gt;&amp;</span><span style="color:#ae81ff">1</span><span style="color:#f92672">|</span>sed <span style="color:#e6db74">&#34;s/cannot/xyz/&#34;</span>
-</span></span><span style="display:flex;"><span>ls: xyz access <span style="color:#e6db74">&#39;/var/log/emre.xyz&#39;</span>: No such file <span style="color:#f92672">or</span> directory
-</span></span></code></pre></div><h3 id="şundan-al-buna-ver-">Şundan al buna ver |</h3>
-<p>Bunun üzerinden tekrar geçmeyeceğim. Sol taraftaki <code>stdout</code> u al sağ tarafa <code>stdin</code> olarak ver işlemi için kullanabileceğinizi zaten biliyorsunuz.</p>
-		</section>
-
-		<div class="post-tags">
-			
-			
-			
-		</div>
-		<div id="disqus_thread"></div>
-<script type="text/javascript">
-    (function () {
-        
-        
-        if (window.location.hostname == "localhost")
-            return;
-
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        var disqus_shortname = 'delirehberi';
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
-        Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></article>
-</main>
-<footer>
-  <div style="display:flex"><a class="soc" href="https://github.com/delirehberi" rel="me" title="GitHub"><i data-feather="github"></i></a>
-    <a class="border"></a><a class="soc" href="https://twitter.com/delirehberi/" rel="me" title="Twitter"><i data-feather="twitter"></i></a>
-    <a class="border"></a></div>
-  <div class="footer-info">
-    2023  delirehberi |  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
-</footer>
-
-
-<script>
-  feather.replace()
-</script></div>
-    </body>
-</html>
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Unix girdi cikti yonlendirme - emre.xyz | thought of delirehberi</title><meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Bir önceki yazıda belirttiğim unix türevi sistemlerde efektif çalışma konusunun bir tık ilerisine girdi-çıktı yönlendirme konusunu koyabiliriz. Bahsettiğimiz pipe(|) işlemi aslında bir girdi-çıktı yönlendirme operatörüdür. Önce terminalde girdi-çıktı türlerine bakıp nasıl ve neden yönlendirebiliriz bir görelim."><meta property="og:image" content><meta property="og:title" content="Unix girdi cikti yonlendirme"><meta property="og:description" content="Bir önceki yazıda belirttiğim unix türevi sistemlerde efektif çalışma konusunun bir tık ilerisine girdi-çıktı yönlendirme konusunu koyabiliriz. Bahsettiğimiz pipe(|) işlemi aslında bir girdi-çıktı yönlendirme operatörüdür. Önce terminalde girdi-çıktı türlerine bakıp nasıl ve neden yönlendirebiliriz bir görelim."><meta property="og:type" content="article"><meta property="og:url" content="https://emre.xyz/posts/unix-girdi-cikti-yonlendirme/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2019-09-23T00:00:00+00:00"><meta property="article:modified_time" content="2019-09-23T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Unix girdi cikti yonlendirme"><meta name=twitter:description content="Bir önceki yazıda belirttiğim unix türevi sistemlerde efektif çalışma konusunun bir tık ilerisine girdi-çıktı yönlendirme konusunu koyabiliriz. Bahsettiğimiz pipe(|) işlemi aslında bir girdi-çıktı yönlendirme operatörüdür. Önce terminalde girdi-çıktı türlerine bakıp nasıl ve neden yönlendirebiliriz bir görelim."><script src=https://emre.xyzjs/feather.min.js></script><link href=https://emre.xyz/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://emre.xyz/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css></head><body><div class=content><header><div class=main><a href=https://emre.xyz>emre.xyz | thought of delirehberi</a></div><nav><a href=/>Home</a>
+<a href=/about>About</a>
+<a href=/subscribe>Subscribe</a></nav></header><main><article><div class=title><h1 class=title>Unix girdi cikti yonlendirme</h1><div class=meta>Posted on Sep 23, 2019</div></div><section class=body><p>Bir önceki yazıda belirttiğim unix türevi sistemlerde efektif çalışma konusunun bir tık ilerisine girdi-çıktı yönlendirme konusunu koyabiliriz. Bahsettiğimiz pipe(|) işlemi aslında bir girdi-çıktı yönlendirme operatörüdür. Önce terminalde girdi-çıktı türlerine bakıp nasıl ve neden yönlendirebiliriz bir görelim.</p><p>İlk bilmeniz gereken şey unix türevi sistemler üzerinde bulunan her şeyin birer dosya olduğudur. Tüm klasörler, linkler, cihaz bağlantıları vs birer dosyadır. Harddisk bir dosyadır, webcam bir dosyadır, ses kartı bir dosyadır.</p><p>Her dosyanın ne olduğunu belirten bir <code>file descriptor</code> olarak ifade edilen tanımlayıcısı vardır. Pozitif sayılardan oluşabilen bu değer dosyanın ne olduğunu belirtir. 3 adet standart file descriptor mevcuttur. 0,1,2 olarak belirtilmiş sayılar sırasıyla stdin, stdout, stderr olarak belirlenmiştir. 0 dosyanın (herşey dosya olduğu için girdi ve çıktılar da dosyadır) standart bir girdi olduğunu, 1 dosyanın standart çıktı olduğunu, 2 ise dosyanın standart hata olduğunu gösterir.</p><p>Yani biz <code>cat</code> komutunu parametre vermeden çalıştırdığımızda sonuç olarak <code>stdin</code> türünde bir dosyamız oluyor. Standart girdi türü haliyle bizim veri girmemizi bekliyor.</p><p>Eğer <code>echo "xyz"</code> komutunu çalıştırırsak <code>stdout</code> türünde bir dosya üretmiş oluyoruz. Ekrana <code>xyz</code> basmış oluyor.</p><p>Son olarak <code>ls /xyz</code> komutunu çalıştırdığımızda ise <code>stderr</code> türünde bir dosya üretmiş oluyoruz ve ekrana hata basılıyor.</p><p>Geçen yazıda gördüğümüz pipe üzerinden basit bir örnek yapabiliriz. <code>ls /var/log/syslog</code> ve <code>sed "s/syslog/xyz/"</code> komutlarını birleştirerek ufak bir işlem yaparsak sonuç olarak ekranda <code>/var/log/xyz</code> çıktısını göreceğiz.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gdscript3 data-lang=gdscript3><span style=display:flex><span><span style=color:#f92672>$</span> ls <span style=color:#f92672>/</span><span style=color:#66d9ef>var</span><span style=color:#f92672>/</span>log<span style=color:#f92672>/</span>syslog<span style=color:#f92672>|</span>sed <span style=color:#e6db74>&#34;s/syslog/xyz/&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>/</span><span style=color:#66d9ef>var</span><span style=color:#f92672>/</span>log<span style=color:#f92672>/</span>xyz
+</span></span></code></pre></div><p>Pipelining bu kadardı zaten. Bir çıktıyı al diğer uygulamaya girdi olarak ver. Fakat eğer <code>ls /var/log/emre.xyz|sed "s/syslog/xyz/"</code> komut çalıştırırsak ne olur? Hata verecek ve <code>sed</code> komutu çalışmayacak değil mi? Hayır, <code>sed</code> komutumuz her durumda çalışacak. Çünkü mantıksal bir işlem yapmıyoruz. Peki o zaman, <code>sed</code> komutu çalışıyor ise, hata mesajındaki bir şeyi değiştirebilir miyiz?</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gdscript3 data-lang=gdscript3><span style=display:flex><span>ls <span style=color:#f92672>/</span><span style=color:#66d9ef>var</span><span style=color:#f92672>/</span>log<span style=color:#f92672>/</span>emre<span style=color:#f92672>.</span>xyz<span style=color:#f92672>|</span>sed <span style=color:#e6db74>&#34;s/syslog/xyz/&#34;</span>
+</span></span><span style=display:flex><span>ls: cannot access <span style=color:#e6db74>&#39;/var/log/emre.xyz&#39;</span>: No such file <span style=color:#f92672>or</span> directory
+</span></span></code></pre></div><p>Hata mesajımızdaki cannot kısmını değiştirmek isteyelim örneğin. <code>ls /var/log/emre.xyz|sed "s/cannot/xyz/"</code> komutunu çalıştırmamız gerekecek.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gdscript3 data-lang=gdscript3><span style=display:flex><span>ls <span style=color:#f92672>/</span><span style=color:#66d9ef>var</span><span style=color:#f92672>/</span>log<span style=color:#f92672>/</span>emre<span style=color:#f92672>.</span>xyz<span style=color:#f92672>|</span>sed <span style=color:#e6db74>&#34;s/cannot/xyz/&#34;</span>
+</span></span><span style=display:flex><span>ls: cannot access <span style=color:#e6db74>&#39;/var/log/emre.xyz&#39;</span>: No such file <span style=color:#f92672>or</span> directory
+</span></span></code></pre></div><p>Fakat o da ne? <code>sed</code> hata mesajını görmüyor. Çünkü <code>sed</code> in beklediği şey <code>stdout</code> fakat ekrandaki hata mesajı <code>stderr</code> türünde. Bu sebeple <code>sed</code> bu mesajı görmezden gelecek.</p><p>Peki nasıl yapacağız? İşte konumuza geldik. Bir türü diğerine yönlendirmemiz gerekecek.</p><p>Daha mantıklı bir senaryoda ise, yaptığınız tüm işlemlerin sonucunu bir dosyaya yazmak isteyebilirsiniz. Hata mesajını ya da başarılı işlemleri bir yere yazabilmek için de yine çıktı yönlendirme yapmanız gerekecek.</p><p>Girdi - çıktı yönlendirme yapabilmek için kullanabileceğiz 6 adet operatör mevcut. Tabi ki sadece 6 tane değil. Ancak biz 6 tanesinden bahsedeceğiz sık kullanılabilecek olanlar olarak. Hepsini hızlıca birer örnek ile göreceğiz. <code>></code>,<code>&lt;</code>,<code>>></code>,<code>&lt;&lt;</code>,<code>&lt;&</code>,<code>|</code> olmak üzere 6 adet operatör mevcut.</p><h3 id=şuraya-gönder-operatörü->Şuraya gönder operatörü ></h3><p><code>echo "hello world" > dosya.md</code> şeklinde kullanılıyor. Sol taraftan gelen <code>stdout</code> çıktısını <code>dosya.md</code> adında bir dosyaya yönlendiriyor. <code>stdout</code> bekleyen her yere yönlendirme yapabilirsiniz.</p><h3 id=şuradan-al-operatörü->Şuradan al operatörü &lt;</h3><p><code>grep "awesome" &lt; ls *.aww</code> şeklinde kullanılıyor. Sağ taraftan gelen <code>stdout</code> verisini sol tarafa parametre olarak yönlendiriyor.</p><h3 id=şuraya-göm-operatörü->Şuraya göm operatörü &#187;</h3><p><code>echo "hello" >> msgs.md</code> şeklinde kullanılıyor. Sol taraftaki çıktıyı sağ taraftaki dosyaya ekliyor. <code>></code> tüm çıktıyı eski veri var ise üzerine yazarken <code>>></code> üzerine yazmak yerine eski verinin yanına ilişitiriveriyor.</p><h3 id=şuradan-getir-operatörü->Şuradan getir operatörü &#171;</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>grep &#39;dene&#39; &lt;&lt; MSG
+</span></span><span style=display:flex><span>&gt; deneme
+</span></span><span style=display:flex><span>&gt; dene
+</span></span><span style=display:flex><span>&gt; densiz
+</span></span><span style=display:flex><span>&gt; MSG
+</span></span></code></pre></div><p>Şeklinde kullanılıyor. <code>stdin</code> kaynağına yönlendirmeyi sağlıyor. Operatörden sonra verilen kelimeyi görene kadar <code>stdin</code> sizden veri bekliyor, kelimeyi gördüğünde işleme başlıyor. Bu operatör en çok <code>bash</code> dosyaları yazarken işinize yarayacaktır.</p><h3 id=şunla-birleştir-operatörü->Şunla birleştir operatörü >&</h3><p><code>ls / 1>&amp;2 |sed 's/bin/can/'</code> şeklinde kullanılıyor. Normalde <code>stdout</code> olarak verilen çıktıyı <code>stderr</code> olarak çeviriyor. Bunu hata verse de <code>stdout</code> olarak işlemek istediğiniz yerlerde kullanabilirsiniz. Yukarıda bahsettiğimiz <code>ls /var/log/emre.xyz|sed "s/syslog/xyz/"</code> komutundan dönen hata mesajını artık şu şekilde kullanabiliriz.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gdscript3 data-lang=gdscript3><span style=display:flex><span>ls <span style=color:#f92672>/</span><span style=color:#66d9ef>var</span><span style=color:#f92672>/</span>log<span style=color:#f92672>/</span>emre<span style=color:#f92672>.</span>xyz <span style=color:#ae81ff>2</span><span style=color:#f92672>&gt;&amp;</span><span style=color:#ae81ff>1</span><span style=color:#f92672>|</span>sed <span style=color:#e6db74>&#34;s/cannot/xyz/&#34;</span>
+</span></span><span style=display:flex><span>ls: xyz access <span style=color:#e6db74>&#39;/var/log/emre.xyz&#39;</span>: No such file <span style=color:#f92672>or</span> directory
+</span></span></code></pre></div><h3 id=şundan-al-buna-ver->Şundan al buna ver |</h3><p>Bunun üzerinden tekrar geçmeyeceğim. Sol taraftaki <code>stdout</code> u al sağ tarafa <code>stdin</code> olarak ver işlemi için kullanabileceğinizi zaten biliyorsunuz.</p></section><div class=post-tags></div><div id=disqus_thread></div><script type=text/javascript>(function(){if(window.location.hostname=="localhost")return;var t,e=document.createElement("script");e.type="text/javascript",e.async=!0,t="delirehberi",e.src="//"+t+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script><noscript>Please enable JavaScript to view the <a href=http://disqus.com/?ref_noscript>comments powered by
+Disqus.</a></noscript><a href=http://disqus.com/ class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></article></main><footer><div style=display:flex><a class=soc href=https://github.com/delirehberi rel=me title=GitHub><i data-feather=github></i></a>
+<a class=border></a><a class=soc href=https://twitter.com/delirehberi/ rel=me title=Twitter><i data-feather=twitter></i></a>
+<a class=border></a></div><div class=footer-info>2023 delirehberi | <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></footer><script>feather.replace()</script></div></body></html>
