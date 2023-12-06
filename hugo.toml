@@ -1,3 +1,4 @@
+publishDir = 'docs'
 baseURL = 'https://emre.xyz'
 languageCode = 'en-us'
 title = 'emre.xyz | thought of delirehberi'
