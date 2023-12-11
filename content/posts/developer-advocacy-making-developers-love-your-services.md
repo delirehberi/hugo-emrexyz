@@ -1,7 +1,7 @@
 ---
 title: Developer Advocacy: Making Developers Love Your Services
 description:
-date: 2020-03-31 
+date: 2023-12-11 
 draft: false
 tags: en, tech, developers
 ---
