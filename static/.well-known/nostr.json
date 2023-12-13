@@ -1,0 +1,12 @@
+{
+  "names": {
+    "delirehberi": "npub1gmeu0wenescpjpymwmwgnkaedc6vy3aamf5tdtvxxf5z0yll3gdqatwl3v"
+  },
+  "relays": {
+    "YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT": [
+      "wss://relay.emre.xyz",
+      "wss://nostr.wine",
+      "wss://relay.nostr.band"
+    ]
+  }
+}
