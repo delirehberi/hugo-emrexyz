@@ -1,4 +1,4 @@
-baseURL = 'https://emre.xyz'
+baseURL = 'https://emre.xyz/'
 languageCode = 'en-us'
 title = 'emre.xyz | thought of delirehberi'
 theme="archie"
