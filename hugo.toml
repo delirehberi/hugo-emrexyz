@@ -20,10 +20,40 @@ name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/delirehberi/"
 
+[[params.social]]
+name = "Bluesky"
+icon = "at-sign"
+url = "https://bsky.app/profile/emre.xyz"
+
+[[params.social]]
+name = "Youtube"
+icon = "youtube"
+url = "https://youtube.com/EmreYILMAZ"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://linkedin.com/in/delirehberi"
+
+[[params.social]]
+name = "Nostr"
+icon = "at-sign"
+url = "https://satellite.earth/@delirehberi@emre.xyz"
+
+[[params.social]]
+name = "VCF"
+icon = "phone"
+url = "http://emre.xyz/me.vcf"
+
 [[menu.main]]
-name = "Home"
+name = "Articles"
 url = "/"
 weight = 1
+
+[[menu.main]]
+name = "TIL"
+url = "/til"
+weight = 2 
 
 [[menu.main]]
 name = "About"
@@ -33,7 +63,7 @@ weight = 3
 [[menu.main]]
 name = "Subscribe"
 url = "/subscribe"
-weight = 3
+weight = 4
 
 enableEmoji = true
 enableInlineShortcodes = true
@@ -41,5 +71,6 @@ enableInlineShortcodes = true
 [sitemap]
   changefreq = 'weekly'
   priority = 1.0
+
 [markup.goldmark.renderer]
 unsafe= true
