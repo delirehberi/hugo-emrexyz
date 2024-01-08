@@ -51,6 +51,11 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "Class"
+url = "/class"
+weight = 2
+
+[[menu.main]]
 name = "TIL"
 url = "/til"
 weight = 2 
