@@ -78,7 +78,84 @@ Web programlamaya adım atın! Modern teknikler ve kapsamlı ders içerikleriyle
   - Oturum güvenliği nasıl sağlanır?
   - Beni Hatırla özelliği nedir?
   - Şifresiz giriş ne demek ve nasıl yapılır?
-  - OTP veya tek kullanıml
+  - OTP veya tek kullanımlık şifresi ne demektir?
+  - İki boyutlu doğrulama nasıl yapılabilir?
+
+- **Hata Yakalama ve Sorun Çözme**
+  - Hata nedir?
+  - İstisna Nedir?
+  - Log ve Loglama ne demek?
+  - Debug fonksiyonları.
+  - Hatalarla ilgili PHP ayarları.
+  - Xdebug nedir nasıl kullanılır?
+  - HTTP Hata kodları.
+  - header() fonksiyonu.
+
+- **Nesne Tabanlı Programlama**
+  - Nereden çıktı ve neden gerekli?
+  - PHP bu işi nereden aldı?
+  - PHP ne kadar iyi nesne tabanlı programlamada?
+  - Sınıf nedir?
+  - Nesne Nedir?
+  - Metodlar ve Öznitelikler.
+  - Nesnesel genişletme nedir nasıl yapılır? (extend)
+  - Bir nesne nasıl disipline edilir? (interface)
+  - Antipattern nedir?
+  - Design pattern nedir?
+  - Abstract nesne nedir?
+  - Hangi durumlarda kullanılamaz?
+
+- **Çalışma Sisteminin Oluşturulması**
+  - Versiyon kontrolü nedir?
+  - Git ve Github nasıl kullanılır?
+  - GNU-Make nedir?
+  - Docker ve Docker-Compose nedir?
+  - Taslak otomasyon için Make kullanımı.
+  - Pull-Request nedir?
+  - Code Review nedir ve nasıl yapılır?
+
+- **Kendi Blogunu Kendin Kodla**
+  - Planlama aşaması.
+  - Veritabanı tasarımı.
+  - Veritabanı migration sisteminin oluşturulması.
+  - Önyüz tasarımı.
+  - Anasayfa'nın yapılması.
+  - Blog detay sayfasının kodlanması.
+  - Yönetim paneli girişinin kodlanması.
+  - Yönetim paneli içerik ekleme sayfasının kodlanması.
+  - Yönetim paneli içerik listeleme sayfasının kodlanması.
+  - Yönetim paneli içerik silme sayfasının kodlanması.
+  - Yönetim paneli içerik listeleme sayfasına sayfalama özelliği eklenmesi.
+  - Sahte testlerin yazılması.
+  - Testler için sahte veri oluşturma sistemin hazırlanması.
+  - Testlerin otomatize çalıştırılması.
+
+- **Frameworkler**
+  - Symfony nedir?
+  - Laravel nedir?
+  - Diğerleri.
+  - Framework kullanmanın faydaları.
+  - Framework kullanmanın zararları.
+  - Kendi framework'ünü neden geliştirsin?
+  - Kendi framework'ünü neden geliştirmezsin?
+  - Symfony ile hello world uygulaması geliştirmek.
+
+- **Güvenlik**
+  - Gelen veriye güvenme! (sanitization)
+  - Veritabanında verilerin güvenli saklanması (hashing)
+  - SQL Injection nedir?
+  - Sunucu güvenliği nasıl sağlanır?
+  - OWASP nedir?
+  - Framework kullanmanın önemi nedir?
+
+- **Uygulamanızı Nasıl Yayınlayabilirsiniz**
+  - Sunucu türleri.
+  - Sunucunu neye göre seçeceksin?
+  - Paylaşımlı sunucuya FTP ile projeni nasıl yüklersin?
+  - Hususi sunucuna SSH ile projeni nasıl yüklersin?
+  - AWS üzerinde projeni nasıl yayınlarsın?
+  - Projeni nasıl Dockerize edersin ve bu ne demek?
+
 
 Her hafta sonu canlı dersler ve etkileşimli workshoplar. Gerçek dünya projeleri üzerinde uygulamalı öğrenme. 
 
