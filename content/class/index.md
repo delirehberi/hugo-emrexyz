@@ -160,7 +160,7 @@ Web programlamaya adım atın! Modern teknikler ve kapsamlı ders içerikleriyle
 Her hafta sonu canlı dersler ve etkileşimli workshoplar. Gerçek dünya projeleri üzerinde uygulamalı öğrenme. 
 
 ## Fiyatlandırma
-Haftalara göre değişen fiyatlar için lütfen [Gatherin](gatherin.life/place/delirehberi) sayfamızı ziyaret edin. 
+Haftalara göre değişen fiyatlar için lütfen [Gatherin](https://gatherin.life/place/delirehberi) sayfamızı ziyaret edin. 
 
 ## Sıkça Sorulan Sorular
 - **Kurs süresi ne kadar?** 17 hafta boyunca her hafta 3-6 saat arası ders yapılacaktır.
