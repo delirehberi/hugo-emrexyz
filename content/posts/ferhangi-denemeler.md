@@ -1,6 +1,6 @@
 +++
 categories=['deneme', 'Turkish']
-date='2024-01-30'
+date='2024-01-29'
 description='Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. '
 tags=['deneme','ferhangi', 'otel']
 title='Ferhangi Denemeler'
