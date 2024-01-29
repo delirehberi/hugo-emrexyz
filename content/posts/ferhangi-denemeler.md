@@ -1,10 +1,9 @@
-+++ 
-date= '2024-01-30'
-description= 'Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. Böyle sonuçlanacağını bildiğim bu durumdan daha önce defalarca kaçınmaya çalıştım. Şartlar bu kadar zorlaşmamışken uzaklaşmaya yeniden başlamaya çalıştım. Ancak insan duygularına söz geçiremiyorum. Derler ya, umut insana yapay çiçeği sulatır diye. '
-slug= 'ferhangi-denemeler'
+---
+date='2024-01-30'
+description='Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. Böyle sonuçlanacağını bildiğim bu durumdan daha önce defalarca kaçınmaya çalıştım. Şartlar bu kadar zorlaşmamışken uzaklaşmaya yeniden başlamaya çalıştım.'
 tags=['deneme','ferhangi', 'otel']
 title= 'Ferhangi denemeler'
-+++
+---
 
 Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. Böyle sonuçlanacağını bildiğim bu durumdan daha önce defalarca kaçınmaya çalıştım. 
 Şartlar bu kadar zorlaşmamışken uzaklaşmaya yeniden başlamaya çalıştım. Ancak insan duygularına söz geçiremiyorum. Derler ya, umut insana yapay çiçeği sulatır diye. 
