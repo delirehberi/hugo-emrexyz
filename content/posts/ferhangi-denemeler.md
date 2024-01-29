@@ -8,22 +8,22 @@ title='Ferhangi Denemeler'
 
 
 Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. Böyle sonuçlanacağını bildiğim bu durumdan daha önce defalarca kaçınmaya çalıştım. 
-Şartlar bu kadar zorlaşmamışken uzaklaşmaya yeniden başlamaya çalıştım. Ancak insan duygularına söz geçiremiyorum. Derler ya, umut insana yapay çiçeği sulatır diye. 
+Şartlar bu kadar zorlaşmamışken uzaklaşmaya yeniden başlamaya çalıştım. Ancak insan duygularına söz geçiremiyor. Derler ya, umut insana yapay çiçeği sulatır diye. 
 O şekil yürümeye devam ettim aynı yolda. İlerlerken şartlar giderek daha da kötüleşti ve bu noktadayız artık. Manevi olarak daha da yalnızlaşmış, duygusal olarak daha fazla yıpranmış,
 mental olarak daha kaotik, maddi olarak ise sinirmatik sorunsal. 
 
 Ne yapacağımı bilmez halde sonunda bağlanabildiğim otel internetiyle ve gürültülü klima eşliğinde, soğuk odayı ısıtmaya çalıştığım ve zaman zaman, acaba oda yeterince yüksekte mi diye 
-camdan asfaltı kontrol ettiğim odamda, aklıma kurtarıcı olarak, benim varolmadığım zamanlardan daldan dala uzanarak gelen bir alışkanlık anımsıyorum. Haldun Taner'den Ferhan Şensoy'a zıplamış
+camdan asfaltı kontrol ettiğim odamda. Aklıma kurtarıcı olarak, benim varolmadığım zamanlardan, daldan dala uzanarak gelen bir alışkanlık geliyor. Haldun Taner'den Ferhan Şensoy'a zıplamış
 yazmanın iyileştiri gücünü bir iki günde bitirdiğim, sahaftan ucuz yollu bulunmuş 92 basımı kitabının da verdiği gazla daha bi ciddiye alıyorum. 
 
 Yazar değilim ki ulan ben? Taklit etmeliyim o zaman diyorum, çok da üzerine düşünmeden yüzyüze görmediğim, çok geç varlığından haberdar olup çok erken yokluğunu farkettiğim, çırağı olamadığım, silksen zaten
 olmamın mümkün olmadığı bok gibi bir herifin tarzını. 
 
-Yazar da sonuçta yazarak yazarlığını vuruyor masaya ki benim bu yazma işine bakışıp tamamen terapik. 
+Yazar da sonuçta yazarak yazarlığını vuruyor masaya ki benim bu yazma işine bakışım tamamen terapik. 
 Dönüp dönüp okumamaya karar veriyorum artık yazdıklarımı, yazar değilim ki lan ben, bana ne eleştirel bakışından bir bokumtonik okurun. 
-Okuyup okumaman da umrumda değilse e derdim ne? Yazarak, kırarak, dökerek kelimeleri belki ulaşabilirim düşüncesi pırtlayıveriyor zihnimde. 
+Okuyup okumaman da umrumda değilse, e derdim ne? Yazarak, kırarak, dökerek kelimeleri belki ulaşabilirim düşüncesi pırtlayıveriyor zihnimde. 
 
-Peki de diye sormalı insan kendine her zaman, ne zaman durmam gerektiğini bileceğim. Yani ne kadarıyla hasta tedaviye cevap verecek. Bilinemiyor. Ferhangi kelimelerle yazınsamaya devam etmekten başka elden ne gelir?
+Ancak yine de sormalı insan kendine her zaman, ne zaman durmam gerektiğini ne bileceğim. Yani ne kadarıyla hasta tedaviye cevap verecek. Bilinemiyor. Ferhangi kelimelerle yazınsamaya devam etmekten başka elden ne gelir?
 
 Bari diyorum daha iyi taklit edeyim de günümü yazıvereyim, maksat fesleğen. 
 
