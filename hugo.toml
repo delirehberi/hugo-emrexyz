@@ -8,10 +8,6 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-
-
-disqusShortname = "delirehberi"
-
 [[params.social]]
 name = "GitHub"
 icon = "github"
@@ -86,4 +82,7 @@ unsafe= true
 [services]
   [services.googleAnalytics]
     ID = 'UA-61544632-1'
+  [services.disqus]
+    shortname = 'delirehberi'
+
 
