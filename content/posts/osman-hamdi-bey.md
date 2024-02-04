@@ -8,7 +8,7 @@ title='Osman Hamdi Bey'
 
 Kalkedon kurulduğunda, güzelim İstanbul'u bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbul'un güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!
 
-![/images/osman-hamdi-bey.png]
+![Osman Hamdi Bey](/images/osman-hamdi-bey.png "Osman Hamdi Bey")
 
 Ancak bununla kalmaz tabi ki 1842 yılında İstanbul'da doğan Osman Hamdi Bey'in milletimize katkısı. Modern anlamdaki ilk arkeoloğumuz, ilk modern ressamımız, ilk sanat tarihçimiz, Mimar Sinan Güzel Sanatlar Üniversitesi ve iki gözümüzün nuru İstanbul Arkeoloji Müzesinin de kurucusudur. 
 
