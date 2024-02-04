@@ -1,7 +1,7 @@
 +++
 categories=['sanattarihi', 'Turkish']
 date='2024-02-04'
-description='Kalkedon kurulduğunda, güzelim İstanbulu bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbul'un güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!'
+description='Kalkedon kurulduğunda, güzelim İstanbulu bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbulun güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!'
 tags=['sanat tarihi','osman hamdi bey', 'kaplumbağa terbiyecisi','sanat']
 title='Osman Hamdi Bey'
 +++
