@@ -8,7 +8,7 @@ title='Osman Hamdi Bey'
 
 Kalkedon kurulduğunda, güzelim İstanbul'u bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbul'un güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!
 
-![[/images/osman-hamdi-bey.png]]
+![/images/osman-hamdi-bey.png]
 
 Ancak bununla kalmaz tabi ki 1842 yılında İstanbul'da doğan Osman Hamdi Bey'in milletimize katkısı. Modern anlamdaki ilk arkeoloğumuz, ilk modern ressamımız, ilk sanat tarihçimiz, Mimar Sinan Güzel Sanatlar Üniversitesi ve iki gözümüzün nuru İstanbul Arkeoloji Müzesinin de kurucusudur. 
 
@@ -28,11 +28,11 @@ Mustafa Kemal Atatürk, uzaklarda bir yerlerde henüz 1 yaşına yeni basmışke
 
 1883 yılında başladığı işi bitirerek, batı dünyasının eser kaçakcılığını 1874 Asar-ı Atika Nizamnamesini düzenleyerek durdurmuştur. Osman Hamdi Bey tarafından hazırlanan bu tüzük 1973 yılına kadar yürürlükte kalmıştır. 
 
-24 şubat 1910 tarihine kadar üretmeye ve araştırmaya aşk ile devam etti Osman Hamdi Bey. Ömrünün 26 yılının her yaz ayını geçirdiği, planlarını dahi kendisi çizdiği Fransız mimarisi özellikleri taşıyan ve malzemelerinin çoğu yurt dışında getirtilmiş olan evi ise Osman Hamdi Bey Evi ve Müzesi olarak misafir kabul etmeye hala devam etmektedir. Kocaeli/Gebze Eskihisar Köyünde bulunan evini umuyorum hep birlikte ziyaret etme fırsatısını da ele geçirebiliriz. ![[/images/osman-hamdi-ev.png]]
+24 şubat 1910 tarihine kadar üretmeye ve araştırmaya aşk ile devam etti Osman Hamdi Bey. Ömrünün 26 yılının her yaz ayını geçirdiği, planlarını dahi kendisi çizdiği Fransız mimarisi özellikleri taşıyan ve malzemelerinin çoğu yurt dışında getirtilmiş olan evi ise Osman Hamdi Bey Evi ve Müzesi olarak misafir kabul etmeye hala devam etmektedir. Kocaeli/Gebze Eskihisar Köyünde bulunan evini umuyorum hep birlikte ziyaret etme fırsatısını da ele geçirebiliriz. ![/images/osman-hamdi-ev.png]
 
 Osman Hamdi Bey'in yaşarken yaptığı resimler dışında, aile üyelerine miras kalmış resimlerden bazılarını ise Prof. Mustafa Cezar ve Ferit Edgü kitaplaştırarak 1985 yılında sevenleri ile buluşturmuştur. 
 
-![[/images/osman-hamdi-nue.png]]
+![/images/osman-hamdi-nue.png]
 
 ### Kaplumbağa ve Adam
 
@@ -48,9 +48,9 @@ Resme ilk verilen isim "Kaplumbağa ve Adam" olmasına rağmen sonrasında "Kapl
 
 
 İkinci versiyonu ise 1907 yılında Dünürü Salih Münir Paşa'ya ithafen detay değişiklikleri ile küçük bir kopya olarak yapmıştır. 
-![[/images/kaplumbaga-terbiyecisi-3.png]]
+![/images/kaplumbaga-terbiyecisi-3.png]
 İkinci versiyonun sergilenmesinden sonra ise, Osman Hamdi Bey'in babasına 1869 yılında yazmış olduğu mektupta "bana yollamış olduğunuz Tour de Monde'u okudum" demiş olmasından yola çıkarak, bu eserin ilhamının "Tour de Monde" dergisinin 1869 tarihli sayısında bulunan "Charmeur de tortoues" (Kaplumbağa terbiyecisi) isimli, aşağıda görülen eserden edilindiği iddiası da bulunmaktadır. 
-![[/images/kaplumbaga-terbiyecisi-ilham.png]]
+![/images/kaplumbaga-terbiyecisi-ilham.png]
 
 ### Sonuç
 
