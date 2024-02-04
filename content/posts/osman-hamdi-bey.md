@@ -28,17 +28,17 @@ Mustafa Kemal Atatürk, uzaklarda bir yerlerde henüz 1 yaşına yeni basmışke
 
 1883 yılında başladığı işi bitirerek, batı dünyasının eser kaçakcılığını 1874 Asar-ı Atika Nizamnamesini düzenleyerek durdurmuştur. Osman Hamdi Bey tarafından hazırlanan bu tüzük 1973 yılına kadar yürürlükte kalmıştır. 
 
-24 şubat 1910 tarihine kadar üretmeye ve araştırmaya aşk ile devam etti Osman Hamdi Bey. Ömrünün 26 yılının her yaz ayını geçirdiği, planlarını dahi kendisi çizdiği Fransız mimarisi özellikleri taşıyan ve malzemelerinin çoğu yurt dışında getirtilmiş olan evi ise Osman Hamdi Bey Evi ve Müzesi olarak misafir kabul etmeye hala devam etmektedir. Kocaeli/Gebze Eskihisar Köyünde bulunan evini umuyorum hep birlikte ziyaret etme fırsatısını da ele geçirebiliriz. ![/images/osman-hamdi-ev.png]
+24 şubat 1910 tarihine kadar üretmeye ve araştırmaya aşk ile devam etti Osman Hamdi Bey. Ömrünün 26 yılının her yaz ayını geçirdiği, planlarını dahi kendisi çizdiği Fransız mimarisi özellikleri taşıyan ve malzemelerinin çoğu yurt dışında getirtilmiş olan evi ise Osman Hamdi Bey Evi ve Müzesi olarak misafir kabul etmeye hala devam etmektedir. Kocaeli/Gebze Eskihisar Köyünde bulunan evini umuyorum hep birlikte ziyaret etme fırsatısını da ele geçirebiliriz. ![Osman Hamdi Beyin evi](/images/osman-hamdi-ev.png)
 
 Osman Hamdi Bey'in yaşarken yaptığı resimler dışında, aile üyelerine miras kalmış resimlerden bazılarını ise Prof. Mustafa Cezar ve Ferit Edgü kitaplaştırarak 1985 yılında sevenleri ile buluşturmuştur. 
 
-![/images/osman-hamdi-nue.png]
+![Osman Hamdi Bey, Nü çalışması](/images/osman-hamdi-nue.png)
 
 ### Kaplumbağa ve Adam
 
 Osman Hamdi Bey'in bir eserinin hızlı bir incelemesiyle devam edelim. Milleti için başarılı olmaya ve çalışmaya çalışan herkesin yaşadığı bir his vardır. İşle ilgili büyük bir umut ve toplumun anlayışsızlığıyla büyük bir umutsuzluk. Yaptığımız işleri ve çabalarımızı adadığımız kitlenin buna değip değmeyeceğini çoğu zaman sorgulamışızdır. Yol açmayı kendine görev edinmiş yenilikçi insanların yalnızlaşmasını hissettiğimiz eserin iki farklı versiyonu bulunmaktadır. 
 
-İlk versiyon 1906 yılında Paris'te Fransız Sanatçılar Derneği tarafından organize edilen bir sergi için yapılmıştır. ![[/images/kaplumbaga-terbiyecisi-2.png]]
+İlk versiyon 1906 yılında Paris'te Fransız Sanatçılar Derneği tarafından organize edilen bir sergi için yapılmıştır. ![Kaplumbağa Terbiyecisi İlk Versiyon](/images/kaplumbaga-terbiyecisi-2.png)
 
 Resmin mekanı olarak Bursa Yeşil Camii'nin ikinci katında bulunan bir oda seçilmiştir. Tek ışık kaynağı alçak bir pencere, elindeki ney'i belinde tutan yaşlı bir adam ve yerdeki yaprakları yeme telaşında bir kaç kaplumbağa.
 
@@ -48,9 +48,9 @@ Resme ilk verilen isim "Kaplumbağa ve Adam" olmasına rağmen sonrasında "Kapl
 
 
 İkinci versiyonu ise 1907 yılında Dünürü Salih Münir Paşa'ya ithafen detay değişiklikleri ile küçük bir kopya olarak yapmıştır. 
-![/images/kaplumbaga-terbiyecisi-3.png]
+![Kaplumbağa Terbiyecisi İkinci versiyon](/images/kaplumbaga-terbiyecisi-3.png)
 İkinci versiyonun sergilenmesinden sonra ise, Osman Hamdi Bey'in babasına 1869 yılında yazmış olduğu mektupta "bana yollamış olduğunuz Tour de Monde'u okudum" demiş olmasından yola çıkarak, bu eserin ilhamının "Tour de Monde" dergisinin 1869 tarihli sayısında bulunan "Charmeur de tortoues" (Kaplumbağa terbiyecisi) isimli, aşağıda görülen eserden edilindiği iddiası da bulunmaktadır. 
-![/images/kaplumbaga-terbiyecisi-ilham.png]
+![Kaplumbağa terbiyecisine ilham olan çizim](/images/kaplumbaga-terbiyecisi-ilham.png)
 
 ### Sonuç
 
