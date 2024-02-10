@@ -1,6 +1,6 @@
 +++
 categories=['deneme', 'Turkish']
-date='2024-09-02'
+date='2024-02-09'
 description='Terapik yazılarıma bir süre daha devam etmek durumundayım. Bireysel tedavi yöntemi uygulanmadığında yorucu geliyor herşey.'
 tags=['deneme','günlük', 'aydin']
 title='Çünkü bazen insan'
