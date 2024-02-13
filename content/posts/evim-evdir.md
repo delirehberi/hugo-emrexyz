@@ -1,7 +1,7 @@
 +++
 categories=['deneme', 'Turkish']
 date='2024-02-13'
-description='Terapik yazılarımın üçüncüsüyle karşınızdayım sayın okur. Oradaysan ve okursan bil ki senin için değil bunlar, hep benlik. Sayın Ceza'nın da dediği gibi ; Bu benim dünyam, sana göre belki palavra'
+description='Terapik yazılarımın üçüncüsüyle karşınızdayım sayın okur. Oradaysan ve okursan bil ki senin için değil bunlar, hep benlik. Sayın Ceza nın da dediği gibi ; Bu benim dünyam, sana göre belki palavra'
 tags=['deneme','terapik', 'aydin']
 title='Evim evdir'
 +++
