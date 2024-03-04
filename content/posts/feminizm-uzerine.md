@@ -1,10 +1,10 @@
----
++++
 title='Feminizm üzerine'
 description='Feminizm üzerine okumalar yapmayı ve üzerine düşünmeyi sevdiğim bir konu. Çünkü varolanın karşısında konumlanmış bir ideoloji. İnsanlığın gelişiminin her zaman varolanın, alışılagelenin karşısında konumlanılabildiği sürece mümkün olduğunu düşünenlerdenim.'
 date='2024-03-04'
 draft='false'
 categories= ['feminizm', 'Turkish']
----
++++
 
 Feminizm üzerine okumalar yapmayı ve üzerine düşünmeyi sevdiğim bir konu. Çünkü varolanın karşısında konumlanmış bir ideoloji. İnsanlığın gelişiminin her zaman varolanın, alışılagelenin karşısında konumlanılabildiği sürece mümkün olduğunu düşünenlerdenim. 
 
