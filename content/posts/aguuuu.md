@@ -1,6 +1,6 @@
 +++
 categories=['elestiri', 'Turkish']
-date='2024-06-04'
+date='2024-04-06'
 description='Neler olmuş neler efendim. Kendimize gelmeliymişiz.'
 title='Ağuuuu - Seikilos üzerine bir oyun'
 +++
