@@ -13,7 +13,7 @@ Tamamen ücretsiz olan oyundan Mükerrem hocam sayesinde haberim olmuştu ancak 
 
 Ağuuuu oyunu, 1882-3 yılında Aydın-İzmir tren yolu inşaatı sırasında Edward Purser tarafından bulunan, ardından trenle İzmir'e taşınan ve 1960 yılına kadar kayıplara karışmış olan Seikilos Yazıtı üzerine kurulu. Seikilos Yazıtı 1966 yılında Danimarka, Kopenhag Ulusal Müzesi tarafından satın alındığından beri müzede sergileniyor. En eski müzik eserini barındıran Eski Yunan anıtı, Tralleis kentine ait olmasına rağmen (diğer pek çok antik kalıntı gibi) ülkemize iadesi gerçekleşmiş değil. 
 
-Seikilos Yazıtı'nın ait olduğu topraklara geri dönmesi için Hüsnü Ertung tarafından yazılıp sahnelenen oyun aynı zamanda Danimarka'da da sahnelenerek 10.000 Danimarka vatandaşından imza toplamaya çalışacak. 
+Seikilos Yazıtı'nın ait olduğu topraklara geri dönmesi için Hüsnü Ertung tarafından yazılıp sahnelenen Ağuuuu oyununun öncülü olan Latmosa Rahmet geldi oyunu ise Danimarka'da da sahnelenerek 10.000 Danimarka vatandaşından imza toplamaya çalışacak. 
 
 Oyunun en ilgimi çeken tarafı, oyun içerisinde hem yazıtın ülkeye getirilmesine karşı çıkılmasını, hem de siyasilerin kendi emellerine alet ederek yazıtı ülkeye getirmeye çalışılmasının eleştirisiydi. Yalnız Dede her iki koşulu da izleyicinin sorgulaması için fırsat vermiş. Burada olsa ne olur, olmasa ne olur, siyasiler getirse ne olur sorularını sormuş adeta. Bununla beraber neden sivil bir inisiyatif tarafından bu çabaya girişildiği daha anlaşılabilir oluyor. 
 
