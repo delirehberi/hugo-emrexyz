@@ -1,5 +1,5 @@
 +++
-categories=['elestiri', 'Turkish']
+categories=['tiyatro', 'Turkish']
 date='2024-04-06'
 description='Neler olmuş neler efendim. Kendimize gelmeliymişiz.'
 title='Ağuuuu - Seikilos üzerine bir oyun'
