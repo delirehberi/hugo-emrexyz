@@ -49,8 +49,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Class"
-url = "/class"
+name = "gist"
+url = "https://gist.github.com/delirehberi"
 weight = 2
 
 [[menu.main]]
