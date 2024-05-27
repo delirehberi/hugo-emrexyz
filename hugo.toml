@@ -8,8 +8,6 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "delirehberi"
-
 [[params.social]]
 name = "GitHub"
 icon = "github"
@@ -51,8 +49,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Class"
-url = "/class"
+name = "gist"
+url = "https://gist.github.com/delirehberi"
 weight = 2
 
 [[menu.main]]
@@ -79,3 +77,12 @@ enableInlineShortcodes = true
 
 [markup.goldmark.renderer]
 unsafe= true
+
+
+[services]
+  [services.googleAnalytics]
+    ID = 'UA-61544632-1'
+  [services.disqus]
+    shortname = 'delirehberi'
+
+
