@@ -1,6 +1,6 @@
 +++
 categories=['languages','ai', 'English']
-date='2024-09-07'
+date='2024-09-06'
 description='I believe that humans evolved through language. All human languages are amazing because they allow us to express ourselves and our needs with high correctness.'
 title='What makes a language good for me?'
 +++
