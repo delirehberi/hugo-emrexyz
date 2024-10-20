@@ -82,8 +82,6 @@ unsafe= true
 
 
 [services]
-  [services.googleAnalytics]
-    ID = 'UA-61544632-1'
   [services.disqus]
     shortname = 'delirehberi'
 
