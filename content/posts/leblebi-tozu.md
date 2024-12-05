@@ -3,6 +3,7 @@ categories=['tiyatro', 'Turkish']
 date='2024-11-19'
 title='Leblebi Tozu'
 +++
+
 Çağımızın neredeyse vebasına dönüşen enerji tüketimi konusunda söyleyeceklerimiz var. Her yanımızda geri dönüşüm çılgınlığına katılınmış ve katı yakıtlara karşı cadı avına çıkılınmış durumda. Petrol üreticisi kardeşlerimizin düştüğü zavallı durumlara hergün şahit olmaktayız.
 
 Enerji çılgınlığının geldiği bu noktada, anadolunun bağrından, Çorum'dan çıkıp Andromeda'ya oradan Sombrero Gökadası'na varana kadar ulaşmış olan, en verimli, en tutarlı enerji üretim yöntemini ülke olarak görmezden gelemeyiz.
