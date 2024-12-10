@@ -18,7 +18,7 @@ diye çıkmaz sokak tabelası gösterdim. Ancak beklenmedik bir alaka, çözüm 
 
 - Hayırdır abi var mı yapabileceğimiz birşey?
 
-Desem de goygoyvari döktüm eteğimdeki taşları. Sen mi yıkacaksın yolun sonundaki duvarı dermişcesine.
+Goygoyvari döktüm eteğimdeki taşları. Sen mi yıkacaksın yolun sonundaki duvarı dermişcesine.
 
 - Yok minik çiçek, öyle de oldu böyle de oldu, geçer bi gün.
 
