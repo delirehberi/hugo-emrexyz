@@ -1,6 +1,6 @@
 baseURL = 'https://emre.xyz/'
 languageCode = 'en-us'
-title = 'emre.xyz | thought of delirehberi'
+title = 'emre.xyz | @delirehberi'
 theme="archie"
 copyright= "delirehberi"
 # Code Highlight
@@ -46,7 +46,7 @@ icon = "phone"
 url = "http://emre.xyz/me.vcf"
 
 [[menu.main]]
-name = "Articles"
+name = "main"
 url = "/"
 weight = 1
 
@@ -56,17 +56,17 @@ url = "https://gist.github.com/delirehberi"
 weight = 2
 
 [[menu.main]]
-name = "TIL"
+name = "til"
 url = "/til"
 weight = 2 
 
 [[menu.main]]
-name = "About"
+name = "me"
 url = "/about"
 weight = 3
 
 [[menu.main]]
-name = "Subscribe"
+name = "subscribe"
 url = "/subscribe"
 weight = 4
 
