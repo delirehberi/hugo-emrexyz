@@ -1,7 +1,7 @@
 +++
 title = 'Zinnur Tiryaki'
 date = 2024-12-26T05:31:10-05:00
-draft = true
+draft = false
 +++
 
 Erzurum şairlerinden ilk duyduğum ve en beğendiğim isim Zinnur Tiryaki. Hakkında çok fazla bilgi bulunmuyor ancak sağdan soldan toplayabildiğim kadarıyla anlatmaya çalışacağım. Hem kendisini ilk tanıdığım şiirini, hem de en son bugün karşılaştığım son şiirini de paylaşmak istiyorum. 
