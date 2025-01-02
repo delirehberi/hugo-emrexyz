@@ -4,7 +4,7 @@ date = 2025-01-02T14:46:36-05:00
 draft = false
 +++
 
-Kırk beş eder! İnsan ömrünün yeni ortalaması kutlu olsun.
+Kırk beş eder! İnsan ömrünün yeni ortasi kutlu olsun.
 
 İfade özgürlüğümüzün hem siyasal hem hayatsal kapsamda kısıtlı olduğu bu yerde yazmak zor, yazmaksız okumak yoruyor. Gençliğimiz henüz kırkbeş değilken, iyisiyle kötüsüyle biten bir yıl oldu. Yeni arkadaşlıklar oldu, yeni hatalar oldu, tekrarlı hatalar oldu. Müthiş kararlar alındı! Berbar kararlar alındı! Yıkımlar oldu, sıkımlar oldu, zıkkımlar oldu.
 
