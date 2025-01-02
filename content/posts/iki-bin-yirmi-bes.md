@@ -15,7 +15,7 @@ Bu yılın en emin olmadığım kararlarımdan birisi ise tek müşteriden birde
 
 Okuma, yazma hedeflerimde bir değişiklik yok. Bir süredir kitaplarımdan uzak olsam da yeni kitaplar alarak ve bazen ekitaplar ile bu boşluğu dolduruyorum. 
 
-Yazmak istediğim çok fazla şey var, çok da fazla yazıyorum, ancak hepsini yayınlama kararı aldım artık. En azından bir kaç yıl boyunca bazı şeyleri kişisel günceme işleyerek, belki sonrasında derli toplu birşeyler yazabilecek hale getirebilirim. 
+Yazmak istediğim çok fazla şey var, çok da fazla yazıyorum, ancak hepsini yayınlamama kararı aldım artık. En azından bir kaç yıl boyunca bazı şeyleri kişisel günceme işleyerek, belki sonrasında derli toplu birşeyler yazabilecek hale getirebilirim. 
 
 İki bin yirmi beş bitmeden önce piyes yazımı konusunda biraz daha iyileşmek, daha iyi sahne oyuncusu olmak, şirketimi büyütmek, yapay zekayı daha efektif kullanmak, amiral gemisi olan projemizi yayına açmak ve mutlu olmak var. 
 
