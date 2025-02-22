@@ -4,6 +4,9 @@ date = 2025-02-22T05:36:53-05:00
 draft = false
 +++
 
+> burada bahsedilen konu yalnızca sosyal güç algısıdır. 
+
+
 Genellikle erk arasında mevzu bahis olan güç algısı son dönemlerde alfa(!) erkekler tarafından pek gündem. Güçlü erkek olmak onlar için herşey. Güçlü olmak, güçlü görünmek, güçlü hissetmek. Herşeylerini uğruna feda edebilecekleri bu güç konusunda alfa(!) erkeklerin pek bir fikrinin olmadığı aşikar. 
 
 Bu alfalık meselesi zaten başlı başına saçmalık olduğu için o konuyu deşmeyeceğim. Ancak güç konusunda birşeyler yazmak ve üzerine düşünmek istiyorum. 
