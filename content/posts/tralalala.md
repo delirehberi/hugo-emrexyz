@@ -4,7 +4,7 @@ date = 2025-04-07T08:33:30-04:00
 draft = false
 +++
 
-Yazsam yazılmayasıcı kelimeleri bir kağıdın üstüne diye düşündüm düşümde. Düşüm düşmüştü kaldırıma ve kaşını yardı. Düşen düşümü kaldırıp, korkma dedim yazmayacağım yazılmayasacı kelimeleri bir kağıdın üstüne. 
+Yazsam yazılmayasıca kelimeleri bir kağıdın üstüne diye düşündüm düşümde. Düşüm düşmüştü kaldırıma ve kaşını yardı. Düşen düşümü kaldırıp, korkma dedim yazmayacağım yazılmayasacı kelimeleri bir kağıdın üstüne. 
 
 Üstünü başını sildi düşüm, sıraya dizdi görüldükçe görülesi gelenleri her gece farklı bir hikayeyle birleştirerek. "Geçmiş değil bugün gibi" diye haykıran seslerle inatlaşan karıncaya çok kızdı sarmaşık. Geçen geçtiğiyle güzeldir diyordu Tırmık, hadi mama veriver. 
 
