@@ -1,7 +1,6 @@
 +++
 title = 'Nostr'
 date = 2025-04-23T07:22:22-04:00
-draft = true
 +++
 
 Nostr - İletişimin Özgürlüğü
@@ -22,9 +21,7 @@ Fakat biliyorsunuz ki, pek çok kişi tarafından takip edildiğiniz, bilinirli�
 
 Zaman içerisinde, sosyal medya platformlarını da bir protokol çerçevesinde toplamak için, pek çok dağıtık yapılı protokol oluşturulmaya çalışıldı. ActivityPub protokolü en gelecek vaadediniydi. Fediverse çevresinde görülen pek çok platform, bu protokolü kullanarak merkeziyetsiz bir yapıda çalışmaya başladı. Ancak, bu yapının da bazı eksiklikleri vardı. Detaylarına burada girmeyeceğim ancak temelinde ölçeklenebilirlik konusunda sıkıntılar yaşamaya devam ediyor. Bununla beraber, twitter bünyesinde başlayıp ayrılan Bluesky tarafından üretilen ATProto protokolü, merkeziyetsizlik vaad etmesine rağmen, twitter bünyesinden çıkmış olması sebebiyle, pek benimsenemedi. Ki, hala atproto kullanan platformlar merkezi gibi ilerliyor. Sunucuların çoğusu aynı şirkete ait. Engellenemezliği zaten bulunmadığı için, merkeziyetsizliği de pek bir anlam ifade etmiyor. Zaten son twitter göçünde görüldüğü gibi, bluesky'da devletlerin taleplerini yerine getirip hesapları engellemeye başladı. 
 
-Nostr ise, çok temel bir şekilde, eposta sistemlerinin sağladığı bir yapı sağlıyor. Çok basit olan teknik altyapısı sayesinde, merkeziyetsiz bir şekilde ilerliyor ve hiç bir yere bağımlılığınız kalmıyor. Farklı istemciler kullanarak iletişiminizi sürdürebiliyorsunuz. 
-
-Bu yazının temel amacı teknik detaylar olmadığı için basitçe belirteceğim. Bir nostr hesabı için ihtiyacınız olan şeyler, bir public-private anahtar, bir istemci ve en az bir relay. Tabi böyle söyleyince korkutucu görünüyor olabilir. Eposta hesabınız olması için, bir domain almanız, bir sunucu kiralamanız, bir eposta istemcisi kullanmanız gerekiyor deseydim o da korkutucu gelirdi. Bu sebeple basitçe yapmanız gereken şey, Amethyst istemcisini indirip, kayıt olmak (Yada farklı bir [nostr istemcisi](https://nostr.com/clients)). Bu uygulama mobil cihazınızda çalışıyor. Kayıt olduktan sonra, size bir public-private anahtar veriyor. Bu anahtarlar, sizin hesabınızın anahtarı. Bu anahtarları kimseyle paylaşmamanız gerekiyor. Bu anahtarları kaybettiğinizde, hesabınızı kaybetmiş oluyorsunuz. Bunun için de, Amethyst uygulamasının ayarlarından yedek alabiliyorsunuz. Bu yedekleme işlemi, public-private anahtarlarınızı yedekliyor.
+Nostr ise bir platform değil, sadece bir protokol. Çok basit bir şekilde belirlenmiş olan bu protokol, platformların desteklemesiyle veya nostr tabanlı platformların ortaya çıkmasıyla bizi özgürleştiriyor. Platform ve Protokol arasındaki farklar için [Taylan](https://njump.me/npub166l9t9ckan9yh6j8pku0stszkekt0s8uhqwvddz4qr92r9w0wxcs59u7c3) tarafından çevirisi yapılmış olan [Özgürce Konuşmak](https://www.yirmibir.org/blog/ozgurce-konusmak) başlıklı yazıyı inceleyebilirsiniz. 
  
 Eposta sistemlerinde olduğu gibi, takip etmek istediğiniz kişinin adresini bulmanız gerekiyor. Normalde, nostr public anahtarınız ile takipleşme sağlanıyor, ancak internet sitelerine erişmek için IP bilmeniz gerekmediği gibi, kullanıcının handle'ını bilmeniz yetiyor. (yine teknik detaylara girmiyorum) Örneğin, delirehberi@emre.xyz diye aradığınızda beni hangi istemciden olursa olsun takip etmeye başlayabiliyorsunuz. Aynı relay üzerinden olan paylaşımlarımıza erişebiliyoruz. Kafanız hemen karışmasın, birden fazla relay olduğu için ve paylaşımlar bunların hepsinden aktığı için sonuçta birbirimizi takip edebiliyoruz. 
 
@@ -33,6 +30,14 @@ Eposta sistemlerinde olduğu gibi, takip etmek istediğiniz kişinin adresini bu
 
 Web üzerinden ise [Coracle](https://coracle.social/people/nprofile1qythwumn8ghj7emvda3xzmpwwfjkccte9eex2ep0qyf8wumn8ghj7mn0wd68yv339e3k7mf0qy2hwumn8ghj7un9d3shjtn9d4ex2tnc09az7qpqgmeu0wenescpjpymwmwgnkaedc6vy3aamf5tdtvxxf5z0yll3gdq5ead4v) arayüzünü kullanabilirsiniz. 
 
+IOS üzerinde kullanmak isterseniz, [Damus](https://apps.apple.com/us/app/damus/id6445784580) uygulamasını kullanabilirsiniz.
+
 Zaman içerisinde daha fazla nostr içeriği üreteceğim. Takipte kalınız. 
 
 Teknik detaylar için ileri okuma isterseniz, [nostr](https://nostr.com/) protokolünün kendi sitesini inceleyebilirsiniz.
+
+
+--
+
+
+Önerileri ve düzeltmeleri için [Taylan](https://njump.me/npub166l9t9ckan9yh6j8pku0stszkekt0s8uhqwvddz4qr92r9w0wxcs59u7c3)'a teşekkür ederim. 
