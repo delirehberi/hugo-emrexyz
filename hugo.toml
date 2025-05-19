@@ -16,11 +16,6 @@ icon = "github"
 url = "https://github.com/delirehberi"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/delirehberi/"
-
-[[params.social]]
 name = "Bluesky"
 icon = "at-sign"
 url = "https://bsky.app/profile/emre.xyz"
@@ -44,6 +39,10 @@ url = "https://satellite.earth/@delirehberi@emre.xyz"
 name = "VCF"
 icon = "phone"
 url = "http://emre.xyz/me.vcf"
+[[params.social]]
+name = "Resume"
+icon = "file-text"
+url = "http://emre.xyz/resume.pdf"
 
 [[menu.main]]
 name = "main"
@@ -70,6 +69,11 @@ name = "subscribe"
 url = "/subscribe"
 weight = 4
 
+[[menu.main]]
+name = "resume"
+url = "/resume.pdf"
+weight = 5
+
 enableEmoji = true
 enableInlineShortcodes = true
 
@@ -81,8 +85,5 @@ enableInlineShortcodes = true
 unsafe= true
 
 
-[services]
-  [services.disqus]
-    shortname = 'delirehberi'
 
 
