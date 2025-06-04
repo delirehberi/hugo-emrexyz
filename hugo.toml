@@ -55,24 +55,29 @@ url = "https://gist.github.com/delirehberi"
 weight = 2
 
 [[menu.main]]
+name = "nostr"
+url = "https://nostr.emre.xyz"
+weight = 3
+
+[[menu.main]]
 name = "til"
 url = "/til"
-weight = 2 
+weight = 3 
 
 [[menu.main]]
 name = "me"
 url = "/about"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "subscribe"
 url = "/subscribe"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "resume"
 url = "/resume.pdf"
-weight = 5
+weight = 6
 
 enableEmoji = true
 enableInlineShortcodes = true
