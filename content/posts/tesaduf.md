@@ -4,6 +4,8 @@ date = 2025-07-03T06:58:58-04:00
 draft = false
 +++
 
+-- anlatı dili fazlasıyla basit tutulmuştur. farklı bir tarz deniyorum ama olup olmadığından emin değilim. edebi olarak zayıf bir metin olduğunu düşünüyorum. fikirlerinizi eposta ile iletebilirsiniz. --
+
 Markette dolaşırken, ihtiyacı olan malzemeleri düşündü: vida, dübel ve biraz kalın ip. Özellikle sağlam bir dübel gerekiyordu; taşıyacağı ağırlık azımsanacak gibi değildi. Alacağı ipin de neredeyse urgan kalınlığında olması gerektiğini düşündü. Mağaza personelinden destek istedi. Detaylı bir konuşmanın ardından tüm malzemeleri aldı, kasiyerle kısa bir sohbet eşliğinde ödemesini yaptı. Keyfi yerindeydi.
 
 Aracına yürüyüp malzemeleri bagaja yerleştirdi. Şoför koltuğuna oturdu ve aracını çalıştırdı. Telefonu otomatik olarak multimedya sistemine bağlandı. Son dinlediği şarkı olan “Eklemedir Koca Konak” çalmaya başladı. Fazla melankolik buldu. Aracı hareket ettirmeden önce **“Ankara’nın Bağları”**nı açtı ve yola koyuldu. Keyfi daha da yerine gelmişti. Zaman zaman şarkıya eşlik etti, zaman zaman direksiyon başında dans ederek yolculuğunu sürdürdü.
