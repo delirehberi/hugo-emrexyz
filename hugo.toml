@@ -50,8 +50,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "gist"
-url = "https://gist.github.com/delirehberi"
+name = "cal"
+url = "https://cal.emre.xyz"
 weight = 2
 
 [[menu.main]]
