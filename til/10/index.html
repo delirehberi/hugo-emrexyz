@@ -7,7 +7,7 @@ I created a migration that automatically logs deleted rows into a separate table
 CREATE TABLE deleted_data ( id SERIAL PRIMARY KEY, table_name TEXT NOT NULL, row_data JSONB NOT NULL, deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); CREATE RULE log_course_deletion AS ON DELETE TO course DO ALSO INSERT INTO deleted_data (table_name, row_data) VALUES ('course', row_to_json(OLD)); With this setup, every time a row is deleted from the course table, it is automatically inserted into the deleted_data table."><script src=https://emre.xyz/js/feather.min.js></script>
 <link href=https://emre.xyz/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://emre.xyz/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://emre.xyz/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css media="(prefers-color-scheme: dark)"><script async src="https://www.googletagmanager.com/gtag/js?id=G-VLZVJMKPNJ"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-VLZVJMKPNJ")</script></head><body><div class=content><header><div class=main><a href=https://emre.xyz/>emre.xyz | @delirehberi</a></div><nav><a href=/>main</a>
-<a href=https://gist.github.com/delirehberi>gist</a>
+<a href=https://cal.emre.xyz>cal</a>
 <a href=https://nostr.emre.xyz>nostr</a>
 <a href=/til>til</a>
 <a href=/about>me</a>
