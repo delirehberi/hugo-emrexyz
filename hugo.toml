@@ -1,24 +1,24 @@
 baseURL = 'https://emre.xyz/'
 languageCode = 'en-us'
 title = 'emre.xyz | @delirehberi'
+
 theme="archie"
 copyright= "delirehberi"
+
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-params.mode="auto"
+params.mode="toggle"
+
+params.subtitle ="Hi, I’m Emre. I’m a developer, an art history student, a beginner DJ, an amateur poet, an improv theater enthusiast, and I live with seven cats. I love coding, dancing, learning languages, and trying new things. This blog is where I bring together all the scattered but passionate parts of my life. My contents are mostly in turkish, but I try to write some in english too. I hope you find something interesting here. Feel free to reach out if you want to chat or collaborate!"
  
 [[params.social]]
 name = "GitHub"
 icon = "github"
 url = "https://github.com/delirehberi"
 
-[[params.social]]
-name = "Bluesky"
-icon = "at-sign"
-url = "https://bsky.app/profile/emre.xyz"
 
 [[params.social]]
 name = "Youtube"
@@ -31,18 +31,9 @@ icon = "linkedin"
 url = "https://linkedin.com/in/delirehberi"
 
 [[params.social]]
-name = "Nostr"
-icon = "at-sign"
-url = "https://satellite.earth/@delirehberi@emre.xyz"
-
-[[params.social]]
 name = "VCF"
 icon = "phone"
 url = "http://emre.xyz/me.vcf"
-[[params.social]]
-name = "Resume"
-icon = "file-text"
-url = "http://emre.xyz/resume.pdf"
 
 [[menu.main]]
 name = "main"
@@ -91,4 +82,5 @@ unsafe= true
 
 
 
-
+[pagination]
+pagerSize = 100

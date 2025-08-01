@@ -6,21 +6,22 @@
 			{{ partial "head.html" . }}
 			
 			<main class="list">
+                <h1>Me</h1>
 				<div class="site-description">
 					{{- if isset .Site.Params "subtitle" -}}
-					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
+                    <p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
 					{{- end -}}
 				</div>
+                <h1> All posts </h1>
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
 				{{ range $paginator.Pages }}
-				<section class="list-item">
-					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-					<br>{{ template "partials/pagedescription.html" . }}
-					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+				<section class="list-item custom-title">
+                    <span class="title ">> <a href="{{ .RelPermalink }}">{{.Title}}</a></span>
+					<time>{{ dateFormat ":date_full" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 				</section>
 				{{ end }}
+                <hr/>
 				{{ template "partials/paginator.html" . }}
 			</main>
 			{{ partial "footer.html" . }}

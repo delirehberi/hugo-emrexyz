@@ -1,0 +1,12 @@
+.custom-title{
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+.custom-title a{
+    border-bottom: 0;
+    text-decoration: none;
+    padding: 3px;
+}
+.custom-title a:hover{
+    background-color: red;
+}
