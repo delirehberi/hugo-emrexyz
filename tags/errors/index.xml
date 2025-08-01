@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>errors on emre.xyz | @delirehberi</title><link>https://emre.xyz/tags/errors/</link><description>Recent content in errors on emre.xyz | @delirehberi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>delirehberi</copyright><lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://emre.xyz/tags/errors/index.xml" rel="self" type="application/rss+xml"/><item><title>Mysterious php errors</title><link>https://emre.xyz/posts/mysterious-php-errors/</link><pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate><guid>https://emre.xyz/posts/mysterious-php-errors/</guid><description>Sometimes you get an error like that:
-container extension liip_imagine not registered
-You double-checked all configurations and you are absolutely sure nothing is wrong.
-But code not works, why?
-Because Php can&amp;rsquo;t convert i to I if os language is tr_TR. Your code searches Liipİmagine and can&amp;rsquo;t find that. Change os&amp;rsquo;s lang code to en_US.UTF-8 for fix that.
-Or add this line to .bashrc or .profile file.
-export LANG=en_US.UTF-8
-bb.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Errors on emre.xyz | @delirehberi</title><link>https://emre.xyz/tags/errors/</link><description>Recent content in Errors on emre.xyz | @delirehberi</description><generator>Hugo</generator><language>en-us</language><copyright>delirehberi</copyright><lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://emre.xyz/tags/errors/index.xml" rel="self" type="application/rss+xml"/><item><title>Mysterious php errors</title><link>https://emre.xyz/posts/mysterious-php-errors/</link><pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate><guid>https://emre.xyz/posts/mysterious-php-errors/</guid><description>&lt;p>Sometimes you get an error like that:&lt;/p>
+&lt;p>&lt;code>container extension liip_imagine not registered&lt;/code>&lt;/p>
+&lt;p>You double-checked all configurations and you are absolutely sure nothing is wrong.&lt;/p>
+&lt;p>But code not works, why?&lt;/p>
+&lt;p>Because Php can&amp;rsquo;t convert &lt;code>i&lt;/code> to &lt;code>I&lt;/code> if os language is &lt;code>tr_TR&lt;/code>. Your code searches Liipİmagine and can&amp;rsquo;t find that.
+Change os&amp;rsquo;s lang code to en_US.UTF-8 for fix that.&lt;/p>
+&lt;p>Or add this line to .bashrc or .profile file.&lt;/p>
+&lt;p>&lt;code>export LANG=en_US.UTF-8&lt;/code>&lt;/p>
+&lt;p>bb.&lt;/p></description></item></channel></rss>
