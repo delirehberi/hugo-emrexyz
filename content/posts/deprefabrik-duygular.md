@@ -1,7 +1,6 @@
 +++
 title = 'Deprefabrik Duygular'
 date = 2008-08-01T16:11:59-04:00
-draft = true
 +++
 
 ```

@@ -1,7 +1,6 @@
 +++
 title = 'Hakettigini Yasamak'
 date = 2011-08-31T16:00:53-04:00
-draft = true
 +++
 
 Her söylediğimde aleni şüphelerin engellenemediği en sevdiğim cümle;

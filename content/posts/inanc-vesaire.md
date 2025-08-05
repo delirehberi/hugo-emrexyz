@@ -1,7 +1,6 @@
 +++
 title = 'İnanç ve Vesaire'
 date = 2011-09-22T15:59:09-04:00
-draft = true
 +++
 
 Karmaşa, karmaşa, karmaşa....
