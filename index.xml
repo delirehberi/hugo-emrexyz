@@ -311,4 +311,95 @@ You can read about that in &lt;a href="https://en.wikipedia.org/wiki/Photo_51">W
 &lt;p>I don&amp;rsquo;t think to move my old posts to this blog. You can view my posts from &lt;a href="https://github.com/delirehberi/emre.xyz">github archive&lt;/a> if you need it.&lt;/p>
 &lt;p>Sometimes I may write posts in Turkish, sometimes in English. It would be practice for me I think.&lt;/p>
 &lt;p>I plan to write a post once in three days.&lt;/p>
-&lt;p>Anyway, hello world posts should be short.&lt;/p></description></item></channel></rss>
+&lt;p>Anyway, hello world posts should be short.&lt;/p></description></item><item><title>Takip Ettiğim Youtube Kanalları</title><link>https://emre.xyz/posts/takip-ettigim-youtube-kanallari/</link><pubDate>Sat, 18 Nov 2017 14:20:25 -0400</pubDate><guid>https://emre.xyz/posts/takip-ettigim-youtube-kanallari/</guid><description>&lt;p>Sürekli takip ettiğim çok az youtube kanalı var. Genelde youtube önerilerini yada arkadaş önerilerini dikkate alıp videolar izliyorum. Sadece aşağıdaki dört kanalın hiç bir videosunu kaçırmadan izliyorum. Haberi olmayanlar varsa diye paylaşmak istedim.&lt;/p>
+&lt;h4 id="kurzgesagt--in-a-nutshell">Kurzgesagt – In a Nutshell&lt;/h4>
+&lt;p>5 milyon abonesi olan küresel bir bilim kanalı. Videoları için çok fazla dilde sürekli çeviriler yapılıyor. Animasyon destekli olarak gündem olan, olmayan bilimsel konularda açıklamalar ve farklı bakış açıları sunmaya çalışıyorlar. Bazı videolarını direk konuyla alakalı kurumların desteğiyle yapıyorlar ancak çok aşırı yanlı içerikleri yok.&lt;/p></description></item><item><title>Symfony 4 Flex</title><link>https://emre.xyz/posts/symfony-4-flex/</link><pubDate>Tue, 23 May 2017 14:22:06 -0400</pubDate><guid>https://emre.xyz/posts/symfony-4-flex/</guid><description>&lt;p>Symfony hakkında yaptığım sunumlarda hep söylediğim gibi, Symfony PHP&amp;rsquo;nin gelişmesi için her daim çabalamış bir topluluk. Symfony sadece kendisi için birşeyler yapmayıp tüm PHP camiasının faydalanabileceği işler konusunda her zaman bir adım önde giden bir topluluk.&lt;/p>
+&lt;h2 id="symfony-4">Symfony 4&lt;/h2>
+&lt;p>Symfony yeni çıkartacağı sürümde bir sürü güzel özelliğin müjdesini vermeye başladı. Symfony 4 Kasım 2017 de stabil olarak sunulacak. Bir önceki sürümde 2.8 versiyonunda projeniz çalışıyor ve hiç deprecated uyarı almıyor idiyseniz çok ufak değişikliklerle tüm projenizi 3.0 versiyonuna taşıyabildiniz. Bu çoğu framework&amp;rsquo;ün bırakın yapmayı yanına yaklaşamadığı bir sürdürülebilirlik.&lt;/p></description></item><item><title>Demokrasi</title><link>https://emre.xyz/posts/demokrasi/</link><pubDate>Mon, 04 Jul 2016 14:23:22 -0400</pubDate><guid>https://emre.xyz/posts/demokrasi/</guid><description>&lt;h1 id="demokrasi">Demokrasi&lt;/h1>
+&lt;p>Uzun zamandır, üzerine uzun uzun düşündüğüm ve destekleyicilerini anlayamadığım yönetim biçimidir.
+Kısaca demokrasi; “Dahili olan tüm bireylerin, işleyişte eşit rol hakkı” olarak tanımlanabilir. Eğer bu bi devletse, tüm vatandaşların devlet yönetiminde söz hakkı olması, yok eğer bir şirketse, tüm çalışanların şirket idaresinde söz hakkı bulunması.&lt;/p>
+&lt;p>2 demokrasi teorisi mevcut, Normatif ve Ampirik demokrasi teorisi.&lt;/p>
+&lt;h4 id="normatif-demokrasi-teorisi">Normatif Demokrasi Teorisi&lt;/h4>
+&lt;p>Bu teoriye göre, sonuç tüm katılımcıları tam anlamıyla memnun etmelidir. Devlet için konuşursak: Cumhurbaşkanı seçiminde her bireyin sonuçtan memnun olması diyebiliriz.
+Ve farkedeceğiniz üzere, insanların “farklılıkları” sebebiyle hiç bir zaman tam katılımlı memnuniyet sağlanamayacaktır. Bu sebeple ütopik bir teoridir.&lt;/p></description></item><item><title>Symfony 2 ile widget yapısı</title><link>https://emre.xyz/posts/symfony-2-widget-yapisi/</link><pubDate>Sun, 30 Aug 2015 14:24:39 -0400</pubDate><guid>https://emre.xyz/posts/symfony-2-widget-yapisi/</guid><description>&lt;p>Elimden geldiğince yaptığım sistemlerin görünen kısımlarında (frontend) elemanları parçalamaya çabalarım. Widget olarak adlandırmayı
+tercih ediyorum bu kısımları. Önceleri Symfony ile yaptığım projelerde twig dosyalarımda her parçayı render içinde controller çağırarak
+aşağıdaki şekilde parçalayarak, çakma bir widget yapısı oluşturuyordum.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-twig" data-lang="twig">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">{%&lt;/span> &lt;span style="color:#66d9ef">raw&lt;/span> &lt;span style="color:#75715e">%}&lt;/span> {{ render(controller(&amp;#39;AddmeanAdvertBundle:Default:index&amp;#39;, {place: &amp;#34;widget_docket_top&amp;#34;})) }}&lt;span style="color:#75715e">{%&lt;/span> &lt;span style="color:#66d9ef">endraw&lt;/span> &lt;span style="color:#75715e">%}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fakat bu durumda, performansı yerlere çekebiliyordum. Kendimce farklı bir yöntem oluşturmaya karar verdim. Widget olacak kısımları ayrı birer
+servis olarak yazarsam daha performanslı olacağını, daha doğru bir yaklaşım olabileceğini düşündüm.&lt;/p></description></item><item><title>Sed İle Bul Değiştir</title><link>https://emre.xyz/posts/sed-ile-bul-degistir/</link><pubDate>Sat, 29 Aug 2015 14:27:21 -0400</pubDate><guid>https://emre.xyz/posts/sed-ile-bul-degistir/</guid><description>&lt;p>Bu akşam büyük boyutlu bir veritabanında bul ve değiştir yapmam gerekti. Bi kaç sefer benzer dosyalarda değişiklik yapmak için sublime ile açıp, yüklenmesini bekliyordum 5-10dk civarı. Ara-Bul işlemi sırasında da baya bi sıkıntı yaşıyordum.&lt;/p>
+&lt;p>Sonra dedim ki:&lt;/p>
+&lt;ul>
+&lt;li>Hey adamım bu lanet olasıca işlem için neden sed kullanmıyorsun ?&lt;/li>
+&lt;/ul>
+&lt;p>Kullandım rahatladım.&lt;/p>
+&lt;p>Sed bir &lt;em>S&lt;/em>tream &lt;em>Ed&lt;/em>itor. Ben büyük bir veritabanı çıktısında veri değiştirmek için aşağıdaki şekilde kullandım. Tabi tek amacı bu değil. Sed&amp;rsquo;i elinizdeki veriyi düzenlemek için kullanabilirsiniz.&lt;/p></description></item><item><title>Tc Kimlik Nodan Adres Bulma</title><link>https://emre.xyz/posts/tc-kimlik-nodan-adres-bulma/</link><pubDate>Mon, 17 Nov 2014 14:30:18 -0400</pubDate><guid>https://emre.xyz/posts/tc-kimlik-nodan-adres-bulma/</guid><description>&lt;blockquote>
+&lt;p>2025&amp;rsquo;den bir güncelleme: Çok genç ve çok vasat bilgiler. O zamanki niyetimi anlıyorum ancak saçmalamışım :) Lütfen çok ciddiye almasın okur.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://eksisozluk.com/tc-kimlik-numarasindan-adres-bulmak--4603978?a=popular&amp;amp;p=8">İlgili Ekşi Maddesi&lt;/a>&lt;/p>
+&lt;p>Yaklaşık 7-8 yıl kadar zamandır şu internet teknolojileri ve haliyle teknolojimtrak şeyler içerisindeyim. Blog yazıyorum, sosyal medya kullanıyorum. Bir şekilde interneti aktif olarak ve gerçek kişiliğimle kullanılıyorum. Uzun zamandır da inandığım bir mesele var ki, şu günlerde herkes inanmaya başlamıştır. WikiLeaks belgelerinden bugüne kadar ( ki öncesini saymıyorum ) toplumda ortak bir fikir oluşmaya başladı.&lt;/p></description></item><item><title>Git Reset</title><link>https://emre.xyz/posts/git-reset/</link><pubDate>Sun, 16 Nov 2014 14:33:58 -0400</pubDate><guid>https://emre.xyz/posts/git-reset/</guid><description>&lt;p>Git üzerinde çalışıyorsunuz. Herşey müthiş. Kod yazılıyor, commitler, pushlar. Ooo süper dimi ?&lt;/p>
+&lt;p>Herşey güzel giderken yanlış bir commit yaptığınızı farkettiniz. Örneğin upload klasörünü repoya eklediniz ( neredeyse 100MB :s ) sonrada commit ettiniz. Git rm yapsanız bile repoya yapıştı lanet şey.&lt;/p>
+&lt;p>Ne yapacaksınız ?&lt;/p>
+&lt;p>Yerel depoyu silip sunucudan temiz halini çekebilirsiniz tabi. Peki ya gönderilmeyen son değişiklikler ?&lt;/p>
+&lt;p>Kodu kopyalayın bence, sonra çekin temiz repoyu, tekrar yapıştırın falan. Çözersiniz bi şekilde&amp;hellip;&lt;/p>
+&lt;p>Ya da&amp;hellip;&lt;/p></description></item><item><title>Ayak Izi Takibi</title><link>https://emre.xyz/posts/ayak-izi-takibi/</link><pubDate>Sat, 02 Nov 2013 14:34:52 -0400</pubDate><guid>https://emre.xyz/posts/ayak-izi-takibi/</guid><description>&lt;p>Genel hatlarıyla, birilerinde fikirler oluşturabilir belki niyetiyle, birşeyler yazmadığımı farkettiğim için, daha önceden hazırlamış olduğum bir yazı.&lt;/p>
+&lt;h4 id="ayak-izi-takibi-nedir-">Ayak izi takibi nedir ?&lt;/h4>
+&lt;p>Teknolojiyle birlikte artan sosyal medya kullanımı insanların bilgilerini daha rahat paylaşmalarını mümkün kılmıştır. Artık herhangi bir arkadaşınızın, izlediği filmleri, okuduğu kitapları, yediği yemekleri, gittiği yerleri vs gibi pek çok detayı bilmeniz çok kolay hale geldi. Bunun en güzel örneğini Facebook sergilemekte.&lt;/p>
+&lt;p>Şöyle ki: Facebook artık hepimizin genel bilgilerinden ziyade, hangi kitabı okuduğumuzu, okumayı düşündüğümüzü, neleri sevdiğimizi, nelerden nefret ettiğimizi biliyor. Bu sebeple Facebook müşteri odaklı reklam teknolojisini en iyi kullanan örneklerden birisi.&lt;/p></description></item><item><title>Asana</title><link>https://emre.xyz/posts/asana/</link><pubDate>Fri, 25 Oct 2013 14:36:11 -0400</pubDate><guid>https://emre.xyz/posts/asana/</guid><description>&lt;h3 id="asana-nedir-">Asana Nedir ?&lt;/h3>
+&lt;p>İş takibi ve yönetimi için, yada daha basit görmek gerekirse todo list oluşturabilmeniz için gayet kullanışlı ve
+güzel bir araçtır.Temel özellikleri, Takım oluşturma, workspace oluşturma, proje oluşturma, madde oluşturma,
+maddeleri etiketleme, maddeleri atama, maddeleri etiketleme, gelişmiş arama, arama yardımıyla raporlama,
+maddeler üzerine yorumlar ile tartışma alanı, yorumlar içinde mention mantığıyla dürtme …&lt;/p>
+&lt;p>Asana’ya &lt;a href="http://www.asana.com">www.asana.com&lt;/a> adresinden ulaşılabilir.&lt;/p>
+&lt;p>Aşağıda Asana kullanımıyla ilgili temel standartları oluşturabilecek maddeler mevcuttur.&lt;/p>
+&lt;h4 id="proje-oluşturmak">Proje Oluşturmak&lt;/h4>
+&lt;p>Yeni bir proje açtığınızda aşağıdaki standartlara uyun.&lt;/p></description></item><item><title>Php İle Dosya Bazlı Önbellekleme</title><link>https://emre.xyz/posts/php-ile-dosya-bazli-onbellekleme/</link><pubDate>Sun, 20 Oct 2013 14:38:32 -0400</pubDate><guid>https://emre.xyz/posts/php-ile-dosya-bazli-onbellekleme/</guid><description>&lt;p>Selamlar,&lt;/p>
+&lt;p>Basit bir şekilde dosya bazlı önbelleklemeden bahsedeceğim. Eğer salt php kullanmıyorsanız bu işlem için smarty,zend,codeigniter vb şeylerin çok güzel özellikleri var. Ancak php’yi yazarım ben sadece diyorsanız, nasıl html cache yapacağınıza değinelim.&lt;/p>
+&lt;p>Uygulayacağımız mantık çok basit.&lt;/p>
+&lt;ul>
+&lt;li>Girilen adresi öğren&lt;/li>
+&lt;li>Girilen adresi md5 e çevir md5(iletisim)&lt;/li>
+&lt;li>Dosyalarına bir bak bakalım bu isimde bir dosya var mı ?&lt;/li>
+&lt;li>Yok diyorsun madem hemen ob_start diyerek işlemleri not etmeye başla.&lt;/li>
+&lt;li>Not ettiğin içeriği bir değişkene atayıp oradan da md5lenmiş ismi olan bir dosyaya yaz.&lt;/li>
+&lt;li>Sonrasında içeriği göster.&lt;/li>
+&lt;li>Sayfayı yenile&lt;/li>
+&lt;li>
+&lt;ol>
+&lt;li>adıma kadar geldin baktın aynı isimde dosya var.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>O halde zamanı bir kontrol et bakalım ne zaman oluşturulmuş.&lt;/li>
+&lt;li>Çok eski bir dosya diyorsan 4 adıma git.&lt;/li>
+&lt;li>Dosyamız gayet yeni ise file_get_contents yapıp içeriği alalım.&lt;/li>
+&lt;li>Ekrana basıp exit komutunu verelim.&lt;/li>
+&lt;/ul>
+&lt;p>Kodlarla anlatmak gerekirse .&lt;/p></description></item><item><title>Centos Svn Kurulumu</title><link>https://emre.xyz/posts/centos-svn-kurulumu/</link><pubDate>Tue, 15 Oct 2013 14:39:55 -0400</pubDate><guid>https://emre.xyz/posts/centos-svn-kurulumu/</guid><description>&lt;p>Svn kullanıyorsanız kendinize private bir svn sunucusu kurmak isteyebilirsiniz. Bunun için yapmanız gereken adımları anlatmaya çalışacağım. Hem benim içinde bir not olmuş olacak.&lt;/p>
+&lt;p>Sunucuya ssh üzerinden bağlandıktan sonra aşağıdaki komut ile subversion’ı yüklüyorum.&lt;/p>
+&lt;p>&lt;code>yum install subversion&lt;/code>&lt;/p>
+&lt;p>Ardından svn e bağlanırken kullanacağım kullanıcıyı oluşturuyorum. Komut aşağıda.&lt;/p>
+&lt;p>&lt;code>/usr/sbin/adduser svn&lt;/code>&lt;/p>
+&lt;p>Buradaki svn benim kullanıcı adım.&lt;/p>
+&lt;p>Sonrasında oluşturacağımız dizinlere ulaşım izni olsun diye kullanıcı değiştirip bu kullanıcıya geçiyoruz.&lt;/p>
+&lt;p>&lt;code>su svn&lt;/code>&lt;/p>
+&lt;p>Artık svn kullanıcısı ile depo dosyalarımızı oluşturalım.&lt;/p></description></item><item><title>Smarty Modifier Yapısı</title><link>https://emre.xyz/posts/smarty-modifier-yapisi/</link><pubDate>Mon, 14 Oct 2013 14:40:43 -0400</pubDate><guid>https://emre.xyz/posts/smarty-modifier-yapisi/</guid><description>&lt;p>Selamlar,&lt;/p>
+&lt;p>Smarty tema motoru ile ilgili bu anlatıda smarty modifier mantığını ve nasıl yapıldığını anlatmaya çalışıyorum.&lt;/p>
+&lt;p>####Smarty Modifier Nedir ?####&lt;/p>
+&lt;p>Smarty tema motoru ile kullanılan, basit php işlemlerini yapmayı sağlayan fonksiyonlardır.&lt;/p>
+&lt;p>Modifier denen fonksiyonlar smarty ile tpl dosyaların içinde çok basitce | (pipe) işaretiyle kullanılabilir. Örneğin bir integer değişkeni 2 ile çarpmak için yazılan bir modifier kullanılırken {$deger|carpma:2} şeklinde basit bir yöntem uygulanabilir. $deger diye belirtilen değişkenin 4 olduğunu düşünürsek, hemen yanına | (pipe) ile iliştirilmiş olan modifier adına göre -ki burada carpma adında bir modifier kullandık- işleme tabi tutar. $deger adlı değişken modifier’a ilk parametre olarak gider. Modifier adından sonra iki nokta ile belirtilen değişken ise ikinci parametre olarak modifier’a gönderilir. İki nokta işaretlerini kullanarak istenildiği kadar değer gönderilip, modifier üzerinden yakalanabilir.&lt;/p></description></item><item><title>Gravatar</title><link>https://emre.xyz/posts/gravatar/</link><pubDate>Sat, 12 Oct 2013 14:41:51 -0400</pubDate><guid>https://emre.xyz/posts/gravatar/</guid><description>&lt;p>Bilenler bilir, gravatar.com a üye olduğunuzda wordpress alt yapısına sahip tüm bloglarda ve bazı sitelerde mail adresinizden tanınırsınız ve avatarınız otomatik olarak gravatar üzerinden çekilir. Bunun nasıl yapıldığından bahsedeceğim birazcık. Gravatar’dan kullanıcınızın avatar’ını çekmek sanıldığı kadar sıkıntılı bir işlem değildir. Kullanıcınızın mail adresine sahip olmanız gravatar üzerindeki avatarını çekebilmeniz için yeterlidir.&lt;/p>
+&lt;p>Gravatar sistem olarak oldukça basit bir yapıda çalışır. Mail adresinizi alır ve md5 formatında bir id’ye dönüştürüp hesabınızla eşleştirir. Resim bağlantısını buna göre oluşturmanız durumunda avatarı çekmek sıkıntı olmayacaktır. Başlayalım… İlk bilmemiz gereken şey gravatarın ortak yoludur.&lt;/p></description></item><item><title>Php Heredoc Sozdizimi</title><link>https://emre.xyz/posts/php-heredoc-sozdizimi/</link><pubDate>Mon, 30 Sep 2013 14:42:46 -0400</pubDate><guid>https://emre.xyz/posts/php-heredoc-sozdizimi/</guid><description>&lt;p>PHP de karakter katarlarının kullanımında bilinen şekilde kullanılan 2 tür metin barındırma yöntemi mevcuttur.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$degisken &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">“Değişken”&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$metin &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">“Çift&lt;/span> &lt;span style="color:#a6e22e">tırnak&lt;/span> &lt;span style="color:#a6e22e">içerisinde&lt;/span> $degisken &lt;span style="color:#a6e22e">gönderilebilir&lt;/span>&lt;span style="color:#f92672">.&lt;/span>&lt;span style="color:#a6e22e">”&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$yeni_metin &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">‘Tek&lt;/span> &lt;span style="color:#a6e22e">tırnak&lt;/span> $degisken &lt;span style="color:#a6e22e">tarzında&lt;/span> &lt;span style="color:#a6e22e">tanımlamaları&lt;/span> &lt;span style="color:#a6e22e">desteklemez&lt;/span>&lt;span style="color:#f92672">.&lt;/span>&lt;span style="color:#a6e22e">”&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>2 Şekilde kullanım en yaygın kullanımdır. Tüm işlerimizi aslında görmeye yetecek olan bir yöntemdir bunlar. Lakin bazı durumlarda çift tırnak (“) yada tek tırnak (‘) ihtiyacımız çok olur. Bu durumda kaçış karakteri () kullanmamız gerekir. Eğer bunun başka tür bir çözümünü arıyorsanız HereDoc sözdizimi çok satırlı karakter katarlarında imdadınıza yetişecektir.
+HereDoc sözdizimi «&amp;lt; karakterleri ile başlar. Herhangi bir karakter katarı eklenir başlangıç mahiyetinde. Alt satırdan itibaren de metnimiz girilir. Son satıra ise «&amp;lt; karakterlerinden sonra girdiğimiz karakter katarı girilip noktalı virgül ile bitirilir.&lt;/p></description></item><item><title>Özgür Yazılımcı Olmak Ne Demektir?</title><link>https://emre.xyz/posts/ozgur-yazilimci-olmak-ne-demektir/</link><pubDate>Sun, 14 Jul 2013 14:37:13 -0400</pubDate><guid>https://emre.xyz/posts/ozgur-yazilimci-olmak-ne-demektir/</guid><description>&lt;p>Özgür Yazılımcı olmak ilk olarak şunları gerektirir&lt;/p>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;p>Özdisiplin&lt;/p>
+&lt;p>Özgür Yazılımcı olmak demek, kafanıza estiğinde çalışmak demek değildir. Bir özdisipline sahip olmanız ve işlerinizi bir disiplin içerisinde yapmanız gerekir. Aksi takdirde başınız çok ağrıyacaktır.&lt;/p>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;p>Sorumluluk&lt;/p>
+&lt;p>Özgür Yazılımcı olunca işlerin sorumluluğu üzerinizden kalmaz, aksine daha da üzerinize biner. Bir şirkette yaptığınız işin satılıp satılmayacağı sizi bağlamaz, ay sonunda maaşınızı alırsınız, fakat Özgür Yazılımcı çalışıyor iseniz, müşterinizi ihmal etmemeniz gerekmektedir, telefonunuzu asla kapatmamanız gerekmektedir. Zamanlamanızı iyi ayarlamanız gerekmektedir.&lt;/p></description></item></channel></rss>

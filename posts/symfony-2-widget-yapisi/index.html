@@ -1,0 +1,191 @@
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Symfony 2 ile widget yapısı - emre.xyz | @delirehberi</title><meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Elimden geldiğince yaptığım sistemlerin görünen kısımlarında (frontend) elemanları parçalamaya çabalarım. Widget olarak adlandırmayı
+tercih ediyorum bu kısımları. Önceleri Symfony ile yaptığım projelerde twig dosyalarımda her parçayı render içinde controller çağırarak
+aşağıdaki şekilde parçalayarak, çakma bir widget yapısı oluşturuyordum.
+  {% raw %} {{ render(controller('AddmeanAdvertBundle:Default:index', {place: &#34;widget_docket_top&#34;})) }}{% endraw %}
+Fakat bu durumda, performansı yerlere çekebiliyordum. Kendimce farklı bir yöntem oluşturmaya karar verdim. Widget olacak kısımları ayrı birer
+servis olarak yazarsam daha performanslı olacağını, daha doğru bir yaklaşım olabileceğini düşündüm."><meta property="og:image" content><meta property="og:url" content="https://emre.xyz/posts/symfony-2-widget-yapisi/"><meta property="og:site_name" content="emre.xyz | @delirehberi"><meta property="og:title" content="Symfony 2 ile widget yapısı"><meta property="og:description" content="Elimden geldiğince yaptığım sistemlerin görünen kısımlarında (frontend) elemanları parçalamaya çabalarım. Widget olarak adlandırmayı tercih ediyorum bu kısımları. Önceleri Symfony ile yaptığım projelerde twig dosyalarımda her parçayı render içinde controller çağırarak aşağıdaki şekilde parçalayarak, çakma bir widget yapısı oluşturuyordum.
+{% raw %} {{ render(controller('AddmeanAdvertBundle:Default:index', {place: &#34;widget_docket_top&#34;})) }}{% endraw %} Fakat bu durumda, performansı yerlere çekebiliyordum. Kendimce farklı bir yöntem oluşturmaya karar verdim. Widget olacak kısımları ayrı birer servis olarak yazarsam daha performanslı olacağını, daha doğru bir yaklaşım olabileceğini düşündüm."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2015-08-30T14:24:39-04:00"><meta property="article:modified_time" content="2015-08-30T14:24:39-04:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Symfony 2 ile widget yapısı"><meta name=twitter:description content="Elimden geldiğince yaptığım sistemlerin görünen kısımlarında (frontend) elemanları parçalamaya çabalarım. Widget olarak adlandırmayı tercih ediyorum bu kısımları. Önceleri Symfony ile yaptığım projelerde twig dosyalarımda her parçayı render içinde controller çağırarak aşağıdaki şekilde parçalayarak, çakma bir widget yapısı oluşturuyordum.
+{% raw %} {{ render(controller('AddmeanAdvertBundle:Default:index', {place: &#34;widget_docket_top&#34;})) }}{% endraw %} Fakat bu durumda, performansı yerlere çekebiliyordum. Kendimce farklı bir yöntem oluşturmaya karar verdim. Widget olacak kısımları ayrı birer servis olarak yazarsam daha performanslı olacağını, daha doğru bir yaklaşım olabileceğini düşündüm."><script src=https://emre.xyz/js/feather.min.js></script><link href=https://emre.xyz/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://emre.xyz/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css><link rel=stylesheet type=text/css media=screen href=https://emre.xyz/css/ext.a79633986a21ab3daf02e6ccca6c7d985b6facd4b7dd3520b0c50336cfde916b.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://emre.xyz/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css disabled><script async src="https://www.googletagmanager.com/gtag/js?id=G-VLZVJMKPNJ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-VLZVJMKPNJ")</script></head><body><div class=content><header><div class=main><a href=https://emre.xyz/>emre.xyz | @delirehberi</a></div><nav><a href=/>main</a>
+<a href=https://cal.emre.xyz>cal</a>
+<a href=https://nostr.emre.xyz>nostr</a>
+<a href=/til>til</a>
+<a href=/about>me</a>
+<a href=/subscribe>subscribe</a>
+<a href=/resume.pdf>resume</a>
+| <span id=dark-mode-toggle onclick=toggleTheme()><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#sun"/></svg></span>
+<script src=https://emre.xyz/js/themetoggle.js></script></nav></header><main><article><div class=post-container><div class=post-content><div class=title><h1 class=title>Symfony 2 ile widget yapısı</h1><div class=meta>Posted on Aug 30, 2015</div></div><section class=body><p>Elimden geldiğince yaptığım sistemlerin görünen kısımlarında (frontend) elemanları parçalamaya çabalarım. Widget olarak adlandırmayı
+tercih ediyorum bu kısımları. Önceleri Symfony ile yaptığım projelerde twig dosyalarımda her parçayı render içinde controller çağırarak
+aşağıdaki şekilde parçalayarak, çakma bir widget yapısı oluşturuyordum.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-twig data-lang=twig><span style=display:flex><span>  <span style=color:#75715e>{%</span> <span style=color:#66d9ef>raw</span> <span style=color:#75715e>%}</span> {{ render(controller(&#39;AddmeanAdvertBundle:Default:index&#39;, {place: &#34;widget_docket_top&#34;})) }}<span style=color:#75715e>{%</span> <span style=color:#66d9ef>endraw</span> <span style=color:#75715e>%}</span>
+</span></span></code></pre></div><p>Fakat bu durumda, performansı yerlere çekebiliyordum. Kendimce farklı bir yöntem oluşturmaya karar verdim. Widget olacak kısımları ayrı birer
+servis olarak yazarsam daha performanslı olacağını, daha doğru bir yaklaşım olabileceğini düşündüm.</p><p>Uyguladığım yöntem ise, adımsal olarak şöyleydi;</p><ul><li>Bir baseWidget abstract class&rsquo;ımda tüm ortak işleri görüp, mecburi metodları belirledim.</li><li>SiteBundle&rsquo;ım içerisinde bir Widget klasörü açıp içerisine, her widget için bir sınıf oluşturup baseWidget sınıfımdan extend ederek gerekli ayarları yaptım.</li><li>Bu widget&rsquo;ları birer servis olarak tanımladım.</li><li>Widget servislerimi twig içerisinde kullanabilecek bir twig extension yazdım.</li><li>Tüm widgetları gerekli yerlere yerleştirdim.</li></ul><p>Gereksiz hiç bir yük olmadan widget&rsquo;larıma ulaşıp onları çalıştırabiliyorum artık. Kod örneklerine bakarak daha iyi anlayabileceğinizi düşünüyorum.</p><h4 id=basewidget-sınıfım>BaseWidget Sınıfım</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>namespace</span> <span style=color:#a6e22e>Addmean\MainBundle\Widget</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>use</span> <span style=color:#a6e22e>Addmean\UserBundle\Manager\GroupManager</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>use</span> <span style=color:#a6e22e>Doctrine\ORM\EntityManager</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Base</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @var \Twig_Environment
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>protected</span> $twig;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @var EntityManager
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>protected</span> $em;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @var array
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>protected</span> $data;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/** @var  GroupManager */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>protected</span> $gm;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @param EntityManager $em
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @param \Twig_Environment $twig
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @param GroupManager $gm
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> __construct(<span style=color:#a6e22e>EntityManager</span> $em, <span style=color:#a6e22e>\Twig_Environment</span> $twig,<span style=color:#a6e22e>GroupManager</span> $gm)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>em</span> <span style=color:#f92672>=</span> $em;
+</span></span><span style=display:flex><span>        $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>twig</span> <span style=color:#f92672>=</span> $twig;
+</span></span><span style=display:flex><span>        $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>gm</span> <span style=color:#f92672>=</span> $gm;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * Rendered view
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @return string
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>render</span>()
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>twig</span><span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>render</span>($this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>getView</span>(), $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>getData</span>());
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * Twig file
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @return string
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>getView</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * Data for passing twig file
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @return array
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>getData</span>()
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>data</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @param array $data
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @return void
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>setData</span>(<span style=color:#66d9ef>array</span> $data);
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h4 id=örnek-widget-sınıfım>Örnek Widget Sınıfım</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>namespace</span> <span style=color:#a6e22e>SiteBundle\Widget</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>use</span> <span style=color:#a6e22e>Addmean\MainBundle\Widget\Base</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>RecentNews</span> <span style=color:#66d9ef>extends</span> <span style=color:#a6e22e>Base</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @inheritDoc
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>getView</span>()
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> <span style=color:#e6db74>&#34;SiteBundle:Widget</span><span style=color:#ae81ff>\\</span><span style=color:#e6db74>RecentNews:view.html.twig&#34;</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @inheritDoc
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>setData</span>(<span style=color:#66d9ef>array</span> $data)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        $group <span style=color:#f92672>=</span> $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>gm</span><span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>get</span>($data[<span style=color:#e6db74>&#39;group&#39;</span>]);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        $newsRepo <span style=color:#f92672>=</span> $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>em</span><span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>getRepository</span>(<span style=color:#e6db74>&#39;AddmeanNewsBundle:News&#39;</span>);
+</span></span><span style=display:flex><span>        $news <span style=color:#f92672>=</span> $newsRepo<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>findBy</span>([<span style=color:#e6db74>&#39;group&#39;</span><span style=color:#f92672>=&gt;</span>$group,<span style=color:#e6db74>&#39;published&#39;</span><span style=color:#f92672>=&gt;</span><span style=color:#66d9ef>true</span>],[<span style=color:#e6db74>&#39;id&#39;</span><span style=color:#f92672>=&gt;</span><span style=color:#e6db74>&#39;desc&#39;</span>],$data[<span style=color:#e6db74>&#39;limit&#39;</span>]);
+</span></span><span style=display:flex><span>        $data[<span style=color:#e6db74>&#39;items&#39;</span>] <span style=color:#f92672>=</span> $news;
+</span></span><span style=display:flex><span>        $data[<span style=color:#e6db74>&#39;group&#39;</span>] <span style=color:#f92672>=</span> $group;
+</span></span><span style=display:flex><span>        $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>data</span> <span style=color:#f92672>=</span> $data;
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> $this;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h4 id=servis-tanımlama-örneğim>Servis Tanımlama Örneğim</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>services</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>widget.recent_news</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>class</span>: <span style=color:#ae81ff>SiteBundle\Widget\RecentNews</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>arguments</span>: [<span style=color:#e6db74>&#34;@doctrine.orm.entity_manager&#34;</span>,<span style=color:#e6db74>&#34;@twig&#34;</span>,<span style=color:#e6db74>&#34;@addmean_group_manager&#34;</span>]
+</span></span></code></pre></div><h4 id=twig-extension-örneği>Twig Extension Örneği</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>namespace</span> <span style=color:#a6e22e>Addmean\MainBundle\Twig</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>use</span> <span style=color:#a6e22e>Addmean\MainBundle\Widget\Base</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>use</span> <span style=color:#a6e22e>Symfony\Component\DependencyInjection\ContainerInterface</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74> * Class WidgetExtension
+</span></span></span><span style=display:flex><span><span style=color:#e6db74> * @package Addmean\MainBundle\Twig
+</span></span></span><span style=display:flex><span><span style=color:#e6db74> */</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>WidgetExtension</span> <span style=color:#66d9ef>extends</span> <span style=color:#a6e22e>\Twig_Extension</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @var ContainerInterface
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>private</span> $container;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> __construct(<span style=color:#a6e22e>ContainerInterface</span> $container)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>container</span> <span style=color:#f92672>=</span> $container;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @return array
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>getFilters</span>()
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> [];
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @return array
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>getFunctions</span>()
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> [
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>\Twig_SimpleFunction</span>(<span style=color:#e6db74>&#39;widget&#39;</span>, [$this, <span style=color:#e6db74>&#39;getWidget&#39;</span>],[<span style=color:#e6db74>&#39;is_safe&#39;</span><span style=color:#f92672>=&gt;</span>[<span style=color:#e6db74>&#39;html&#39;</span>]])
+</span></span><span style=display:flex><span>        ];
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>getWidget</span>($name,$data<span style=color:#f92672>=</span>[])
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>/** @var Base $widget */</span>
+</span></span><span style=display:flex><span>        $widget <span style=color:#f92672>=</span> $this<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>container</span><span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>get</span>(<span style=color:#e6db74>&#39;widget.&#39;</span> <span style=color:#f92672>.</span> $name);
+</span></span><span style=display:flex><span>        $widget<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>setData</span>($data);
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> $widget<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>render</span>();
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>/**
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     * @inheritDoc
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>     */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>getName</span>()
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> <span style=color:#e6db74>&#34;widget_extension&#34;</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h4 id=ve-sonunda-kullandım>Ve sonunda kullandım</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-twig data-lang=twig><span style=display:flex><span><span style=color:#75715e>{%</span> <span style=color:#66d9ef>raw</span> <span style=color:#75715e>%}</span>{{ widget(&#39;recent_news&#39;,{group: app.request.get(&#39;group&#39;),limit: 5}) }}<span style=color:#75715e>{%</span> <span style=color:#66d9ef>endraw</span> <span style=color:#75715e>%}</span>
+</span></span></code></pre></div></section><div class=post-tags></div></div></div></article></main><footer><div style=display:flex><a class=soc target=_blank href=https://github.com/delirehberi rel=me title=GitHub><i data-feather=github></i></a>
+<a class=border></a><a class=soc target=_blank href=https://youtube.com/EmreYILMAZ rel=me title=Youtube><i data-feather=youtube></i></a>
+<a class=border></a><a class=soc target=_blank href=https://linkedin.com/in/delirehberi rel=me title=Linkedin><i data-feather=linkedin></i></a>
+<a class=border></a><a class=soc target=_blank href=http://emre.xyz/me.vcf rel=me title=VCF><i data-feather=phone></i></a>
+<a class=border></a></div><div class=footer-info>2025 delirehberi | built with hugo</div></footer><script>feather.replace()</script></div></body></html>
