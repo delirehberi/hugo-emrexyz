@@ -3,6 +3,8 @@ title = 'Kpss Ve Memur Zihniyeti'
 date = 2012-10-02T15:57:40-04:00
 +++
 
+> 2025'den not; bu yaziyi yazan arkadasi buldugum yerde doverim haha, evet ben yazmisim da bu ne salak bi dusunce sekliymis boyle. Iyi ki ayni kafada kalmamisim. Eksik bilgiyle yazilmis bir yaziydi, o zamanlar bu kadar tecrubem yokmus. Simdi olsa yazmazdim.
+
 Biraz sitem dolu bir yazı olacak biliyorum…
 
 Lakin yıllardır hangi hükümet olursa olsun , en büyük sorun atamaların yapılmaması KPSS denen illetten memur adaylarının çektiği, yapılan topriller falan filan.
