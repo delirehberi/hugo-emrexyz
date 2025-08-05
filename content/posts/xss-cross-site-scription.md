@@ -1,5 +1,5 @@
 +++
-title = 'Xss Cross Site Scription'
+title = 'Xss Cross Site Scripting'
 date = 2009-05-04T15:22:12-04:00
 +++
 
