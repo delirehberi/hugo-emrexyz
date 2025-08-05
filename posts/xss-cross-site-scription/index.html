@@ -1,0 +1,102 @@
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Xss Cross Site Scription - emre.xyz | @delirehberi</title><meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Xss nedir? ne değildir ?
+bunun cevabı zaten sık sık tekrar edildi. Birkez daha tekrar edelim ve kendi dökümanımızı yazalım.
+Xss Cross site scripting ( çapraz site kodlaması ) anlamında kullanılır.Xss bir web sayfasının gönderdiği get veya post yöntemlerinden faydalanarak kod çalıştırma işlemidir.
+Temsil-i Misal:
+<html>
+<head>
+<title>Xss</title>
+</head>
+<body>
+<h1> Xss </h1>
+<br/>
+<form name=”xss” action=”xssal.php” method=”get”>
+Aranacak Kelime : <input type=”text” name=”xss”/><br/>
+<input type=”submit” value=”Ara”/>
+</form>
+<!– Form oluşturduk öncelikle buraya kadar herşey normal xss çıkartacak bir durum yok –>
+</body>
+</html>
+Yukarıdaki formu göndereceğimiz xssal.php yi oluşturalım.."><meta property="og:image" content><meta property="og:url" content="https://emre.xyz/posts/xss-cross-site-scription/"><meta property="og:site_name" content="emre.xyz | @delirehberi"><meta property="og:title" content="Xss Cross Site Scription"><meta property="og:description" content="Xss nedir? ne değildir ?
+bunun cevabı zaten sık sık tekrar edildi. Birkez daha tekrar edelim ve kendi dökümanımızı yazalım.
+Xss Cross site scripting ( çapraz site kodlaması ) anlamında kullanılır.Xss bir web sayfasının gönderdiği get veya post yöntemlerinden faydalanarak kod çalıştırma işlemidir.
+Temsil-i Misal:
+<html> <head> <title>Xss</title> </head> <body> <h1> Xss </h1> <br/> <form name=”xss” action=”xssal.php” method=”get”> Aranacak Kelime : <input type=”text” name=”xss”/><br/> <input type=”submit” value=”Ara”/> </form> <!– Form oluşturduk öncelikle buraya kadar herşey normal xss çıkartacak bir durum yok –> </body> </html> Yukarıdaki formu göndereceğimiz xssal.php yi oluşturalım.."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2009-05-04T15:22:12-04:00"><meta property="article:modified_time" content="2009-05-04T15:22:12-04:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Xss Cross Site Scription"><meta name=twitter:description content="Xss nedir? ne değildir ?
+bunun cevabı zaten sık sık tekrar edildi. Birkez daha tekrar edelim ve kendi dökümanımızı yazalım.
+Xss Cross site scripting ( çapraz site kodlaması ) anlamında kullanılır.Xss bir web sayfasının gönderdiği get veya post yöntemlerinden faydalanarak kod çalıştırma işlemidir.
+Temsil-i Misal:
+<html> <head> <title>Xss</title> </head> <body> <h1> Xss </h1> <br/> <form name=”xss” action=”xssal.php” method=”get”> Aranacak Kelime : <input type=”text” name=”xss”/><br/> <input type=”submit” value=”Ara”/> </form> <!– Form oluşturduk öncelikle buraya kadar herşey normal xss çıkartacak bir durum yok –> </body> </html> Yukarıdaki formu göndereceğimiz xssal.php yi oluşturalım.."><script src=https://emre.xyz/js/feather.min.js></script><link href=https://emre.xyz/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://emre.xyz/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css><link rel=stylesheet type=text/css media=screen href=https://emre.xyz/css/ext.a79633986a21ab3daf02e6ccca6c7d985b6facd4b7dd3520b0c50336cfde916b.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://emre.xyz/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css disabled><script async src="https://www.googletagmanager.com/gtag/js?id=G-VLZVJMKPNJ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-VLZVJMKPNJ")</script></head><body><div class=content><header><div class=main><a href=https://emre.xyz/>emre.xyz | @delirehberi</a></div><nav><a href=/>main</a>
+<a href=https://cal.emre.xyz>cal</a>
+<a href=https://nostr.emre.xyz>nostr</a>
+<a href=/til>til</a>
+<a href=/about>me</a>
+<a href=/subscribe>subscribe</a>
+<a href=/resume.pdf>resume</a>
+| <span id=dark-mode-toggle onclick=toggleTheme()><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#sun"/></svg></span>
+<script src=https://emre.xyz/js/themetoggle.js></script></nav></header><main><article><div class=post-container><div class=post-content><div class=title><h1 class=title>Xss Cross Site Scription</h1><div class=meta>Posted on May 4, 2009</div></div><section class=body><p>Xss nedir? ne değildir ?</p><p>bunun cevabı zaten sık sık tekrar edildi. Birkez daha tekrar edelim ve kendi dökümanımızı yazalım.</p><p>Xss Cross site scripting ( çapraz site kodlaması ) anlamında kullanılır.Xss bir web sayfasının gönderdiği get veya post yöntemlerinden faydalanarak kod çalıştırma işlemidir.</p><p>Temsil-i Misal:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>&lt;html&gt;
+</span></span><span style=display:flex><span>&lt;head&gt;
+</span></span><span style=display:flex><span>&lt;title&gt;Xss&lt;/title&gt;
+</span></span><span style=display:flex><span>&lt;/head&gt;
+</span></span><span style=display:flex><span>&lt;body&gt;
+</span></span><span style=display:flex><span>&lt;h1&gt; Xss &lt;/h1&gt;
+</span></span><span style=display:flex><span>&lt;br/&gt;
+</span></span><span style=display:flex><span>&lt;form name=”xss” action=”xssal.php” method=”get”&gt;
+</span></span><span style=display:flex><span>Aranacak Kelime : &lt;input type=”text” name=”xss”/&gt;&lt;br/&gt;
+</span></span><span style=display:flex><span>&lt;input type=”submit” value=”Ara”/&gt;
+</span></span><span style=display:flex><span>&lt;/form&gt;
+</span></span><span style=display:flex><span>&lt;!– Form oluşturduk öncelikle buraya kadar herşey normal xss çıkartacak bir durum yok –&gt;
+</span></span><span style=display:flex><span>&lt;/body&gt;
+</span></span><span style=display:flex><span>&lt;/html&gt;
+</span></span></code></pre></div><p>Yukarıdaki formu göndereceğimiz xssal.php yi oluşturalım..</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>&lt;html&gt;
+</span></span><span style=display:flex><span>&lt;head&gt;
+</span></span><span style=display:flex><span>&lt;?php
+</span></span><span style=display:flex><span>$kelime = $_GET[&#39;xss&#39;];
+</span></span><span style=display:flex><span>//Buraya dikkat burda hiç bir filtreleme yapmadan veriyi aldık.
+</span></span><span style=display:flex><span>?&gt;
+</span></span><span style=display:flex><span>&lt;title&gt;
+</span></span><span style=display:flex><span>&lt;?php echo $kelime; //İşte önemli hususlardan birisi daha.
+</span></span><span style=display:flex><span>//burada başlık kısmına aranan kelimeyi yazdırıyoruz. Üstelik filtresiz bir kelime :S
+</span></span><span style=display:flex><span>?&gt;
+</span></span><span style=display:flex><span>&lt;/title&gt;
+</span></span><span style=display:flex><span>&lt;/head&gt;
+</span></span><span style=display:flex><span>&lt;body&gt;
+</span></span><span style=display:flex><span>&lt;!– arama kodlarını yazmıyorum –&gt;
+</span></span><span style=display:flex><span>Aranan ‘&lt;?php echo $kelime; ?&gt;’ kelimesi kayıtlarda bulunamadı..
+</span></span><span style=display:flex><span>&lt;!– işte buyrun bi yere daha yazdırdık :S –&gt;
+</span></span><span style=display:flex><span>&lt;br /&gt;
+</span></span><span style=display:flex><span>Tekrar Ara: &lt;br/&gt;
+</span></span><span style=display:flex><span>&lt;form name=”sada” action=”xssal.php” method=”get”&gt;
+</span></span><span style=display:flex><span>Aranacak Kelime: &lt;input type=”text” name=”xss” value=”&lt;?= $kelime;?&gt;”&gt;&lt;br/&gt;
+</span></span><span style=display:flex><span>&lt;!– alın işte bir yere daha yazdırdık … –&gt;
+</span></span><span style=display:flex><span>&lt;input type=”submit” value=”ara”/&gt;
+</span></span><span style=display:flex><span>&lt;/form&gt;
+</span></span><span style=display:flex><span>&lt;/body&gt;
+</span></span><span style=display:flex><span>&lt;/html&gt;
+</span></span></code></pre></div><p>birinci form ile bilgileri ikinci forma gönderiyoruz. bunda bi anormallik yok.
+ikinci formda ise birinci formdan gelen bilgileri alıyoruz. üstelik filtresiz. filtresiz almak demek sql inj. açığı ve sayfada o kelimeyi üç farklı yerde yazdırmakta xss açığı demektir…</p><p>bu sayfayı açın. gönderim kısmına <code>">&lt;/title>&lt;/head>&lt;script>alert(123);&lt;/script></code> yazın…</p><p>ikinci sayfaya göndermek için tuşa bastığınızda karşınıza tam üç adet 123 uyarısı çıkacaktır. buda demektirki geçmiş olsun xss i yedik.</p><p>filtrelemiyosanız sayfaya yazdırmayın ve veritabanında arma yaptırtmayın.</p><p>sağlam halini yapalım o zaman smile.gif</p><p>gönderme işlemi aynı şekilde kalacak…</p><p>sadece alım işleminde değişiklik yapacağız…</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>&lt;html&gt;
+</span></span><span style=display:flex><span>&lt;head&gt;
+</span></span><span style=display:flex><span>&lt;?php
+</span></span><span style=display:flex><span>$kelime = htmlspecialchars(strip_tags(addslashes($_GET[&#39;xss&#39;]));
+</span></span><span style=display:flex><span>// htmlspecialchars(strip_tags(addslashes   &lt;- bunlar php nin filtreleme fonksiyonudur . html karakterlerini filtrelerler ve tırnak işaretleri önüne koyarlar…
+</span></span><span style=display:flex><span>?&gt;
+</span></span><span style=display:flex><span>&lt;title&gt;
+</span></span><span style=display:flex><span>&lt;?php echo $kelime;
+</span></span><span style=display:flex><span>?&gt;
+</span></span><span style=display:flex><span>&lt;/title&gt;
+</span></span><span style=display:flex><span>&lt;/head&gt;
+</span></span><span style=display:flex><span>&lt;body&gt;
+</span></span><span style=display:flex><span>&lt;!– arama kodlarını yazmıyorum –&gt;
+</span></span><span style=display:flex><span>Aranan ‘&lt;?php echo $kelime; ?&gt;’ kelimesi kayıtlarda bulunamadı..
+</span></span><span style=display:flex><span>&lt;br /&gt;
+</span></span><span style=display:flex><span>Tekrar Ara: &lt;br/&gt;
+</span></span><span style=display:flex><span>&lt;form name=”sada” action=”xssal.php” method=”get”&gt;
+</span></span><span style=display:flex><span>Aranacak Kelime: &lt;input type=”text” name=”xss” value=”&lt;?= $kelime;?&gt;”&gt;&lt;br/&gt;
+</span></span><span style=display:flex><span>&lt;input type=”submit” value=”ara”/&gt;
+</span></span><span style=display:flex><span>&lt;/form&gt;
+</span></span><span style=display:flex><span>&lt;/body&gt;
+</span></span><span style=display:flex><span>&lt;/html&gt;
+</span></span></code></pre></div><p>yukarıdaki ise sağlam kod. deneyin görün sonucu smile.gif</p><p>biraz karışık oldu ama idare edin artık smile.gif</p></section><div class=post-tags></div></div></div></article></main><footer><div style=display:flex><a class=soc target=_blank href=https://github.com/delirehberi rel=me title=GitHub><i data-feather=github></i></a>
+<a class=border></a><a class=soc target=_blank href=https://youtube.com/EmreYILMAZ rel=me title=Youtube><i data-feather=youtube></i></a>
+<a class=border></a><a class=soc target=_blank href=https://linkedin.com/in/delirehberi rel=me title=Linkedin><i data-feather=linkedin></i></a>
+<a class=border></a><a class=soc target=_blank href=http://emre.xyz/me.vcf rel=me title=VCF><i data-feather=phone></i></a>
+<a class=border></a></div><div class=footer-info>2025 delirehberi | built with hugo</div></footer><script>feather.replace()</script></div></body></html>

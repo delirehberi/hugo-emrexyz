@@ -1,0 +1,100 @@
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Guvenlik Kodu - emre.xyz | @delirehberi</title><meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Güvenlik kodu oluşturmanın zamanı geldi. Güvenlik dedikmi zaten flood dan korunmanın yöntemlerinin başında güvenlik kodu geliyor. hadi başlayalım…
+Öncelikle bu işi yapabilmek için php bilmeniz lazım ( biliyosak niye öğretiyon diceniz haklısınız )
+evet başlayalım.
+Bu derste ne öğreneceğiz ??
+Güvenlik Kodu Nedir ?
+Güvenlik Kodu Neden Kullanılır ?
+Güvenlik Kodu Nasıl Yapılır ?
+Güvenlik Kodu Nasıl Kırılır ?
+Kırılmayan Güvenlik Kodu Nasıl Yapılır ?
+Niye Bu Kadar Detay Veriyorum ?
+1- Bu Derste Ne Öğreneceğiz ?
+–> Güvenlik kodu kullanarak siteleri korumayı öğreneceğiz. Sonrasında yaptığımız kodu kırıp yeni bi tane yöntem öğreneceğiz smile.gif
+2- Güvenlik Kodu Nedir ?
+–> Güvenlik kodu web sitelerini flood(sel) saldırılarından korumaya yönelik geliştirilmiş bir yöntemdir. Kod hatalı girildiği takdirde sistem hata verecektir. Bu sayede kimse sizi sel saldırılarına maruz bırakamayacaktır (!)
+3- Güvenlik Kodu Neden Kullanılır?
+–> Çünkü çok fazla lamer var etrafımızda. Onların giripte siteyi flood saldırıları ile yavaşlatması hiç birimizin hoşuna gitmez. Bu yüzdendirki güvenlik kodu oluşturuyoruz.
+4- Güvenlik kodu nasıl yapılır?
+–> İşin en cafcaflı kısmı işte burası. Malzemeleri hazırlayalım.
+1- Localhost
+2- Php Desteği
+3- GD Kütüphanesi
+4- Bi paket sigara
+5- Bi bardak çay (Fincan değil bardak olmalı. İnce belli bardak olmazsa kod çalışmaz.)
+İşe başlayalım ama bi çay alayım ben…"><meta property="og:image" content><meta property="og:url" content="https://emre.xyz/posts/guvenlik-kodu/"><meta property="og:site_name" content="emre.xyz | @delirehberi"><meta property="og:title" content="Guvenlik Kodu"><meta property="og:description" content="Güvenlik kodu oluşturmanın zamanı geldi. Güvenlik dedikmi zaten flood dan korunmanın yöntemlerinin başında güvenlik kodu geliyor. hadi başlayalım…
+Öncelikle bu işi yapabilmek için php bilmeniz lazım ( biliyosak niye öğretiyon diceniz haklısınız )
+evet başlayalım.
+Bu derste ne öğreneceğiz ?? Güvenlik Kodu Nedir ? Güvenlik Kodu Neden Kullanılır ? Güvenlik Kodu Nasıl Yapılır ? Güvenlik Kodu Nasıl Kırılır ? Kırılmayan Güvenlik Kodu Nasıl Yapılır ? Niye Bu Kadar Detay Veriyorum ?
+1- Bu Derste Ne Öğreneceğiz ? –> Güvenlik kodu kullanarak siteleri korumayı öğreneceğiz. Sonrasında yaptığımız kodu kırıp yeni bi tane yöntem öğreneceğiz smile.gif 2- Güvenlik Kodu Nedir ? –> Güvenlik kodu web sitelerini flood(sel) saldırılarından korumaya yönelik geliştirilmiş bir yöntemdir. Kod hatalı girildiği takdirde sistem hata verecektir. Bu sayede kimse sizi sel saldırılarına maruz bırakamayacaktır (!) 3- Güvenlik Kodu Neden Kullanılır? –> Çünkü çok fazla lamer var etrafımızda. Onların giripte siteyi flood saldırıları ile yavaşlatması hiç birimizin hoşuna gitmez. Bu yüzdendirki güvenlik kodu oluşturuyoruz. 4- Güvenlik kodu nasıl yapılır? –> İşin en cafcaflı kısmı işte burası. Malzemeleri hazırlayalım. 1- Localhost 2- Php Desteği 3- GD Kütüphanesi 4- Bi paket sigara 5- Bi bardak çay (Fincan değil bardak olmalı. İnce belli bardak olmazsa kod çalışmaz.) İşe başlayalım ama bi çay alayım ben…"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2009-05-04T15:20:41-04:00"><meta property="article:modified_time" content="2009-05-04T15:20:41-04:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Guvenlik Kodu"><meta name=twitter:description content="Güvenlik kodu oluşturmanın zamanı geldi. Güvenlik dedikmi zaten flood dan korunmanın yöntemlerinin başında güvenlik kodu geliyor. hadi başlayalım…
+Öncelikle bu işi yapabilmek için php bilmeniz lazım ( biliyosak niye öğretiyon diceniz haklısınız )
+evet başlayalım.
+Bu derste ne öğreneceğiz ?? Güvenlik Kodu Nedir ? Güvenlik Kodu Neden Kullanılır ? Güvenlik Kodu Nasıl Yapılır ? Güvenlik Kodu Nasıl Kırılır ? Kırılmayan Güvenlik Kodu Nasıl Yapılır ? Niye Bu Kadar Detay Veriyorum ?
+1- Bu Derste Ne Öğreneceğiz ? –> Güvenlik kodu kullanarak siteleri korumayı öğreneceğiz. Sonrasında yaptığımız kodu kırıp yeni bi tane yöntem öğreneceğiz smile.gif 2- Güvenlik Kodu Nedir ? –> Güvenlik kodu web sitelerini flood(sel) saldırılarından korumaya yönelik geliştirilmiş bir yöntemdir. Kod hatalı girildiği takdirde sistem hata verecektir. Bu sayede kimse sizi sel saldırılarına maruz bırakamayacaktır (!) 3- Güvenlik Kodu Neden Kullanılır? –> Çünkü çok fazla lamer var etrafımızda. Onların giripte siteyi flood saldırıları ile yavaşlatması hiç birimizin hoşuna gitmez. Bu yüzdendirki güvenlik kodu oluşturuyoruz. 4- Güvenlik kodu nasıl yapılır? –> İşin en cafcaflı kısmı işte burası. Malzemeleri hazırlayalım. 1- Localhost 2- Php Desteği 3- GD Kütüphanesi 4- Bi paket sigara 5- Bi bardak çay (Fincan değil bardak olmalı. İnce belli bardak olmazsa kod çalışmaz.) İşe başlayalım ama bi çay alayım ben…"><script src=https://emre.xyz/js/feather.min.js></script><link href=https://emre.xyz/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://emre.xyz/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css><link rel=stylesheet type=text/css media=screen href=https://emre.xyz/css/ext.a79633986a21ab3daf02e6ccca6c7d985b6facd4b7dd3520b0c50336cfde916b.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://emre.xyz/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css disabled><script async src="https://www.googletagmanager.com/gtag/js?id=G-VLZVJMKPNJ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-VLZVJMKPNJ")</script></head><body><div class=content><header><div class=main><a href=https://emre.xyz/>emre.xyz | @delirehberi</a></div><nav><a href=/>main</a>
+<a href=https://cal.emre.xyz>cal</a>
+<a href=https://nostr.emre.xyz>nostr</a>
+<a href=/til>til</a>
+<a href=/about>me</a>
+<a href=/subscribe>subscribe</a>
+<a href=/resume.pdf>resume</a>
+| <span id=dark-mode-toggle onclick=toggleTheme()><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#sun"/></svg></span>
+<script src=https://emre.xyz/js/themetoggle.js></script></nav></header><main><article><div class=post-container><div class=post-content><div class=title><h1 class=title>Guvenlik Kodu</h1><div class=meta>Posted on May 4, 2009</div></div><section class=body><p>Güvenlik kodu oluşturmanın zamanı geldi. Güvenlik dedikmi zaten flood dan korunmanın yöntemlerinin başında güvenlik kodu geliyor. hadi başlayalım…</p><p>Öncelikle bu işi yapabilmek için php bilmeniz lazım ( biliyosak niye öğretiyon diceniz haklısınız )</p><p>evet başlayalım.</p><p>Bu derste ne öğreneceğiz ??
+Güvenlik Kodu Nedir ?
+Güvenlik Kodu Neden Kullanılır ?
+Güvenlik Kodu Nasıl Yapılır ?
+Güvenlik Kodu Nasıl Kırılır ?
+Kırılmayan Güvenlik Kodu Nasıl Yapılır ?
+Niye Bu Kadar Detay Veriyorum ?</p><p>1- Bu Derste Ne Öğreneceğiz ?
+–> Güvenlik kodu kullanarak siteleri korumayı öğreneceğiz. Sonrasında yaptığımız kodu kırıp yeni bi tane yöntem öğreneceğiz smile.gif
+2- Güvenlik Kodu Nedir ?
+–> Güvenlik kodu web sitelerini flood(sel) saldırılarından korumaya yönelik geliştirilmiş bir yöntemdir. Kod hatalı girildiği takdirde sistem hata verecektir. Bu sayede kimse sizi sel saldırılarına maruz bırakamayacaktır (!)
+3- Güvenlik Kodu Neden Kullanılır?
+–> Çünkü çok fazla lamer var etrafımızda. Onların giripte siteyi flood saldırıları ile yavaşlatması hiç birimizin hoşuna gitmez. Bu yüzdendirki güvenlik kodu oluşturuyoruz.
+4- Güvenlik kodu nasıl yapılır?
+–> İşin en cafcaflı kısmı işte burası. Malzemeleri hazırlayalım.
+1- Localhost
+2- Php Desteği
+3- GD Kütüphanesi
+4- Bi paket sigara
+5- Bi bardak çay (Fincan değil bardak olmalı. İnce belli bardak olmazsa kod çalışmaz.)
+İşe başlayalım ama bi çay alayım ben…</p><p>—-</p><p>Evet devam edelim bakalım…</p><p>Malzemeleri hazırladık sigaramızı yakalım başlayalım.
+hemen formumuzu hazırlayalım.
+form.php</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>session_start</span>(); <span style=color:#75715e>//Oturumu başlat
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>$s <span style=color:#f92672>=</span><span style=color:#a6e22e>substr</span>(<span style=color:#a6e22e>strtoupper</span>(<span style=color:#a6e22e>md5</span>(<span style=color:#a6e22e>md5</span>((<span style=color:#a6e22e>rand</span>(<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>9999</span>)<span style=color:#f92672>*</span><span style=color:#a6e22e>rand</span>(<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>9999</span>))<span style=color:#f92672>+</span><span style=color:#a6e22e>rand</span>(<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>9999</span>)))),<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>5</span>);  <span style=color:#75715e>//Oh yarasın kodları bi güzel iç içe geçirdik. 2 rasgele sayıyı çarpıp bir diğer rasgele sayıyla toplayarak 2 defa md5 yapıp harfleri buyulttukten sonra ilk 5 karakterini aldık :)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>$_SESSION[<span style=color:#e6db74>&#39;guvenlik_kodu&#39;</span>]<span style=color:#f92672>=</span>$s;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;html&gt;&lt;head&gt;&lt;title&gt;Güvenlik Kodu&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&#39;</span>; <span style=color:#75715e>//Html taglarimizle forma başladık
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;form action=&#34;action.php&#34; method=&#34;post&#34; name=&#34;guvenlik_testi&#34;&gt;&#39;</span>; <span style=color:#75715e>//Form başlangıcımızı yaptık
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;Kullanıcı Adı:&lt;input type=&#34;text&#34; name=&#34;kullanici_adi&#34;/&gt;&lt;br/&gt;&#39;</span>; <span style=color:#75715e>//Kullanıcı adı alanı
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;Şifre: &lt;input type=&#34;password&#34; name=&#34;sifre&#34;/&gt;&lt;br/&gt;&#39;</span>; <span style=color:#75715e>//Sifre alanı
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;Güvenlik Kodu:&lt;b&gt;&#39;</span><span style=color:#f92672>.</span>$s<span style=color:#f92672>.</span><span style=color:#e6db74>&#39;&lt;/b&gt;&lt;br/&gt;&#39;</span>; <span style=color:#75715e>//Güvenlik Kodunu Kalınm Harflerle Yazdırdık
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;Güvenlik Kodu:&lt;input type=&#34;text&#34; name=&#34;guvenlik_kodu&#34;/&gt;&lt;/br&gt;&#39;</span>; <span style=color:#75715e>//Güvenlik kodu Alanı
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;input type=&#34;submit&#34; name=&#34;gonder&#34; value=&#34;Giriş&#34;/&gt;&#39;</span>; <span style=color:#75715e>//Giriş Butonu
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;/form&gt;&#39;</span>; <span style=color:#75715e>//Form bitimi
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;/body&gt;&lt;/html&gt;&#39;</span>; <span style=color:#75715e>//html Sayfamızın bitimi...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span></code></pre></div><p>Evet yukarıdaki kodlarla güvenlik kodumuzu (!) oluşturduk. yazdırdık. oturuma kaydettik. action.php de istedik. hadi action.php ye</p><p>action.php</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>session_start</span>();
+</span></span><span style=display:flex><span>$guvenlik_kodu <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;guvenlik_kodu&#39;</span>];
+</span></span><span style=display:flex><span>$kullanici_adi <span style=color:#f92672>=</span>  $_POST[<span style=color:#e6db74>&#39;kullanici_adi&#39;</span>];
+</span></span><span style=display:flex><span>$sifre <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;sifre&#39;</span>];
+</span></span><span style=display:flex><span><span style=color:#75715e>//Verilerimizi aldık.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>if</span>($guvenlik_kodu <span style=color:#f92672>!=</span> $_SESSION[<span style=color:#e6db74>&#39;guvenlik_kodu&#39;</span>]) {
+</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#a6e22e>‘Guvenlik</span> <span style=color:#a6e22e>Kodu</span> <span style=color:#a6e22e>Hatalı</span><span style=color:#f92672>!</span><span style=color:#a6e22e>’</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>exit</span>();
+</span></span><span style=display:flex><span>} <span style=color:#75715e>//Eğer güvenlik kodu hatalı girilmişse hata ver ve diğer satırları çalıştırmaya çalışma (exit();)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>if</span>($kullanici_adi <span style=color:#f92672>==</span> <span style=color:#a6e22e>“wyrus”</span> <span style=color:#f92672>&amp;&amp;</span> $sifre <span style=color:#f92672>==</span> <span style=color:#a6e22e>“wyrus”</span>) {
+</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#a6e22e>‘Giriş</span> <span style=color:#a6e22e>Başarılı’</span>;
+</span></span><span style=display:flex><span>$_SESSION[<span style=color:#e6db74>&#39;giris&#39;</span>] <span style=color:#f92672>=</span> <span style=color:#a6e22e>“Basarili”</span>; <span style=color:#75715e>//Oturumu oluşturduk!
+</span></span></span><span style=display:flex><span><span style=color:#75715e>//Diğer içerik
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}<span style=color:#66d9ef>elseif</span>($kullanici_adi <span style=color:#f92672>==</span> <span style=color:#a6e22e>“‘OR</span> <span style=color:#ae81ff>1</span><span style=color:#f92672>=</span><span style=color:#ae81ff>1</span>;<span style=color:#a6e22e>”</span> <span style=color:#f92672>||</span> $kullanici_adi <span style=color:#f92672>==</span> <span style=color:#a6e22e>“‘OR</span> <span style=color:#ae81ff>1</span><span style=color:#f92672>=</span><span style=color:#ae81ff>1</span>;<span style=color:#a6e22e>–”</span>) {
+</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#a6e22e>‘</span><span style=color:#f92672>&lt;</span><span style=color:#a6e22e>script</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>alert</span>(<span style=color:#a6e22e>\’Hack</span> <span style=color:#a6e22e>Dersi</span> <span style=color:#ae81ff>1</span> <span style=color:#a6e22e>\n</span> <span style=color:#a6e22e>Sql</span> <span style=color:#a6e22e>Kullanmayan</span> <span style=color:#a6e22e>Bir</span> <span style=color:#a6e22e>Sistemde</span> <span style=color:#a6e22e>Asla</span> <span style=color:#a6e22e>Sql</span> <span style=color:#a6e22e>Açığı</span> <span style=color:#a6e22e>Aranmaz</span><span style=color:#f92672>!</span><span style=color:#a6e22e>\’</span>);<span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>script</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>’</span>; <span style=color:#75715e>//Eğer hacker gelmişse siteye ders anlatımı yapalım :)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}<span style=color:#66d9ef>else</span>{
+</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#a6e22e>‘Kullanıcı</span> <span style=color:#a6e22e>Adı</span> <span style=color:#a6e22e>veya</span> <span style=color:#a6e22e>Şifre</span> <span style=color:#a6e22e>yanlış</span><span style=color:#f92672>!</span><span style=color:#a6e22e>’</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span></code></pre></div><p>İşte basit şekilli bir güvenlik kodu oluşturduk.</p><p>Güvenlik Kodu Nasıl Kırılır ? ‘dan sonraki kısımlarıda reklamlardan sonra anlatalım ki siteye hit gelsin dimi</p></section><div class=post-tags></div></div></div></article></main><footer><div style=display:flex><a class=soc target=_blank href=https://github.com/delirehberi rel=me title=GitHub><i data-feather=github></i></a>
+<a class=border></a><a class=soc target=_blank href=https://youtube.com/EmreYILMAZ rel=me title=Youtube><i data-feather=youtube></i></a>
+<a class=border></a><a class=soc target=_blank href=https://linkedin.com/in/delirehberi rel=me title=Linkedin><i data-feather=linkedin></i></a>
+<a class=border></a><a class=soc target=_blank href=http://emre.xyz/me.vcf rel=me title=VCF><i data-feather=phone></i></a>
+<a class=border></a></div><div class=footer-info>2025 delirehberi | built with hugo</div></footer><script>feather.replace()</script></div></body></html>
