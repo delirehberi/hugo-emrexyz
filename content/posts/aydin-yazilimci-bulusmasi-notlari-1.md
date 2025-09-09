@@ -1,9 +1,11 @@
 ---
 title: Aydin yazilimci bulusmasi notlari 1
-description:
-date: 2022-12-18 
+description: null
+date: '2022-12-17T19:00:00-05:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgz22ays6aqzkaug9jxwdlm6x64rsddruu447yq4lr8p9a0srrfzwqcwqu66
 ---
 
 

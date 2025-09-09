@@ -1,9 +1,11 @@
 ---
 title: Apple shortcuts
-description:
-date: 2022-08-28 
+description: null
+date: '2022-08-27T20:00:00-04:00'
 draft: false
-tags:  quicknote #en #mac #macosx #apple #shortcuts
+tags: quicknote
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxh6vhhxmxjq3j7z78cdenpsy4yd2yfh258g5kh5e6ejyt8whk0mucqtrkw
 ---
 
 

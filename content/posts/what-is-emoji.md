@@ -1,8 +1,9 @@
 +++
-categories=['idea', 'English']
-date='2024-05-11'
-description='I read a blog post about the history of emojis. The article was full of details and descriptions. The author didn`t give a strict definition of what emojis are and suggested that everyone can have their own idea about them.'
-title='What is emoji?'
+categories = ["idea", "English"]
+date = "2024-05-10T20:00:00-04:00"
+description = "I read a blog post about the history of emojis. The article was full of details and descriptions. The author didn`t give a strict definition of what emojis are and suggested that everyone can have their own idea about them."
+title = "What is emoji?"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8f28sek3asw0x0kya35xcna50c5xdzeue9xjdz6shzx6dj9d35uuexmjd4"
 +++
 
 I read a blog post about [the history of emojis](https://blog.gingerbeardman.com/2024/05/10/emoji-history-the-missing-years/). The article was full of details and descriptions. The author didn't give a strict definition of what emojis are and suggested that everyone can have their own idea about them.

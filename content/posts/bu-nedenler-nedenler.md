@@ -1,9 +1,11 @@
 ---
 title: Bu nedenler nedenler
-description:
-date: 2021-02-02 
+description: null
+date: '2021-02-01T19:00:00-05:00'
 draft: false
-tags:  şiir #tr
+tags: şiir
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpmm86qteyag9ft7ffgt63z40wuxhp4m9r54k56u86uk2jd3fctr5xeyfdv
 ---
 
 

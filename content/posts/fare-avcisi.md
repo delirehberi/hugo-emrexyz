@@ -1,7 +1,8 @@
 +++
-title = 'Fare Avcısı'
-date = 2025-01-06T13:40:13-05:00
+title = "Fare Avcısı"
+date = "2025-01-06T13:40:13-05:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgztgkrt6w55xk6ul4gxw0nwvw0ygu5lqez87rnz3fu9ta3kjmzg2v47jgrm"
 +++
 
 Bir fareyi nasıl öldürmesi gerektiğini çok iyi biliyordu. Ancak o, okulda pek çok kez pratik ettiği gibi, omuriliğindeki doğru noktaya kesik atarak fareyi felç ederek devam edecekti. Yapacağı deney için en önemli nokta buydu. Fare önünde kıpırdamadan yatıyordu.
@@ -37,4 +38,3 @@ Spazmın şiddeti o kadar arttı ki, küçük kalp daha fazla dayanamayarak kan 
 Farenin ölümüne sebep olan deney yine kalp ilacında başarısız olmuştu. Taburesine çöktü ve hüngür hüngür ağlamaya başladı. Yıllarını verdiği ilacın işe yaramamasına ağladı. Fare öldü, ama gözyaşları ona değildi. İlaç işe yaramamıştı ve bu son deney şansıydı. Tüm bütçesi tükendiği için, ağlaması biraz uzun sürdü. Toplam 783 fare ölmüştü, ancak hiç birisi ilaçtan önemli değildi. Bütçesinin tükenmesi onu gözyaşlarına boğdu, ağladı, ağladı, ağladı.
 
 Başarısız deneyinin sancısını atlatması 6 ay sürdü. Ancak bu sürenin sonunda işinin başına geri dönebildi. Kendine güveniyordu, yapılacak çok fazla deney, öldürülecek çok fazla fare vardı.
-

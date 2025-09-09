@@ -1,7 +1,8 @@
 +++
-title = 'İki Bin Yirmi Beş'
-date = 2025-01-02T14:46:36-05:00
+title = "İki Bin Yirmi Beş"
+date = "2025-01-02T14:46:36-05:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpczgj7wqp2cruquvjsryku68l9s8632tes3x2kzpu054mddcwgkg95h3p2"
 +++
 
 Kırk beş eder! İnsan ömrünün yeni ortasi kutlu olsun.
@@ -20,5 +21,4 @@ Yazmak istediğim çok fazla şey var, çok da fazla yazıyorum, ancak hepsini y
 
 İki bin yirmi beş bitmeden önce piyes yazımı konusunda biraz daha iyileşmek, daha iyi sahne oyuncusu olmak, şirketimi büyütmek, yapay zekayı daha efektif kullanmak, amiral gemisi olan projemizi yayına açmak ve mutlu olmak var. 
 
-Hepinize en mutlu günlerinizi yaşamanızı dilerim. Hayat hep gelecek bildiği gibi. İyi günler olacak, kötü günler olacak. Kırmayın birbirinizi, çabuk affedin, sevin, sevilin. 
-
+Hepinize en mutlu günlerinizi yaşamanızı dilerim. Hayat hep gelecek bildiği gibi. İyi günler olacak, kötü günler olacak. Kırmayın birbirinizi, çabuk affedin, sevin, sevilin.

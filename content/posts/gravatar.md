@@ -1,6 +1,7 @@
 +++
-title = 'Gravatar'
-date = 2013-10-12T14:41:51-04:00
+title = "Gravatar"
+date = "2013-10-12T14:41:51-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9cprs2m6ljrn46kghv55ngwuz55taewgmza0yxpl9kpd7ecc3y8udakv9a"
 +++
 
 Bilenler bilir, gravatar.com a üye olduğunuzda wordpress alt yapısına sahip tüm bloglarda ve bazı sitelerde mail adresinizden tanınırsınız ve avatarınız otomatik olarak gravatar üzerinden çekilir. Bunun nasıl yapıldığından bahsedeceğim birazcık. Gravatar’dan kullanıcınızın avatar’ını çekmek sanıldığı kadar sıkıntılı bir işlem değildir. Kullanıcınızın mail adresine sahip olmanız gravatar üzerindeki avatarını çekebilmeniz için yeterlidir.

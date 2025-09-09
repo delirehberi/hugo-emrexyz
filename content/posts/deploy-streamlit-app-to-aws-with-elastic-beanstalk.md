@@ -1,9 +1,11 @@
 ---
 title: Deploy streamlit app to aws with elastic beanstalk
-description:
-date: 2023-03-30 
+description: null
+date: '2023-03-29T20:00:00-04:00'
 draft: false
-tags:  ecr #aws #ebcli #elasticbeanstalk #docker #dockercompose #streamlit #tutorial
+tags: ecr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxgksjyps527nyv6gc4sxzajgayurgtzy0lymcj74guqrnrg9qqsc8rtq9s
 ---
 
 

@@ -1,9 +1,11 @@
 ---
 title: Ingilizce gelistirme onerileri
-description:
-date: 2020-04-29 
+description: null
+date: '2020-04-28T20:00:00-04:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqzdu5lkkqupzn3e8tpv2f5g6hlwpqyezdcptlhu93yx8gplk449sv3v6ey
 ---
 
 

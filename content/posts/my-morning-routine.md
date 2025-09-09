@@ -1,9 +1,11 @@
 ---
 title: My morning routine
-description:
-date: 2019-06-29 
+description: null
+date: '2019-06-28T20:00:00-04:00'
 draft: false
-tags:  en #me
+tags: en
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8utl0zy4kytcwhncplgp2hjuhwa5h8a4vspzffy90cj2l5w6frmu095c5r
 ---
 
 

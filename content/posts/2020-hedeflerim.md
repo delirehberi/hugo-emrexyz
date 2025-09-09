@@ -1,9 +1,11 @@
 ---
 title: 2020 hedeflerim
-description:
-date: 2020-01-11 
+description: null
+date: '2020-01-10T19:00:00-05:00'
 draft: false
-tags:  tr #kişisel
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg99y7utjp9p52qe80h3c64gnyrpyjuky9583h9cjtz32h0tm5fr6snl46kc
 ---
 
 

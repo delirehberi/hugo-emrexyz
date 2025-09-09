@@ -1,6 +1,7 @@
 +++
-title = 'Neden Sponsor Olunur'
-date = 2017-10-28T14:57:31-04:00
+title = "Neden Sponsor Olunur"
+date = "2017-10-28T14:57:31-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqpec77dps692090600nz489p8kfjhmvlkfnerne0et2mhhavnfjcggeeqz"
 +++
 
 5 yıldır etkinlikler organize eden biri olarak, şirketlerin sponsor olmalarındaki nedenler üzerine düşünmeye çalıştım. Sadece teknoloji etkinlikleri alt-dalında olan gözlemlerimi madde madde paylaşacağım. Sponsor olmak istiyor ama nasıl bir fayda kazanacağınızı bilemiyorsanız biraz fikir verebilecek net ve açık noktalara değineceğim.

@@ -1,9 +1,11 @@
 ---
 title: Karikatur davalari
-description:
-date: 2020-12-17 
+description: null
+date: '2020-12-16T19:00:00-05:00'
 draft: false
-tags:  tr #lagaluga
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzuvslw80en6zkp65avsn9gdhtt75yuzg3duchlgd84jzqw9k2rsggcdmh9
 ---
 
 

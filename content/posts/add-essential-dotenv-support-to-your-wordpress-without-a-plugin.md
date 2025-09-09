@@ -1,9 +1,11 @@
 ---
 title: Add essential dotenv support to your wordpress without a plugin
-description:
-date: 2022-10-16 
+description: null
+date: '2022-10-15T20:00:00-04:00'
 draft: false
-tags:  php #wordpress #en #software #dotenv
+tags: php
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgre0nzert786hhcgqcgl66fdcx4a9g06rn0987mjk2q0zkrm62z65za235q
 ---
 
 

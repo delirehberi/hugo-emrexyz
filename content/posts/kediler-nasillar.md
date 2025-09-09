@@ -1,7 +1,8 @@
 +++
-title = 'Kediler nasıllar?'
-date = 2025-07-24T13:21:59-04:00
+title = "Kediler nasıllar?"
+date = "2025-07-24T13:21:59-04:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzl4hqyrtqmls7gjcqajugdxt789j2ckdpgs8m843y4s2qaaere2ucqrxzv"
 +++
 
 Kedilerim hakkında yazmak istiyorum, tek tek kimler ve ne durumdalar şu anda konusunda konuşmak istiyorum.

@@ -1,6 +1,7 @@
 +++
-title = 'Guvenlik Kodu'
-date = 2009-05-04T15:20:41-04:00
+title = "Guvenlik Kodu"
+date = "2009-05-04T15:20:41-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqyyez885jzp33rt8j4gpv3lxl7fgv46l5cgrg9mengujar4twmtgvumske"
 +++
 
 Güvenlik kodu oluşturmanın zamanı geldi. Güvenlik dedikmi zaten flood dan korunmanın yöntemlerinin başında güvenlik kodu geliyor. hadi başlayalım…
@@ -84,4 +85,3 @@ echo ‘Kullanıcı Adı veya Şifre yanlış!’;
 İşte basit şekilli bir güvenlik kodu oluşturduk.
 
 Güvenlik Kodu Nasıl Kırılır ? ‘dan sonraki kısımlarıda reklamlardan sonra anlatalım ki siteye hit gelsin dimi
-

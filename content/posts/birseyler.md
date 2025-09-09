@@ -1,6 +1,7 @@
 +++
-title = 'Birseyler'
-date = 2011-03-18T15:37:19-04:00
+title = "Birseyler"
+date = "2011-03-18T15:37:19-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxzd8vdq9llz75gquwjtk70gu8u4x7qvaktlrhrrx4fv00xr2spsva0fjw4"
 +++
 
 Yok artık…

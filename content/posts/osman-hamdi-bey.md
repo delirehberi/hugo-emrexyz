@@ -1,9 +1,10 @@
 +++
-categories=['sanattarihi', 'Turkish']
-date='2024-02-04'
-description='Kalkedon kurulduğunda, güzelim İstanbulu bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbulun güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!'
-tags=['sanat tarihi','osman hamdi bey', 'kaplumbağa terbiyecisi','sanat']
-title='Osman Hamdi Bey'
+categories = ["sanattarihi", "Turkish"]
+date = "2024-02-03T19:00:00-05:00"
+description = "Kalkedon kurulduğunda, güzelim İstanbulu bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbulun güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!"
+tags = ["sanat tarihi", "osman hamdi bey", "kaplumbağa terbiyecisi", "sanat"]
+title = "Osman Hamdi Bey"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpyrycpw6ejkl5whyevc0lpk5g3e4hzn3rckht4juru07huns43zvy4f09y"
 +++
 
 Kalkedon kurulduğunda, güzelim İstanbul'u bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbul'un güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!
@@ -54,4 +55,4 @@ Resme ilk verilen isim "Kaplumbağa ve Adam" olmasına rağmen sonrasında "Kapl
 
 ### Sonuç
 
-Osman Hamdi Bey, aydınlanma çağıyla içinde yaşadığı toplumu ilerletmeye ömrünü adamış ve bizlerin yolunda ışık olmuştur. Kendisine minnetlerimizi ancak bizler de toplumumuz için aydınlanmacı ve ilerici bakış açıları geliştirerek, daha çok üreterek, eserlerimize daha çok sahip çıkarak sunabiliriz. 
+Osman Hamdi Bey, aydınlanma çağıyla içinde yaşadığı toplumu ilerletmeye ömrünü adamış ve bizlerin yolunda ışık olmuştur. Kendisine minnetlerimizi ancak bizler de toplumumuz için aydınlanmacı ve ilerici bakış açıları geliştirerek, daha çok üreterek, eserlerimize daha çok sahip çıkarak sunabiliriz.

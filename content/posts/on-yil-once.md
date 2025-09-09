@@ -1,9 +1,11 @@
 ---
 title: On yil once
-description:
-date: 2020-12-01 
+description: null
+date: '2020-11-30T19:00:00-05:00'
 draft: false
-tags:  tr #goygoy
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8ddl9zg7fkj2y0ljdjr8y9aptyfgywnnltqy84aa5l5uj6zews0c8f4dk0
 ---
 
 

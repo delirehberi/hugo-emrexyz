@@ -1,9 +1,11 @@
 ---
 title: Kendi blogunu kendin kodla 4 symfony form components
-description:
-date: 2020-11-16 
+description: null
+date: '2020-11-15T19:00:00-05:00'
 draft: false
-tags:  video #tr #symfony
+tags: video
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgr5j70kxfp84j5d0373n8swsdrp7rayzzdgx6qt07ts3n2eq4u9ycmc0507
 ---
 
 

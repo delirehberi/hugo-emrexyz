@@ -1,6 +1,7 @@
 +++
-title = 'Tc Kimlik Nodan Adres Bulma'
-date = 2014-11-17T14:30:18-04:00
+title = "Tc Kimlik Nodan Adres Bulma"
+date = "2014-11-17T13:30:18-05:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgz58q3cpuyp642tlcnmeughlzqdfnzjd7vwttzsq089he5zx77zvyuqq6n4"
 +++
 
 > 2025'den bir güncelleme: Çok genç ve çok vasat bilgiler. O zamanki niyetimi anlıyorum ancak saçmalamışım :) Lütfen çok ciddiye almasın okur. 

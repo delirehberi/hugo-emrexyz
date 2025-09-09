@@ -1,7 +1,8 @@
 +++
-title = 'Hidatik Kist - Kedi Köpek Kisti'
-date = 2025-07-12T11:27:35-04:00
+title = "Hidatik Kist - Kedi Köpek Kisti"
+date = "2025-07-12T11:27:35-04:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrsvpqt44mrdkhypyz6y78y4m3f6gyxjx45jvvmnrt8gfa7mpcxz5rhm6rw"
 +++
 
 Halk arasında aşırı yaygın bir inanışa göre, kedi veya köpek tüyüne maruz kalmak, daha doğrusu yutmak vücutta kist oluşumuna sebep oluyor. Bunun neden yanlış olduğuyla ilgili yazmak istiyorum. Çünkü, salaklaşmış medyamız hala bu başlıkla haberler yayınlıyor. Daha bugün "Trabzonda, 76 yaşındaki kadında 90cm kedi-köpek kisti" diye haber yapmışlar.
@@ -32,4 +33,3 @@ Sağlıcakla kalın.
 
 > ek not, 90lardaki haber arşivlerine erişim sorunu olduğu için kaynak belirtemedim.
 > ek not 2, toksoplazma bambaşka bir konu, onu ayrıca yazacağım.
-

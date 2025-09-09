@@ -1,9 +1,11 @@
 ---
 title: Mysterious php errors
-description:
-date: 2019-07-04 
+description: null
+date: '2019-07-03T20:00:00-04:00'
 draft: false
-tags:  errors #php #debug #en
+tags: errors
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg80yp0a7hudsq9685t324k6c2ccaa2gvqpsvyt29khvs684xrclcydhqlvn
 ---
 
 

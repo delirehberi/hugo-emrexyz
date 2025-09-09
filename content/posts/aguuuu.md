@@ -1,7 +1,8 @@
 +++
-categories=['tiyatro', 'Turkish']
-date='2024-04-06'
-title='Ağuuuu - Seikilos üzerine bir oyun'
+categories = ["tiyatro", "Turkish"]
+date = "2024-04-05T20:00:00-04:00"
+title = "Ağuuuu - Seikilos üzerine bir oyun"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzndvs9wnj5ap8g76v5fy7m22vmsekwh7tu5xd8ydg06dts9m7kxsxt88t4"
 +++
 
 Aykaryay Aydın Tiyatro Derneği başkanı ve değerli emekli öğretmen Hüsnü Ertung tarafından yazılıp sahnelenen, aynı zamanda başrolünü oynadığı Seikilos Anıtı'nın Tralleis'den kaçırılmasını ve geri getirilme çabasını kurgulayan oyun Ağuuuu'yu izlemeye gittim dün.
@@ -22,5 +23,4 @@ Seikilos taşının Aydın'dan İzmir'e taşınması sahnesini önceki oyunlarda
 
 Oyunun sanatsal değeri yanında bariz ideolojik değeri de benim bu oyun hakkında yazma isteğimi arttırdı. Bir sanat eleştirisi olamayan yazımın temel amacı, bu çabanın daha fazla insan tarafından bilinmesini sağlamaktan başka birşey değil. 
 
-Oyunu sanat dünyasına kazandırdığı için Hüsnü Ertung hocamıza çok teşekkür ediyor ve sonraki oyunlarını heyecanla bekliyorum. 
-
+Oyunu sanat dünyasına kazandırdığı için Hüsnü Ertung hocamıza çok teşekkür ediyor ve sonraki oyunlarını heyecanla bekliyorum.

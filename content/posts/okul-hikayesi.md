@@ -1,9 +1,11 @@
 ---
 title: Okul hikayesi
-description:
-date: 2020-03-19 
+description: null
+date: '2020-03-18T20:00:00-04:00'
 draft: false
-tags:  tr #kişisel #okul
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgyv49c6p9cnj9jzuauh2q9r5udx7t0687suvnunvguxzhyyf6pmgv575s65
 ---
 
 

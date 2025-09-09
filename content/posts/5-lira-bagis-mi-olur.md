@@ -1,9 +1,11 @@
 ---
 title: 5 lira bagis mi olur
-description:
-date: 2020-11-07 
+description: null
+date: '2020-11-06T19:00:00-05:00'
 draft: false
-tags:  tr #kosu #bagis
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgx5vgstnzlzuxgcxl0kn3rgmlc2s6j89w994cvexdjwvyyzf5hh7syy3mct
 ---
 
 

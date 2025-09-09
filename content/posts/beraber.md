@@ -1,6 +1,7 @@
 +++
-title = 'Beraber'
-date = 2016-10-28T14:52:57-04:00
+title = "Beraber"
+date = "2016-10-28T14:52:57-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgx5clqhhzgpxvazx2fegs73wvseld0fcq6z05ryywvqgkghhhex0srd9d0r"
 +++
 
 “Önce öp sonra doğur beni” diyen adamın hemşerisi ne desin? Ne demeli ki?

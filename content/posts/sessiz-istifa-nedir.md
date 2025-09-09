@@ -1,9 +1,11 @@
 ---
 title: Sessiz istifa nedir
-description:
-date: 2023-08-01 
+description: null
+date: '2023-07-31T20:00:00-04:00'
 draft: false
-tags:  sessizistifa #tr #quietquitting #bussiness
+tags: sessizistifa
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgz7xr5aece9qqp0t8j52dv83vh0vam8jwz26ah2csmje3lm0nr64uvktgqm
 ---
 
 

@@ -1,9 +1,11 @@
 ---
 title: Using postgresql in non daemon way
-description:
-date: 2021-12-12 
+description: null
+date: '2021-12-11T19:00:00-05:00'
 draft: false
-tags:  en #postgresql
+tags: en
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9mjp0uw24shupjgepw0gfh7cxnsz57h542j9pk55qs0mqd83nmnspepkht
 ---
 
 

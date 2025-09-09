@@ -1,6 +1,7 @@
 +++
-title = 'Sed İle Bul Değiştir'
-date = 2015-08-29T14:27:21-04:00
+title = "Sed İle Bul Değiştir"
+date = "2015-08-29T14:27:21-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrjuqkfa92nt0mz7a7r4g6y9y9f9xwzfqzesnmjda38xzgcsz8m5sm569xn"
 +++
 
 Bu akşam büyük boyutlu bir veritabanında bul ve değiştir yapmam gerekti. Bi kaç sefer benzer dosyalarda değişiklik yapmak için sublime ile açıp, yüklenmesini bekliyordum 5-10dk civarı. Ara-Bul işlemi sırasında da baya bi sıkıntı yaşıyordum.

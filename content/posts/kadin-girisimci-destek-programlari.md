@@ -1,7 +1,8 @@
 +++
-title = 'Kadın Girişimci Destek Programları'
-date = 2025-07-17T08:22:07-04:00
+title = "Kadın Girişimci Destek Programları"
+date = "2025-07-17T08:22:07-04:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpeg3jh9fkwguz4hxfy96ej88tvrgvtpwckw94fvvthedyjy5gqkckdv4n0"
 +++
 
 Yine bir linkedin günü ve yine saçma sapan bir ağlak girişimcinin serzenişi. "Türkiye'de yatırım almanın şartları: Bilkent mezunu olmak, kadın olmak, girişimci olmamak vs"
@@ -27,5 +28,3 @@ Açıklamaktansa sövmek istediğim için daha uzatmayacağım.
 Ancak özellikle erkek arkadaş ve öğrencilerimden bu yazıyı gören varsa diye söylüyorum, erkek olarak zaten çok fazla önde başlıyoruz bu hayata, her götünüz sıkıştığında kadınlara saldırmayın, ağlak ağlak suçlu aramayın. Daha iyi çalışın, bir dahaki sefere daha başarılı olun.
 
 sağlıcakla kalın.
-
-

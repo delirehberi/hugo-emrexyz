@@ -1,7 +1,8 @@
 +++
-title = 'Tralalala'
-date = 2025-04-07T08:33:30-04:00
+title = "Tralalala"
+date = "2025-04-07T08:33:30-04:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg84mmm4vhzappzltrd930xk7zjf0jn77jn943ajh8upc6aavugdt5txxypp"
 +++
 
 Yazsam yazılmayasıca kelimeleri bir kağıdın üstüne diye düşündüm düşümde. Düşüm düşmüştü kaldırıma ve kaşını yardı. Düşen düşümü kaldırıp, korkma dedim yazmayacağım yazılmayasacı kelimeleri bir kağıdın üstüne. 
@@ -24,4 +25,4 @@ Delilerle, dilencilerle, orospularla, katillerle dönüyor dünya. Hala diyorlar
 
 Bırak dönsün, tutma şu dünyayı. Tedarikçim karafilli sigara yollamış, stok sıkıntı var diyor. Aklı selimlerle başımız beladaymış. 
 
-Okunur olsun okundukça mide bulandıran yazılmayasıca kelimeler. Ne de olsa "Sen bana geç kaldın, ben sana erken". 
+Okunur olsun okundukça mide bulandıran yazılmayasıca kelimeler. Ne de olsa "Sen bana geç kaldın, ben sana erken".

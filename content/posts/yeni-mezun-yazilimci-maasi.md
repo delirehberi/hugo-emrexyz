@@ -1,9 +1,11 @@
 ---
 title: Yeni mezun yazilimci maasi
-description:
-date: 2019-11-06 
+description: null
+date: '2019-11-05T19:00:00-05:00'
 draft: false
-tags:  tr #oneri
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxyvek3df6kucwp4cs7zz6j3ln7c6ajz6z99hldvdeasyu5g2525qjhknxm
 ---
 
 

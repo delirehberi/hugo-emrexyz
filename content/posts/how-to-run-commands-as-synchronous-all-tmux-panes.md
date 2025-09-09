@@ -1,9 +1,11 @@
 ---
 title: How to run commands as synchronous all tmux panes
-description:
-date: 2019-07-04 
+description: null
+date: '2019-07-03T20:00:00-04:00'
 draft: false
-tags:  tmux #tips
+tags: tmux
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqs6sln2wj6xlpt24gyxx2refh9eph6e40392qktwemr6mka8p9x50ep7xk
 ---
 
 

@@ -1,9 +1,11 @@
 ---
 title: Cocuk gurultusu ayakustu muhabbet 2
-description:
-date: 2020-04-09 
+description: null
+date: '2020-04-08T20:00:00-04:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg97jq0xhkcutjt5hvan70nh39rx6psz4qn6jevrj36rksv8vsmsfu99nn5w
 ---
 
 

@@ -1,9 +1,13 @@
 ---
 title: Lets write a custom function to doctrine
-description:
-date: 2022-01-27 
+description: null
+date: '2022-01-26T19:00:00-05:00'
 draft: false
-tags:  if you think i tell something wrong,do not hesitate to write me an email to z[œt]emre.xyz
+tags: >-
+  if you think i tell something wrong,do not hesitate to write me an email to
+  z[œt]emre.xyz
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgr7e65rkesttd525v000e0du5xj78v4kgu7kxqxzushxvcnm53t9gchjd93
 ---
 
 

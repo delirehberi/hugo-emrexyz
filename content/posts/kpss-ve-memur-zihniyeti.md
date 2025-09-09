@@ -1,6 +1,7 @@
 +++
-title = 'Kpss Ve Memur Zihniyeti'
-date = 2012-10-02T15:57:40-04:00
+title = "Kpss Ve Memur Zihniyeti"
+date = "2012-10-02T15:57:40-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxejyk64egjlysde6t5xhhsglkacf7gn4338mh285g9azen6709sgvdqtpk"
 +++
 
 > 2025'den not; bu yaziyi yazan arkadasi buldugum yerde doverim haha, evet ben yazmisim da bu ne salak bi dusunce sekliymis boyle. Iyi ki ayni kafada kalmamisim. Eksik bilgiyle yazilmis bir yaziydi, o zamanlar bu kadar tecrubem yokmus. Simdi olsa yazmazdim.

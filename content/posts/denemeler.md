@@ -1,6 +1,7 @@
 +++
-title = 'Denemeler'
-date = 2008-08-08T16:11:09-04:00
+title = "Denemeler"
+date = "2008-08-08T16:11:09-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzdj9amt2tzxcr9gtydewtx6jnk84h5xrmc7cevz9fvqk0s4v02kugc4g6n"
 +++
 
 ```

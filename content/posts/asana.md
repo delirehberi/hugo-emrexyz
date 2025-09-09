@@ -1,8 +1,8 @@
 +++
-title = 'Asana'
-date = 2013-10-25T14:36:11-04:00
+title = "Asana"
+date = "2013-10-25T14:36:11-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzzejd3224uezkpnjrx4defkmm38m8y39kvwv8an4q4l36laa53tgyz48ng"
 +++
-
 
 ### Asana Nedir ?
 

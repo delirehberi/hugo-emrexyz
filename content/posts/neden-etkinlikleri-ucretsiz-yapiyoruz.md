@@ -1,6 +1,7 @@
 +++
-title = 'Neden Etkinlikleri Ucretsiz Yapiyoruz'
-date = 2017-11-01T14:59:07-04:00
+title = "Neden Etkinlikleri Ucretsiz Yapiyoruz"
+date = "2017-11-01T14:59:07-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgys34a0lff9etdjz5zkhz8umexxd6pude6zareu2q5jyfeez7pfgswrjfp6"
 +++
 
 Çoğunlukla organize ettiğim, etmeye çalıştığım etkinlikleri, ücretsiz tutmaya çalışıyorum. Hiç bir katılımcı birşeyler öğrenmek için para ödemesin çabamın sebeplerini aktarmaya çalışacağım.

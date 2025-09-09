@@ -1,9 +1,11 @@
 ---
 title: Cocugumla evde nasil daha verimli vakit gecirebilirim
-description:
-date: 2020-05-15 
+description: null
+date: '2020-05-14T20:00:00-04:00'
 draft: false
-tags:  tr #bilimkutusu
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg90rrav9ltzx2kcruej6p302kh772auh6m37la5d66skd7mcgdqqshxnt3k
 ---
 
 

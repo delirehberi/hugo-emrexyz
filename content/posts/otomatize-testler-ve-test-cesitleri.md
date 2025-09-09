@@ -1,12 +1,12 @@
 +++
-categories=['Development', 'Test','Turkish']
-date= '2024-01-29'
-description= 'Yazdığınız kodun çalıştığını nasıl garanti edersiniz? Sürekli gelişen ve değişen karmaşık sistemlerin en büyük sorunu ise geliştirmeyi yapan kişinin iş üzerindeki kontrolünün zaman içinde kaybolmasıdır.'
-slug= 'otomatize-testler-ve-test-cesitleri'
-tags=['test','make', 'phpunit']
-title= 'Otomatize Testler ve Test Çeşitleri'
+categories = ["Development", "Test", "Turkish"]
+date = "2024-01-28T19:00:00-05:00"
+description = "Yazdığınız kodun çalıştığını nasıl garanti edersiniz? Sürekli gelişen ve değişen karmaşık sistemlerin en büyük sorunu ise geliştirmeyi yapan kişinin iş üzerindeki kontrolünün zaman içinde kaybolmasıdır."
+slug = "otomatize-testler-ve-test-cesitleri"
+tags = ["test", "make", "phpunit"]
+title = "Otomatize Testler ve Test Çeşitleri"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrkt6uht92dv8hge6esej90nce6x25msg8knur9p3gz83lmq0tfns9s977v"
 +++
-
 
 Yazdığınız kodun çalıştığını nasıl garanti edersiniz? 
 

@@ -1,10 +1,10 @@
 +++
-categories=['software','ai', 'English']
-date='2024-05-24'
-description='I`ve been using Copilot + ChatGPT for my daily development work for the last six months, and it has significantly accelerated my productivity. This new workflow has transformed my development journey, removing the stress of figuring out how to do things. Now, I just focus on what needs to be done.'
-title='No How, Live Long What! - Experiences with AI Tools on Software Development'
+categories = ["software", "ai", "English"]
+date = "2024-05-23T20:00:00-04:00"
+description = "I`ve been using Copilot + ChatGPT for my daily development work for the last six months, and it has significantly accelerated my productivity. This new workflow has transformed my development journey, removing the stress of figuring out how to do things. Now, I just focus on what needs to be done."
+title = "No How, Live Long What! - Experiences with AI Tools on Software Development"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg97gx4sam4jk6c8padtka3z5j5hppm242hkta8kjx7mxv5czh6dk5rhndaq"
 +++
-
 
 I've been using Copilot + ChatGPT for my daily development work for the last six months, and it has significantly accelerated my productivity. This new workflow has transformed my development journey, removing the stress of figuring out *how* to do things. Now, I just focus on *what* needs to be done.
 

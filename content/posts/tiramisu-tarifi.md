@@ -1,9 +1,11 @@
 ---
 title: Tiramisu tarifi
-description:
-date: 2020-10-05 
+description: null
+date: '2020-10-04T20:00:00-04:00'
 draft: false
-tags:  tr #tarif #yemek
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgz6hs8p8x3w8shd677ztywwkc5s9c77rnytcc8wglmzs802es8xevca7hys
 ---
 
 

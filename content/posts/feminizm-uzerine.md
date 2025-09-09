@@ -1,9 +1,10 @@
 +++
-title='Feminizm üzerine'
-description='Feminizm üzerine okumalar yapmayı ve üzerine düşünmeyi sevdiğim bir konu. Çünkü varolanın karşısında konumlanmış bir ideoloji. İnsanlığın gelişiminin her zaman varolanın, alışılagelenin karşısında konumlanılabildiği sürece mümkün olduğunu düşünenlerdenim.'
-date='2024-03-04'
-draft='false'
-categories= ['feminizm', 'Turkish']
+title = "Feminizm üzerine"
+description = "Feminizm üzerine okumalar yapmayı ve üzerine düşünmeyi sevdiğim bir konu. Çünkü varolanın karşısında konumlanmış bir ideoloji. İnsanlığın gelişiminin her zaman varolanın, alışılagelenin karşısında konumlanılabildiği sürece mümkün olduğunu düşünenlerdenim."
+date = "2024-03-03T19:00:00-05:00"
+draft = "false"
+categories = ["feminizm", "Turkish"]
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgycgmtcl867w5kvflhv9c3v2pwht3uz9gel2pwgrerrul4d8k7a3vgr5l83"
 +++
 
 Feminizm üzerine okumalar yapmayı ve üzerine düşünmeyi sevdiğim bir konu. Çünkü varolanın karşısında konumlanmış bir ideoloji. İnsanlığın gelişiminin her zaman varolanın, alışılagelenin karşısında konumlanılabildiği sürece mümkün olduğunu düşünenlerdenim. 
@@ -38,9 +39,4 @@ Ancak yine de, kadınlarla iletişimde kaldığım müddetçe benim yüzümden, 
 
 Şimdilik kişisel kural listem: "bireysel değil toplumsal", "feminizm beklentisizliği" ve "direkt acı sebebi olma" konularını içeriyor. 
 
-Daha fazla okuyup, daha fazla şekillenecek fikirler her zaman olacak. Daha fazla yazarak, daha da netleştirebilirim umarım bu konudaki fikirlerimi. 
-
-
-
-
-
+Daha fazla okuyup, daha fazla şekillenecek fikirler her zaman olacak. Daha fazla yazarak, daha da netleştirebilirim umarım bu konudaki fikirlerimi.

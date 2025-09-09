@@ -1,7 +1,8 @@
 +++
-title = 'Viking Night'
-date = 2025-07-04T10:02:39-04:00
+title = "Viking Night"
+date = "2025-07-04T10:02:39-04:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgry0tfwj5tsmzzzvsujr9djgdkwu3d0p4gpsdlq24ntq5xlwr8mxvyasa9m"
 +++
 
 Kuşadası'ında Atakan ile beraber başlattığımız, yakın zamanda İzmir'de ve Aydın'da da yapmayı planladığımız Viking Nights topluluğundan bahsetmek ve manifestomuzu paylaşmak istiyorum.

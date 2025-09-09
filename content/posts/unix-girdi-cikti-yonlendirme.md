@@ -1,9 +1,11 @@
 ---
 title: Unix girdi cikti yonlendirme
-description:
-date: 2019-09-23 
+description: null
+date: '2019-09-22T20:00:00-04:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqxd0y4qr4q5rz37lsgk8xclzhxwsu5hwhvcswp674sm753ws5m3qfewvx7
 ---
 
 

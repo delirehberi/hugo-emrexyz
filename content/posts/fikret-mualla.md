@@ -1,11 +1,13 @@
 ---
-title:  'Fikret Mualla: Sanat ve Melankoli Üzerine Bir Portre'
-date: 2024-10-22
+title: 'Fikret Mualla: Sanat ve Melankoli Üzerine Bir Portre'
+date: '2024-10-21T20:00:00-04:00'
 tags:
-    - art
-    - artist
-    - biography
-    - tr
+  - art
+  - artist
+  - biography
+  - tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpjmrm3mszpjr35zsm9ppd5j88svmmuzf55t5m50wrms503ynux6gxul8qp
 ---
 
 Fikret Mualla cumhuriyet dönemi ressamlarından ve kendi tarzını bulabilmiş müthiş bir ressam olsa da hayatı çoğunlukla sorunlu geçmiş birisi. Picasso'nun hediye ettiği resmi dahi hiç parasına satacak kadar umursamaz bir insan olan Mualla'nın resimler günümüzde oldukça değerli. Fikret Mualla'yı bu kadar değerli yapan ilginç hayatına kısa bir göz atacağım. 

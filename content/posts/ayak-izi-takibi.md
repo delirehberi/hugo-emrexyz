@@ -1,6 +1,7 @@
 +++
-title = 'Ayak Izi Takibi'
-date = 2013-11-02T14:34:52-04:00
+title = "Ayak Izi Takibi"
+date = "2013-11-02T14:34:52-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgr7w9pdpeqpfkvspwnar8z7gr9xy76cl76a42fm5f4x00rty7ux6snq9k37"
 +++
 
 Genel hatlarıyla, birilerinde fikirler oluşturabilir belki niyetiyle, birşeyler yazmadığımı farkettiğim için, daha önceden hazırlamış olduğum bir yazı.

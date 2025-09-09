@@ -1,9 +1,11 @@
 ---
 title: Hizlandirilmis linux terminal 101 egitimi
-description:
-date: 2019-09-22 
+description: null
+date: '2019-09-21T20:00:00-04:00'
 draft: false
-tags:  unix #tr #bash #linux-101
+tags: unix
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8wqh0crjv5dmxne4wep8jvmkplqky2wefndhe5h8xpg3ahlr0jp5jmyt99
 ---
 
 

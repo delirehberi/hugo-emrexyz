@@ -1,6 +1,7 @@
 +++
-title = 'Symfony 4 Flex'
-date = 2017-05-23T14:22:06-04:00
+title = "Symfony 4 Flex"
+date = "2017-05-23T14:22:06-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgp08dlqr8y8ec0nl4j58z8kfl2z23lf6d2mw677tfapl55xuv9ny5z26zl2"
 +++
 
 Symfony hakkında yaptığım sunumlarda hep söylediğim gibi, Symfony PHP'nin gelişmesi için her daim çabalamış bir topluluk. Symfony sadece kendisi için birşeyler yapmayıp tüm PHP camiasının faydalanabileceği işler konusunda her zaman bir adım önde giden bir topluluk.

@@ -1,6 +1,7 @@
 +++
-title = 'Deprefabrik Duygular'
-date = 2008-08-01T16:11:59-04:00
+title = "Deprefabrik Duygular"
+date = "2008-08-01T16:11:59-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg94xa7p3sw8rl8udgmk0ws07jpmjnzpwhvqfqwq0k5555luh68tvcxju5h5"
 +++
 
 ```

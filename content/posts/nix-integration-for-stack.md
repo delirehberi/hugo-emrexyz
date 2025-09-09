@@ -1,9 +1,11 @@
 ---
 title: Nix integration for stack
-description:
-date: 2020-02-25 
+description: null
+date: '2020-02-24T19:00:00-05:00'
 draft: false
-tags:  nix #haskell #stack #en
+tags: nix
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8ldxglep28mee4lgdvz9mzlx00kwmfw3mp50fzt2d3k3qxqn8g35ga296s
 ---
 
 

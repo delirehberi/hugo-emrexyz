@@ -1,7 +1,8 @@
 +++
-title = 'Tesadüf'
-date = 2025-07-03T06:58:58-04:00
+title = "Tesadüf"
+date = "2025-07-03T06:58:58-04:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8y7y7vnmc9g6y5j9hjd0q39hmn5lsyvfj9tagvnv2cpma8paqfxsw343c2"
 +++
 
 -- anlatı dili fazlasıyla basit tutulmuştur. farklı bir tarz deniyorum ama olup olmadığından emin değilim. edebi olarak zayıf bir metin olduğunu düşünüyorum. fikirlerinizi eposta ile iletebilirsiniz. --
@@ -26,4 +27,4 @@ Salona döndüğünde, dübeli çakmak için çekicin eksik olduğunu fark etti.
 
 Yerde yatarken kafasından kan akıyordu. Elini başına götürecek kadar hâli kalmıştı. Kanı gördü. Gözleri kapanmadan önce, son nefesini verdi.
 
-Kendini asmak için hazırladığı urgan, kancada hareketsiz duruyordu. Amacına ulaşmıştı. Ama yine de her şey, onun planladığı gibi gitmemişti. Ne de olsa, hayat sürprizlerle doluydu. 
+Kendini asmak için hazırladığı urgan, kancada hareketsiz duruyordu. Amacına ulaşmıştı. Ama yine de her şey, onun planladığı gibi gitmemişti. Ne de olsa, hayat sürprizlerle doluydu.

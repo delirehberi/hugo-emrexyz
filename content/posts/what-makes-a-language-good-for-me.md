@@ -1,8 +1,9 @@
 +++
-categories=['languages','ai', 'English']
-date='2024-09-06'
-description='I believe that humans evolved through language. All human languages are amazing because they allow us to express ourselves and our needs with high correctness.'
-title='What makes a language good for me?'
+categories = ["languages", "ai", "English"]
+date = "2024-09-05T20:00:00-04:00"
+description = "I believe that humans evolved through language. All human languages are amazing because they allow us to express ourselves and our needs with high correctness."
+title = "What makes a language good for me?"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg956t3psay9a6gtsrvq7snaj0xruw3s6yxsyhw5ulm3vp25zfn76gnxf602"
 +++
 
 In short: **Syntax**
@@ -52,4 +53,3 @@ This is why I hate Go! (LOL)
 > still do not forget this: 
 > - Choose **Haskell** for powerful abstractions, functional programming, and correctness.
 > - Choose **Go** for practical, efficient, and easy-to-read system-level code, especially when concurrency is crucial.
-

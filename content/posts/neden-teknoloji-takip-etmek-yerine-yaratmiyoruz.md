@@ -1,9 +1,11 @@
 ---
 title: Neden teknoloji takip etmek yerine yaratmiyoruz
-description:
-date: 2023-08-08 
+description: null
+date: '2023-08-07T20:00:00-04:00'
 draft: false
-tags:  tr #video #yazılım #teknoloji #bilim
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9k2hxwx3tqnu9dj7kga7558qa9zzruwe7r8lvnmlsmvs22z2c8vurgkkr6
 ---
 
 

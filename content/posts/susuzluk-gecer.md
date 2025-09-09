@@ -1,7 +1,8 @@
 +++
-title = 'Susuzluk Geçer, Sussuzluk Geçmez'
-date = 2024-12-10T04:43:55-05:00
+title = "Susuzluk Geçer, Sussuzluk Geçmez"
+date = "2024-12-10T04:43:55-05:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzcufsc6w0ddq50dtlvdm4vx4e8m485j8ypyf975ntsyhrucuc4kghmdfgk"
 +++
 
 Sessiz Sezen ile kahve içilecekti dertleşilmek üzere, öğrenildi ki son su kuyusu da ağa tarafından kapatılmıştı. Ağanın lafına göre maraba haracını geciktirmişti. Marabanın diğer kuyuları da kurutulduğundan son kuyudan döndürüyordu değirmenini taşıma su ile.
@@ -35,5 +36,3 @@ Ustamın gündüşlerine benzeyen durumu çok uzatmamak adına sevgilerden bir d
 Sessiz Sezen ise olanı biteni izlerken sezgisel bir sessizlikle yaşanan su savaşını anlamlandırmaya çalıştı bi süre. Sonra vazgeçti ve günümüz şenlendi.
 
 Bir kez daha gördük ki, susuzluk geçer, sussuzluk geçmez.
-
-

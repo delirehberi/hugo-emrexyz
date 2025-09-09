@@ -1,9 +1,8 @@
 +++
-title = 'Kaç Zamandır'
-date = 2011-04-26T15:33:43-04:00
+title = "Kaç Zamandır"
+date = "2011-04-26T15:33:43-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrs2zjhjlcn99jp9fwyxtgql3kv7evszgq9n8wslx3sprycezrfk526edyz"
 +++
-
-
 
 Çok uzak bir yerlerde. Coğrafi konumu belli olmayan bir kentte tüm insanlık bir arada yaşamaktaydı. O kadar çok insan vardı ki kimin akraban kimin kardeşin olduğunu bile karıştırırdın. Bunca insan arasında bir adam ve bir kadın vardı.
 Adam kadını ilk olarak “yasak elma” hikayesinde ki ağacın altında gördü. Bu ilk değildi. Daha önce bir çok kadını o ağacın altında ağaçtaki elmayı almaya çalışırken görürdü. Dünyadaki insanların bildiklerinin aksine “Yasak Elma” ağacından yiyen sadece Adem ve Havva değildi. Yaratılan her insan önce o kentte doğardı. Ve o kentte yaşardı. Orada ölüm yoktu. Tek bir şart vardı sadece. O ağacın elmalarına dokunulmayacaktı….
@@ -61,4 +60,3 @@ Kadının omzuna dokundu… Kadın döndü…
 Göz göze geldiler, adam tam ağzını açacakken kadın parmağını adamın iki dudağının üzerine getirerek susmasını işaret etti…
 Adam sustu, gözlerine baktı… Gülümsüyordu. Bu kentte gördüğü herşeyden daha güzeldi. Güzel kelimesi hiç bu kadar güzel olmamıştı adam için…
 Kadının gözleri kapandı ve bayıldı…
-

@@ -1,9 +1,11 @@
 ---
 title: Tailwindcss gerekli birsey mi
-description:
-date: 2023-08-04 
+description: null
+date: '2023-08-03T20:00:00-04:00'
 draft: false
-tags:  tr #video #tailwind #frontend #css
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpfguepfkhzsh3uagzzsnpt8at0nf2xzzqptuyvurngx4du5qz00g2f3f2g
 ---
 
 

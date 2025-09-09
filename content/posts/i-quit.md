@@ -1,9 +1,11 @@
 ---
 title: I quit
-description:
-date: 2020-10-28 
+description: null
+date: '2020-10-27T20:00:00-04:00'
 draft: false
-tags:  personal #en
+tags: personal
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgyr4hjrdgk0zvm4ca4y320ter5yq3t63u33jmtjum9ypqspnf0pwynlrrv4
 ---
 
 

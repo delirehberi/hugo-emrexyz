@@ -1,9 +1,11 @@
 ---
 title: Hakettigini yasamak
-description:
-date: 2020-09-03 
+description: null
+date: '2020-09-02T20:00:00-04:00'
 draft: false
-tags:  tr #lagaluga
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg98kylv202f7sc7695a53hmjywg28d6jeqnz8ngldam7pkua06yzsz54nf9
 ---
 
 

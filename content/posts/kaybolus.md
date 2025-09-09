@@ -1,9 +1,11 @@
 ---
 title: Kaybolus
-description:
-date: 2019-12-26 
+description: null
+date: '2019-12-25T19:00:00-05:00'
 draft: false
-tags:  ey
+tags: ey
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrt8h4qh97ywjpcsgmn0x6xpa020xw5nku9puqgyry82chr5lm4vc9w4d37
 ---
 
 

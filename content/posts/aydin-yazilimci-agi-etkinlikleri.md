@@ -1,9 +1,11 @@
 ---
 title: Aydin yazilimci agi etkinlikleri
-description:
-date: 2023-06-09 
+description: null
+date: '2023-06-08T20:00:00-04:00'
 draft: false
-tags:  tr #aydinyazagi #etkinlik #video
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpylv54wdwuqay6afg6pnteey3jdv3jmjualp32wparkhzjaktc2yu4qt9x
 ---
 
 

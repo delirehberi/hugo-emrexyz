@@ -1,7 +1,8 @@
 +++
-title = 'Yazmak Zorundayım'
-date = 2025-03-04T07:37:09-05:00
+title = "Yazmak Zorundayım"
+date = "2025-03-04T07:37:09-05:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzj29umrdls7m338043rg04csh6gxzzzfkw43f4adfd3ljrd97h2ywuwwqv"
 +++
 
 Terapitik yazılarıma, kendimi saklamak adına ara vermiştim. Oturdum dün, geçtiğimiz yılın yazılarını okudum. Ne de güzel yazmışım, ve ne de iyi gelmiş yazmak. Bir nevi güncemsi, ferhan lugatında yazmayı bırakmamak gerek. Ne olmuş yani birileri okuyup bunları bana karşı kullanıyorsa? 
@@ -23,5 +24,3 @@ Tüm hayatımı, yeni baştan yazmak zorundayım. Uzun zamandır geliştirilen b
 Bugün ölçümlerini yaptık stüdyonun, kısa sürede içerisini toparlayıp, ilk iş perdeleme, ses yalıtımı ve ışık düzenlemesi ile başlanacak. Bağırtkan fotoğrafçının yönergeleri bu yönde. 
 
 Daha çok yazacaklarım vardı, ancak aklıma geldiğin için tıkandı herşey. Senin dışında birşey yazmak istemez haldeyim. Bırakıyorum burada.
-
-

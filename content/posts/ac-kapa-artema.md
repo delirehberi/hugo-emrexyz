@@ -1,9 +1,11 @@
 ---
 title: Ac kapa artema
-description:
-date: 2021-08-01 
+description: null
+date: '2021-07-31T20:00:00-04:00'
 draft: false
-tags:  tr
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgythurlea2aq8hy7h5napefdfqujuwl98p62s5na3ywcstf74kskq6mx343
 ---
 
 

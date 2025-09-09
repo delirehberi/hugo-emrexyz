@@ -1,9 +1,10 @@
 +++
-categories=['deneme', 'Turkish']
-date='2024-02-17'
-description='İstanbuldayım, yalnızım, 23 yaşındayım. O zamanlar allahım var ama sevgilisiz kalmışım.'
-tags=['deneme','istanbul', 'ankara']
-title='İstanbullululuk'
+categories = ["deneme", "Turkish"]
+date = "2024-02-16T19:00:00-05:00"
+description = "İstanbuldayım, yalnızım, 23 yaşındayım. O zamanlar allahım var ama sevgilisiz kalmışım."
+tags = ["deneme", "istanbul", "ankara"]
+title = "İstanbullululuk"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxljm94prpe2cl43wvp3f660hd490fle4uvmt3cahawhmy99q6tzyf2t609"
 +++
 
 İstanbuldayım, yalnızım, 23 yaşındayım. O zamanlar allahım var ama sevgilisiz kalmışım. Benazir çıkmış hayatımdan, alevi sünni meselesine. Vermediler kızı, kız da kaçmadı bana. Kader kısmet ayrılık oldu. Olmuş yani, ben ara verdik sanarken. Sonra öğrendim benden kurtulmak için başkasıyla evlenmeye niyetlenmiş. Şimdi evli, mutlu, çocuklu. Mantıklı hareketmiş. 
@@ -29,4 +30,4 @@ O sıra tanışıyorum aldatıcı yanıltıcı dönüştürücü kadınla. Her y
 Askerliğimi yaptığım, Neslihan'ın anavatanı pek sevilmiyor aslında. Anılar güzel değil. Gidilmemeli ama gidiliyor aklı sikinde bir tarzda. 
 Aldatıcı yanıltıcı dönüştürücü kadın pek huysuz, anlaşamıyormuş meğer ev arkadaşlarıyla. Ben evi tutunca yamanıyor, kısa sürede evlenme teklif et tripleri başlıyor. Bir ısrar bir ısrar. Acelemiz ne ulan? Okulun bitseydi önce. 
 
-Kel başa şimşir tarak misali bir yemekte ediliyor edilemeyesice teklif. Herhalde kabul edilecek ki ediliyor. Hızlı hazırlıklar, bir kına bir düğün bir nikah. Hır gür dolu 1 yıl, terkedilişler vazgeçişler, son nokta aldatılış ve perde. 
+Kel başa şimşir tarak misali bir yemekte ediliyor edilemeyesice teklif. Herhalde kabul edilecek ki ediliyor. Hızlı hazırlıklar, bir kına bir düğün bir nikah. Hır gür dolu 1 yıl, terkedilişler vazgeçişler, son nokta aldatılış ve perde.

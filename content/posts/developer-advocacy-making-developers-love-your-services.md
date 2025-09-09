@@ -1,9 +1,11 @@
 ---
-title: "Developer Advocacy: Making Developers Love Your Services"
-description:
-date: 2023-12-11 
+title: 'Developer Advocacy: Making Developers Love Your Services'
+description: null
+date: '2023-12-10T19:00:00-05:00'
 draft: false
-tags: en, tech, developers
+tags: 'en, tech, developers'
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxvkzuwnhmnlfc3k6ghf6dwj5pj9cuv2llyzep4fswrmt5kjkjl7uyrmaxu
 ---
 
 Greetings, tech enthusiasts and visionary company leaders!

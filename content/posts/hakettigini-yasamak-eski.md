@@ -1,6 +1,7 @@
 +++
-title = 'Hakettigini Yasamak'
-date = 2011-08-31T16:00:53-04:00
+title = "Hakettigini Yasamak"
+date = "2011-08-31T16:00:53-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqg336lxnnjpqkw022nu9hm48lrnllck3ex55a0a34jtqp86muxhqdzqcua"
 +++
 
 Her söylediğimde aleni şüphelerin engellenemediği en sevdiğim cümle;

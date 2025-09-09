@@ -1,6 +1,7 @@
 +++
-title = 'Centos Svn Kurulumu'
-date = 2013-10-15T14:39:55-04:00
+title = "Centos Svn Kurulumu"
+date = "2013-10-15T14:39:55-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgyq7knz4e5zqgmamfeusvr3lt2v959kte57c54256rxltrghqma2csuql9t"
 +++
 
 Svn kullanıyorsanız kendinize private bir svn sunucusu kurmak isteyebilirsiniz. Bunun için yapmanız gereken adımları anlatmaya çalışacağım. Hem benim içinde bir not olmuş olacak.

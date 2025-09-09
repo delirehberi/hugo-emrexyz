@@ -1,6 +1,7 @@
 +++
-title = 'Nostr'
-date = 2025-04-23T07:22:22-04:00
+title = "Nostr"
+date = "2025-04-23T07:22:22-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpy0t4d9tk6c0wvfzdqsqh3qpmx7srh2tey6v4mtv7mmk0hkkzl7uk6gyzv"
 +++
 
 Nostr - İletişimin Özgürlüğü
@@ -40,4 +41,4 @@ Teknik detaylar için ileri okuma isterseniz, [nostr](https://nostr.com/) protok
 --
 
 
-Önerileri ve düzeltmeleri için [Taylan](https://njump.me/npub166l9t9ckan9yh6j8pku0stszkekt0s8uhqwvddz4qr92r9w0wxcs59u7c3)'a teşekkür ederim. 
+Önerileri ve düzeltmeleri için [Taylan](https://njump.me/npub166l9t9ckan9yh6j8pku0stszkekt0s8uhqwvddz4qr92r9w0wxcs59u7c3)'a teşekkür ederim.

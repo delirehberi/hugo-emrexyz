@@ -1,9 +1,11 @@
 ---
 title: Otuzu devirenler
-description:
-date: 2021-03-08 
+description: null
+date: '2021-03-07T19:00:00-05:00'
 draft: false
-tags:  tr #kadin
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqmn5q3dt8gtdagn7grxq3epxlwjeamamal6wftx5un2002lffztvkamx64
 ---
 
 

@@ -1,6 +1,7 @@
 +++
-title = 'Yazı'
-date = 2011-03-27T15:35:18-04:00
+title = "Yazı"
+date = "2011-03-27T15:35:18-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9e6upkvwsfgr68f5a08pvgjw80d2wuvc2d6qxgq4jcgjct5q30svrfhwd9"
 +++
 
 ```

@@ -1,9 +1,11 @@
 ---
 title: Symfony 5 giris
-description:
-date: 2020-04-28 
+description: null
+date: '2020-04-27T20:00:00-04:00'
 draft: false
-tags:  tr #symfony #php #video
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqrhd8wd9hjlm7atpcehqkkyxvn4afmh5s6e6360jq5khkns4dw9c9k94rl
 ---
 
 

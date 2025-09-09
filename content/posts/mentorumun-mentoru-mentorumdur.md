@@ -1,9 +1,11 @@
 ---
 title: Mentorumun mentoru mentorumdur
-description:
-date: 2020-06-19 
+description: null
+date: '2020-06-18T20:00:00-04:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgy5fgyqughx4pmn9p0wuaqw2tmhh0kr57rmpsqyw30e8sy32wus65up6y8u
 ---
 
 

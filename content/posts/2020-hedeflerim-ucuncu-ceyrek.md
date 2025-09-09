@@ -1,9 +1,11 @@
 ---
 title: 2020 hedeflerim ucuncu ceyrek
-description:
-date: 2020-06-12 
+description: null
+date: '2020-06-11T20:00:00-04:00'
 draft: false
-tags:  tr #kişisel
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgx6ypld332n2fdfkquncfj9azp0vg4l3cv4c573dd2qsk9ezwmlevx3hl4v
 ---
 
 

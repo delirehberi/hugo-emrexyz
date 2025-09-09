@@ -1,6 +1,7 @@
 +++
-title = 'Git Reset'
-date = 2014-11-16T14:33:58-04:00
+title = "Git Reset"
+date = "2014-11-16T13:33:58-05:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqnyn74q9kduanfusl6k7wjs4k4alvanruv40vlcxceesd4zrk0ayvw9emw"
 +++
 
 Git üzerinde çalışıyorsunuz. Herşey müthiş. Kod yazılıyor, commitler, pushlar. Ooo süper dimi ?
@@ -27,4 +28,3 @@ Git reset'i kullanarak reponuzu temiz tutmuş olursunuz.
 `git reset --hard HEAD{2}`
 
 `:*`
-

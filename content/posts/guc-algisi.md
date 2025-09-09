@@ -1,7 +1,8 @@
 +++
-title = 'Güç Algısı'
-date = 2025-02-22T05:36:53-05:00
+title = "Güç Algısı"
+date = "2025-02-22T05:36:53-05:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqkgq7yjn4rz5jkjdfsshzrfywz48sluekfzmqn6wjh4tyf23s2uqnfugdq"
 +++
 
 > burada bahsedilen konu yalnızca sosyal güç algısıdır. 

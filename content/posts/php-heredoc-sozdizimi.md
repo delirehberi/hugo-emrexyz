@@ -1,6 +1,7 @@
 +++
-title = 'Php Heredoc Sozdizimi'
-date = 2013-09-30T14:42:46-04:00
+title = "Php Heredoc Sozdizimi"
+date = "2013-09-30T14:42:46-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxtcpufs3pyah8wsdtcshppltulr0qej0dhnsw8zk259nkdv4es2yph6d9t"
 +++
 
 PHP de karakter katarlarının kullanımında bilinen şekilde kullanılan 2 tür metin barındırma yöntemi mevcuttur.

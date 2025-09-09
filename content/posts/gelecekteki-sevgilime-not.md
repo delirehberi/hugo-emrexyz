@@ -1,6 +1,7 @@
 +++
-title = 'Gelecekteki Sevgilime Not'
-date = 2013-02-23T15:50:53-04:00
+title = "Gelecekteki Sevgilime Not"
+date = "2013-02-23T14:50:53-05:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgy2r2tyv5dr0sw3v4wn7e92hz79sq6h6mrhxugfjzy9r2yfhwkl85690xjv"
 +++
 
 Şu anda nerede hangi dertle boğuşuyorsan bil ki ben de pek farklı bir durum içinde değilim. Ve bil ki bu dertlerin engellerin hepsi birbirimizi hakedebilmek için yolumuza konmuş, bizi güçlendirmekten başka bir amacı olmayan şeyler. Ben şu anda sana ulaşacağım yolda karşıma çıkan tüm dertlere kucak açtım, hepsinden senden bir haber var.

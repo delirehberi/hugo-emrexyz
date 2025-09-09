@@ -1,6 +1,7 @@
 +++
-title = 'Takip Ettiğim Youtube Kanalları'
-date = 2017-11-18T14:20:25-04:00
+title = "Takip Ettiğim Youtube Kanalları"
+date = "2017-11-18T13:20:25-05:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrljm9pzu6hwwth7s3neh47up43ksghq7cfaymfzve7cnpxcchppgx4v02w"
 +++
 
 Sürekli takip ettiğim çok az youtube kanalı var. Genelde youtube önerilerini yada arkadaş önerilerini dikkate alıp videolar izliyorum. Sadece aşağıdaki dört kanalın hiç bir videosunu kaçırmadan izliyorum. Haberi olmayanlar varsa diye paylaşmak istedim.

@@ -1,9 +1,11 @@
 ---
 title: Simple zero downtime deployment with github actions
-description:
-date: 2023-09-14 
+description: null
+date: '2023-09-13T20:00:00-04:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqadxgy6p9k6kge9cyd3qkl9klqtczxezsceayfupd2gxqqrf0myvvq0wl2
 ---
 
 

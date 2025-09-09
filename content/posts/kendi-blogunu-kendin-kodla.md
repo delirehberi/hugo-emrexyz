@@ -1,9 +1,11 @@
 ---
 title: Kendi blogunu kendin kodla
-description:
-date: 2020-09-15 
+description: null
+date: '2020-09-14T20:00:00-04:00'
 draft: false
-tags:  video #tr #symfony
+tags: video
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgq6n2n4rffa5vpvsutt0zz2lxp5drq9hmyau7vg8q8rwdemnvaz4529qmen
 ---
 
 

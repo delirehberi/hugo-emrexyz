@@ -1,6 +1,7 @@
 +++
-title = 'İnanç ve Vesaire'
-date = 2011-09-22T15:59:09-04:00
+title = "İnanç ve Vesaire"
+date = "2011-09-22T15:59:09-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgznpgr7lzg3uh7k37faderxcy88ux7zhtm4z4tu0efg6pxudv3955vxgyh4"
 +++
 
 Karmaşa, karmaşa, karmaşa....

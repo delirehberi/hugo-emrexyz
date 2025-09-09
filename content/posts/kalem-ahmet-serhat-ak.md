@@ -1,7 +1,8 @@
 +++
-title = 'Kalem - Ahmet Serhat Ak'
-date = 2025-07-13T12:08:58-04:00
+title = "Kalem - Ahmet Serhat Ak"
+date = "2025-07-13T12:08:58-04:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxe4hd65pr4r70udqzjyctp4h8mvxw6mtc83pz6x7qh50arvfskyutlqu8h"
 +++
 
 Aşağıdaki metinle tanıtımı yapılan, pek değerli arkadaşım Ahmet Serhat Ak tarafından hem senaryosu yazılan hem yönetmenliği yapılan **Kalem** filmini henüz izleyebildim. Kısacık bir filmin beni bu kadar etkilemesini beklemezdim. Film eleştirmeni değilim, azıcık sanat tarihçisi sayılabilirim (hala öğrenciyim), o sebeple, bir eleştiriden daha çok, filmin bende uyandırdığı duyguları paylaşmak istiyorum. Öncelikle tanıtım metnini paylaşayım:
@@ -61,5 +62,3 @@ Aşağıda aldığı ödüller ve oyuncu kadrosunu da paylaşıyor ve Serhat'ın
 - SETEM İpekyolu Film Ödülleri, Ulusal Kısa Film Yarışması, Finalist. 2024
 - Altın Çınar Kısa Film Yarışması, Finalist. 2025
 - İKÇÜ Film Festivali, Kısa Film Yarışması, Finalist. 2025
-
-

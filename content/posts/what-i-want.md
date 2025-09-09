@@ -1,9 +1,11 @@
 ---
 title: What i want
-description:
-date: 2020-12-02 
+description: null
+date: '2020-12-01T19:00:00-05:00'
 draft: false
-tags:  en #chitchat
+tags: en
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgz9zn3j9pcrafvw9j7uth5adqhm2cynpyllt636m485qz0cf5la8c3ku5de
 ---
 
 

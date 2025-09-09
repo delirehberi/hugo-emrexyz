@@ -1,7 +1,8 @@
 +++
-title = 'Kendini Bilmek'
-date = 2025-04-03T08:29:54-04:00
+title = "Kendini Bilmek"
+date = "2025-04-03T08:29:54-04:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpv7v7m4hl4yl0u42rwhhn3xu7mev7dq08x05u76w0e5p00xzcv3clg25jn"
 +++
 
 "İlim İlim Bilmektir, İlim Kendin Bilmektir." diyerek büyümüş bir insanım. Ve haliyle kendini bilmeye ve anlamaya takıntılı bir hale sahip bir kişilik geliştirdim. 
@@ -44,4 +45,4 @@ Kendimi anlamaya çalışmamın bir yolu olarak da insanları anlamaya zorluyoru
 İlk manipülasyonunu yediğinizde geri dönüşünüz olmayabilir. Hayatınıza bir sedat paraziti almak istemiyorsanız, samimi, özfarkındalığı bulunan, sizi en ufak şekilde dahi manipüle etmeyi denemeyen insanlarla olmak gerek. En önemlisi de, kendi manilülatif ve agresif yetenekleriyle övünen insanlardan uzak durmak gerek. Kendini bilmek, kendini bilmeyenlerden uzak durmakla başlar.
 
 
-Sağlıcakla kalın, terapinizi ve meditasyonunuzu atlamayın. 
+Sağlıcakla kalın, terapinizi ve meditasyonunuzu atlamayın.

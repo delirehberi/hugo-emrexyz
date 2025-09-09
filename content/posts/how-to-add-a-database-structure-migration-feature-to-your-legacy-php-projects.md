@@ -1,9 +1,11 @@
 ---
 title: How to add a database structure migration feature to your legacy php projects
-description:
-date: 2022-08-17 
+description: null
+date: '2022-08-16T20:00:00-04:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzxj6vhngkt4cxnt0pnp0pkm5hw5slvja95q3sdtyrts8ydvt7p8spkh6zp
 ---
 
 

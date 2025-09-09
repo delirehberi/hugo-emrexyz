@@ -1,6 +1,7 @@
 +++
-title = 'Demokrasi'
-date = 2016-07-04T14:23:22-04:00
+title = "Demokrasi"
+date = "2016-07-04T14:23:22-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg99lr0emrxfvkyjea2ku8n24qp0hcxegnx8zgr7dyu674nacax6gsnyl0k7"
 +++
 
 # Demokrasi

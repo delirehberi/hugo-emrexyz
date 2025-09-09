@@ -1,6 +1,7 @@
 +++
-title = 'Xss Cross Site Scripting'
-date = 2009-05-04T15:22:12-04:00
+title = "Xss Cross Site Scripting"
+date = "2009-05-04T15:22:12-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpwqlq70tgdapmcen7nvxhycazp3l98j4anxlmc02v7w6vtvu22gsntl8yg"
 +++
 
 Xss nedir? ne değildir ?

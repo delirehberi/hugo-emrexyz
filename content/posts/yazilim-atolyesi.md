@@ -1,9 +1,13 @@
 ---
 title: Yazılım Atölyesi Eğitim Serisi
-description: Gatherin.life üzerinde yayınlanacak 17 hafta sürecek bir yazılım öğrenme serüveni
-date: 2024-01-03
+description: >-
+  Gatherin.life üzerinde yayınlanacak 17 hafta sürecek bir yazılım öğrenme
+  serüveni
+date: '2024-01-02T19:00:00-05:00'
 draft: false
-tags:  #tr #eğitim #php
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9a28zjkuert4yqrva9wutpkr8uagc6hu5pqhrylql0jgpgcgwddc32g7ex
 ---
 
 Uzun zamandır planladığım yazılım öğrenme eğitimini sonunda https://gatherin.life/place/delirehberi adresinde yayına aldım. 

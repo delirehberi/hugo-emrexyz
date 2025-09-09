@@ -1,9 +1,11 @@
 ---
 title: Do everyone needs slack or other ims
-description:
-date: 2021-10-24 
+description: null
+date: '2021-10-23T20:00:00-04:00'
 draft: false
-tags:  en #idea
+tags: en
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxvd6xak0k3d3cndud9nxy0xuspc7gg8uvttdqyu3ukjzlztaax2y5ee7xq
 ---
 
 

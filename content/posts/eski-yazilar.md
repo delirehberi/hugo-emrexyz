@@ -1,6 +1,7 @@
 +++
-title = 'Eski Yazılarım Hakkında'
-date = 2025-08-05T16:43:50-04:00
+title = "Eski Yazılarım Hakkında"
+date = "2025-08-05T16:43:50-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrvmn2x7ge7spcsyjg7re33euwulytqyvehhawuyccddnh2x6vl05tx7h4s"
 +++
 
 Bugün nedense tüm eski yazılarımı toparlayıp bu bloga ekleme kararı aldım. Hem de bahaneyle eski yazılarımı gözden geçirmiş oldum. Genel olarak fikirsel yazıları eklemeye çalıştım. Teknik içeriklerin geçerliliği kalmadığından taşımak anlamsız geldi. 

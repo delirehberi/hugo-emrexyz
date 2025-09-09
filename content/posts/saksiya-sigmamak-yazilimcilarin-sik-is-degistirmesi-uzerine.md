@@ -1,9 +1,11 @@
 ---
 title: Saksiya sigmamak yazilimcilarin sik is degistirmesi uzerine
-description:
-date: 2020-09-16 
+description: null
+date: '2020-09-15T20:00:00-04:00'
 draft: false
-tags:  tr #fikir
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqfnz4vrh6f570hzcclkxeu8d8sk4l8tmjtcvsnv74d08t7vyj0rsjzf6rk
 ---
 
 

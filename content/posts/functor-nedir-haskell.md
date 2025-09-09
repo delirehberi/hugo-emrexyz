@@ -1,9 +1,11 @@
 ---
 title: Functor nedir haskell
-description:
-date: 2019-10-28 
+description: null
+date: '2019-10-27T20:00:00-04:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgx3za0uypqzp0txgf70900pkfkc9qagmw30msvr97afe5yx2wussy248lkt
 ---
 
 

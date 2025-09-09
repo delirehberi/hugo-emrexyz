@@ -1,9 +1,11 @@
 ---
 title: Composer is not a builder
-description:
-date: 2019-07-29 
+description: null
+date: '2019-07-28T20:00:00-04:00'
 draft: false
-tags:  composer #nix #php #symfony #sylius #en #nixops #composer2nix
+tags: composer
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgyulqgsusq90gf2a8nrp4ly0v6v208jjutmu0l40sk952ajemd6ngqlu3q7
 ---
 
 

@@ -1,7 +1,9 @@
 +++
-title = 'Symfony 2 ile widget yapısı'
-date = 2015-08-30T14:24:39-04:00
+title = "Symfony 2 ile widget yapısı"
+date = "2015-08-30T14:24:39-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgy2fk0hlrc3czpdu0fvrmqe9sedkvmfsl23c9z94zgs0x9qt9p2esfyrncs"
 +++
+
 Elimden geldiğince yaptığım sistemlerin görünen kısımlarında (frontend) elemanları parçalamaya çabalarım. Widget olarak adlandırmayı
 tercih ediyorum bu kısımları. Önceleri Symfony ile yaptığım projelerde twig dosyalarımda her parçayı render içinde controller çağırarak
 aşağıdaki şekilde parçalayarak, çakma bir widget yapısı oluşturuyordum.
@@ -212,5 +214,3 @@ class WidgetExtension extends \Twig_Extension
 ```twig
 {% raw %}{{ widget('recent_news',{group: app.request.get('group'),limit: 5}) }}{% endraw %}
 ```
-
-

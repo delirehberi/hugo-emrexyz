@@ -1,6 +1,7 @@
 +++
-title = 'Yargı'
-date = 2013-02-26T15:49:03-04:00
+title = "Yargı"
+date = "2013-02-26T14:49:03-05:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg987l83ppusqg42n2kjxlw4mk72eln7d8dep9hfkcj22rd2sl3smyw9nxcl"
 +++
 
 Bir insan kendisini nasıl yargılar ki ? Nasıl kabullenir hatalarını ? Nasıl yok eder kendisini bir insan ? Doğru attım sandığı adımların hepsi boşa çıkınca nasıl bakar hayata insan ? Ne yana gider yön ? Deliliğe az mı kalmıştır, yoksa akla mı ? Düzelecek mi herşey ? Geçmez mi yoksa hiç birşey ? Farkına varmak ne demekti ?

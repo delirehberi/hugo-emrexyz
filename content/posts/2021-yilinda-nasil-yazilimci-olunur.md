@@ -1,9 +1,11 @@
 ---
 title: 2021 yilinda nasil yazilimci olunur
-description:
-date: 2021-01-14 
+description: null
+date: '2021-01-13T19:00:00-05:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9838tqqel7mnkczvmgvwdk2j3w45mvdprrv499kql9lhh73p5ysvngsvr7
 ---
 
 

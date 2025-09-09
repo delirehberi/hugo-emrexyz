@@ -1,6 +1,7 @@
 +++
-title = 'Özgür Yazılımcı Olmak Ne Demektir?'
-date = 2013-07-14T14:37:13-04:00
+title = "Özgür Yazılımcı Olmak Ne Demektir?"
+date = "2013-07-14T14:37:13-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8ku9twxdvv4y2pgjgvmslssfxhvtd7xsuxmfzd8pw3n2ynrra0yqlwktpy"
 +++
 
 Özgür Yazılımcı olmak ilk olarak şunları gerektirir
@@ -80,5 +81,3 @@ Bu kısımda devreye sosyal zeka giriyor. Eğer müşterilerle iletişim kurma k
 - Elektrik,su,doğalgaz vs, çalışırken kullandığınız donanım giderleri
 - Müşterilere ulaşım giderleri
 - Emeklilik yaşı
-
-

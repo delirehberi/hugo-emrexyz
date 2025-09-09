@@ -1,9 +1,11 @@
 ---
 title: How to use voter capabilities with workflow in symfony
-description:
-date: 2020-01-16 
+description: null
+date: '2020-01-15T19:00:00-05:00'
 draft: false
-tags:  symfony #workflow #voter #en #php
+tags: symfony
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxgq5rrycd9rg5myvdd459epdhvgw2u096y97q6kg3v9ssusce3mywjyrfh
 ---
 
 

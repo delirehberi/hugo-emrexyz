@@ -1,9 +1,11 @@
 ---
 title: How to enable vim mode in bash
-description:
-date: 2019-07-12 
+description: null
+date: '2019-07-11T20:00:00-04:00'
 draft: false
-tags:  tips #vim #en #bash
+tags: tips
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrrzqwvjwhcmg05ujd8n7tj20lpdwvmpydag7ckcdqh425jl066wckr30uq
 ---
 
 

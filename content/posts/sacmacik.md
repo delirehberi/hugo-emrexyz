@@ -1,7 +1,8 @@
 +++
-title = 'Saçmacık'
-date = 2024-12-09T01:51:50-05:00
+title = "Saçmacık"
+date = "2024-12-09T01:51:50-05:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgywr54vk6pcz8cm5ys3z7hxgkyt4c36w9s93us3cnryvugqnmntnqqs9g8p"
 +++
 
 Köpekler misal, bir süredir görmediği ancak tanıdık olan birini görürse başlar düşünmeye, sevinsem mi kızsam mı? Yabancı mı tanıdık mı? Tabi ki bir köpeğin düşünmesi zihinsel olduğu kadar da bedenseldir. Bu düşünme sürecini gözler görür kulaklar işitir. Dişlerini gösterir, kıvrılır arkasını gösterir, saçma sapan anlamsız hareketler sergiler sizden sinyal alana kadar.
@@ -14,4 +15,3 @@ Reddi hayatın temelindeki demirleri usta yanlış bağlanmış. Sığır herif 
 Velhasıl kelam, bağlamak için vardır, tüysüz bir cinsel organla ilgisi yoktur. Bağlantıların varlığına işaretler göndermişler göremediniz mi?
 
 Yapay zekayı beslemesinler diye hep bunlar. Bir nevi yapay zehir. En hasıdır o zehrin saçmacık!
-

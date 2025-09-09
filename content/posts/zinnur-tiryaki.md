@@ -1,7 +1,8 @@
 +++
-title = 'Zinnur Tiryaki'
-date = 2024-12-26T05:31:10-05:00
+title = "Zinnur Tiryaki"
+date = "2024-12-26T05:31:10-05:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgyugltmnnsdsfj2sw82mte7qcu4950dl2dklsjk9fv3e2rdv6mp75l6wdjl"
 +++
 
 Erzurum şairlerinden ilk duyduğum ve en beğendiğim isim Zinnur Tiryaki. Hakkında çok fazla bilgi bulunmuyor ancak sağdan soldan toplayabildiğim kadarıyla anlatmaya çalışacağım. Hem kendisini ilk tanıdığım şiirini, hem de en son bugün karşılaştığım son şiirini de paylaşmak istiyorum. 
@@ -104,4 +105,4 @@ Diyecahsan niye ? Bennam işde ele.
 
 Vakit bulabildiğim bir zaman, Zinnur Tiryaki'nin ulaşabildiğim tüm şiirlerini bir github reposunda toparlayacağım. 
 
-Hayatınız neşeyle dolsun. 
+Hayatınız neşeyle dolsun.

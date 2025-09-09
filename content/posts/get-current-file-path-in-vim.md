@@ -1,9 +1,11 @@
 ---
 title: Get current file path in vim
-description:
-date: 2019-07-09 
+description: null
+date: '2019-07-08T20:00:00-04:00'
 draft: false
-tags:  tips #en #vim #git
+tags: tips
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpwn5krk02gnhmk8jegfe0jzf82hl5va47qv6mftt7ks4rlpdlf6skc3xt9
 ---
 
 

@@ -1,6 +1,7 @@
 +++
-title = 'Boykotcan'
-date = 2025-09-08T10:11:12-04:00
+title = "Boykotcan"
+date = "2025-09-08T10:11:12-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqt8qqhyhxpgz5w7qrw30v48es4zmlskm2qt5atccn42zh3eqq8uux6847r"
 +++
 
 Aleni bir goygoyudur içli seslerin, içsiz dertlerle. 
@@ -27,4 +28,4 @@ Aleni bir goygoyudur içli seslerin, içsiz dertlerle.
 
 > Aptal mı? Niye bilinçdışı yaşıyor? Her birey kendinden sorumlu olmalıdır! Tamam, kabul ediyorum bu büyük manipülasyonu. Ancak yine de halk sorumludur başına gelenlerden. Okumalıdır, düşünmelidir ve bilmelidir kararını neden verdiğini! 
 
-- Sen bir idealden bahsediyorsun. Olması gerekenden değil, olanlardan konuşmak gerek. 
+- Sen bir idealden bahsediyorsun. Olması gerekenden değil, olanlardan konuşmak gerek.

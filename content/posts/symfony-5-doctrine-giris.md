@@ -1,9 +1,11 @@
 ---
 title: Symfony 5 doctrine giris
-description:
-date: 2020-08-31 
+description: null
+date: '2020-08-30T20:00:00-04:00'
 draft: false
-tags:  symfony #tr #video
+tags: symfony
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpu8d7pmm5knx9wxlysvwcueun5h0yfv2u69z4syzf36cyf9q6yc583z29j
 ---
 
 

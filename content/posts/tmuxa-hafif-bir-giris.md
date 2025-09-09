@@ -1,9 +1,11 @@
 ---
 title: Tmuxa hafif bir giris
-description:
-date: 2020-05-06 
+description: null
+date: '2020-05-05T20:00:00-04:00'
 draft: false
-tags:  tr #linux #tmux
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8h293rwwwdq2n54zxtx9kzstykf08lvhpu7uu6gqd8ngdrdpgl3udseudn
 ---
 
 

@@ -1,8 +1,8 @@
 +++
-title = 'Smarty Modifier Yapısı'
-date = 2013-10-14T14:40:43-04:00
+title = "Smarty Modifier Yapısı"
+date = "2013-10-14T14:40:43-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxxexvnluhz4lq0ewhy0mm08jucu24rtng2qer5vzzuuy99mcekegnpram0"
 +++
-
 
 Selamlar,
 

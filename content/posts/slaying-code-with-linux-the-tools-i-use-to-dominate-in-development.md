@@ -1,9 +1,11 @@
 ---
 title: Slaying code with linux the tools i use to dominate in development
-description:
-date: 2023-04-25 
+description: null
+date: '2023-04-24T20:00:00-04:00'
 draft: false
-tags:  linux #en #devenv #personal
+tags: linux
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9m4rd4epzg4fajcc0ggsdldqpvf0a7chmvcac3kglwux4lkt7yy5ag7dqv
 ---
 
 

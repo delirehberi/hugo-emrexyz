@@ -1,7 +1,8 @@
 +++
-categories=['tiyatro', 'Turkish']
-date='2024-11-19'
-title='Leblebi Tozu'
+categories = ["tiyatro", "Turkish"]
+date = "2024-11-18T19:00:00-05:00"
+title = "Leblebi Tozu"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpttqavfwtqhasky90uz7us09ee8u7uru7yh6u6j20l0f4m9zae6q5xwgm2"
 +++
 
 Çağımızın neredeyse vebasına dönüşen enerji tüketimi konusunda söyleyeceklerimiz var. Her yanımızda geri dönüşüm çılgınlığına katılınmış ve katı yakıtlara karşı cadı avına çıkılınmış durumda. Petrol üreticisi kardeşlerimizin düştüğü zavallı durumlara hergün şahit olmaktayız.
@@ -31,4 +32,3 @@ Bizim inancımız, bugüne kadar bilim kurgu olarak kalmış olan noktadan nokta
 adına
 
 Leb Lebioğlu
-

@@ -1,9 +1,11 @@
 ---
 title: Nix
-description:
-date: 2020-08-01 
+description: null
+date: '2020-07-31T20:00:00-04:00'
 draft: false
-tags:  nix #en #nixos #devops
+tags: nix
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8uj709wk7mgngape5zrlp8xmaah696a3zgp00awj28lhnx756lsy6rc3j4
 ---
 
 

@@ -1,7 +1,8 @@
 +++
-title = 'En Derune'
-date = 2024-12-25T05:28:01-05:00
+title = "En Derune"
+date = "2024-12-25T05:28:01-05:00"
 draft = false
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgz58tn6q6rewghnhzdsaczh2k587ehxn5gquej2kscs32t3lmw45qfmxxs4"
 +++
 
 Lar tubikoşten kalami satter su gis. Kalami zarito, zammetu talek. Te farten kusi, merinasse hudina kekase. Zaelamunte reskeru ne tarikosan. Harite kalemi satter, zaritun mileka.

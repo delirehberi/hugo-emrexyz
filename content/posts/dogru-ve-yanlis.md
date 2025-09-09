@@ -1,11 +1,13 @@
 ---
-title:  'Doğru ve Yanlış Üzerine Düşüncelerim'
-date: 2024-10-26
+title: Doğru ve Yanlış Üzerine Düşüncelerim
+date: '2024-10-25T20:00:00-04:00'
 tags:
-    - düşünce
-    - felsefe
-    - toplum
-    - tr
+  - düşünce
+  - felsefe
+  - toplum
+  - tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxgtdu6fvtfvnyudpce0ksqpn2p78wugyp5y6unq26k2xpc5j6rssru5jt8
 ---
 
 Her insan hayatını ve karakterini kendi varsayımları ve/veya toplumsal varsayımlar üzerine kurguluyor. Bunu farkettiğimden bu yana kendi varsayımlarım ve toplumsal kabullerim üzerine detaylı düşünmeyi seviyorum. En basitinden en karmaşığına, boş zamanlarımı çoğu insanın "boş" olarak adlettiği bu düşüncelere ayırıyorum. 

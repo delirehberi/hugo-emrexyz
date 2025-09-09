@@ -1,6 +1,7 @@
 +++
-title = 'Neden Etkinlik Duzenliyoruz'
-date = 2016-09-14T14:53:36-04:00
+title = "Neden Etkinlik Duzenliyoruz"
+date = "2016-09-14T14:53:36-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxp2wnul4c8qxsa6dt8dwwaal4njhz6yd28x8ljjfazzuqzyzcvuczxr6xg"
 +++
 
 İlk olarak Devİzmir olarak başladığım etkinlik yolculuğuna, WTK’14, AnkaraPHP, WebEnd olarak devam ediyorum. Neden yapıyorum peki bunu?

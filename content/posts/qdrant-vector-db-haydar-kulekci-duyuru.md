@@ -1,8 +1,9 @@
 +++
-categories=['etkinlik', 'Turkish']
-date='2024-07-02'
-description='Haydar Külekçi kanalıma misafir oluyor.'
-title='Duyuru: Haydar Külekçi ile Qdrant Vector DB'
+categories = ["etkinlik", "Turkish"]
+date = "2024-07-01T20:00:00-04:00"
+description = "Haydar Külekçi kanalıma misafir oluyor."
+title = "Duyuru: Haydar Külekçi ile Qdrant Vector DB"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgx3e78xmdmvch0r7h05rc2mn37jt8dt7t7qtla8q5cxtl7r79e32vft6ke7"
 +++
 
 Haydar Külekçi ile 4 Temmuz 2021'de saat tam 21:00'da youtube kanalımda Qdrant Vector DB üzerine bir sohbet gerçekleştireceğim. Haydar Külekçi, 10 yılı aşkın süredir veri yönetimi, işlemesi üzerine uzmanlaşmış bir yazılım mühendisi. Kendisiyle Qdrant Vector DB'nin nasıl çalıştığını, hangi problemleri çözdüğünü ve gelecekteki planlarını konuşacağız. Haydar ile twitter üzerinden tanışmıştık ve kendisini hem WebEnd etkinliklerine, hem de içinde bulunduğum diğer topluluk etkinliklerine konuşmacı olarak davet etmiştim. Bu kez benim kanalıma konuk olacağı için çok heyecanlıyım.

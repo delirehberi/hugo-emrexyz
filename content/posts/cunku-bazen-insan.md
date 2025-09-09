@@ -1,9 +1,10 @@
 +++
-categories=['deneme', 'Turkish']
-date='2024-02-09'
-description='Terapik yazılarıma bir süre daha devam etmek durumundayım. Bireysel tedavi yöntemi uygulanmadığında yorucu geliyor herşey.'
-tags=['deneme','günlük', 'aydin']
-title='Çünkü bazen insan'
+categories = ["deneme", "Turkish"]
+date = "2024-02-08T19:00:00-05:00"
+description = "Terapik yazılarıma bir süre daha devam etmek durumundayım. Bireysel tedavi yöntemi uygulanmadığında yorucu geliyor herşey."
+tags = ["deneme", "günlük", "aydin"]
+title = "Çünkü bazen insan"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqtlkgkh5fxwxa6lr0u9duny2km09pm8ehdcy8mnv4xgaaaw35vmg6f9xdv"
 +++
 
 Terapik yazılarıma bir süre daha devam etmek durumundayım. Bireysel tedavi yöntemi uygulanmadığında yorucu geliyor herşey. 
@@ -33,5 +34,3 @@ Bugün bir tarza da tutunmadım. Bilemiyorum Ferhangi olmayan bu salak günün s
 Okulum başlıyor haftaya, bol bol alttan dersle giriyorum bu döneme. 
 
 Anlatmak istediğim pek çok şey var. Kime?
-
-

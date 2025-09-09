@@ -1,9 +1,11 @@
 ---
 title: Bluesky nedir
-description:
-date: 2023-07-28 
+description: null
+date: '2023-07-27T20:00:00-04:00'
 draft: false
-tags:  tr #video #blusky #atproto #activitypub
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgq9hkl697jspwf0g4sw924dsmefqmpapu303q9pzuv5cwvnqvpp0v87sfw3
 ---
 
 

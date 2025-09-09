@@ -1,9 +1,11 @@
 ---
 title: Haftalik yazilimci bulusmalari
-description:
-date: 2022-11-19 
+description: null
+date: '2022-11-18T19:00:00-05:00'
 draft: false
-tags:  tr #etkinlik #aydin
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzrpj3m6d3gmkcl46ptrwaxcdwayfue4fzj0aarc4vjpplmvnw2cqch6yhx
 ---
 
 

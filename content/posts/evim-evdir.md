@@ -1,9 +1,10 @@
 +++
-categories=['deneme', 'Turkish']
-date='2024-02-13'
-description='Terapik yazılarımın üçüncüsüyle karşınızdayım sayın okur. Oradaysan ve okursan bil ki senin için değil bunlar, hep benlik. Sayın Ceza nın da dediği gibi ; Bu benim dünyam, sana göre belki palavra'
-tags=['deneme','terapik', 'aydin']
-title='Evim evdir'
+categories = ["deneme", "Turkish"]
+date = "2024-02-12T19:00:00-05:00"
+description = "Terapik yazılarımın üçüncüsüyle karşınızdayım sayın okur. Oradaysan ve okursan bil ki senin için değil bunlar, hep benlik. Sayın Ceza nın da dediği gibi ; Bu benim dünyam, sana göre belki palavra"
+tags = ["deneme", "terapik", "aydin"]
+title = "Evim evdir"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpl4nmp5m6wqfhuh52y4qjl6gascp8lp9ux0cxd9lezugwzkuus9uk0qzrv"
 +++
 
 Terapik yazılarımın üçüncüsüyle karşınızdayım sayın okur. Oradaysan ve okursan bil ki senin için değil bunlar, hep benlik. Sayın Ceza'nın da dediği gibi "Bu benim dünyam, sana göre belki palavra"
@@ -29,6 +30,3 @@ Olan bitecek,
 Nefes tükenmeden,
 
 Umut tükenmeyecek.
-
-
-

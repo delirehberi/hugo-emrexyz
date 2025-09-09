@@ -1,6 +1,7 @@
 +++
-title = 'Sus'
-date = 2011-05-19T15:31:21-04:00
+title = "Sus"
+date = "2011-05-19T15:31:21-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgp06zywvz6hm9845086vd0ms7rqzmag43c9r5hu5w9r23nplaz06s2g30d2"
 +++
 
 ```

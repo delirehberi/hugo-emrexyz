@@ -1,9 +1,11 @@
 ---
 title: Haskell turkiye ikinci meetup
-description:
-date: 2021-03-29 
+description: null
+date: '2021-03-28T20:00:00-04:00'
 draft: false
-tags:  youtube #haskell #haskellturkiye
+tags: youtube
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9qa84j9r92p8jnu09fqeyaymxv4r5yu8z7yc8k20qgw9t8fjnrpq2k3cpx
 ---
 
 

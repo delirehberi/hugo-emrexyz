@@ -1,6 +1,7 @@
 +++
-title = 'Hikaye'
-date = 2016-10-15T14:52:14-04:00
+title = "Hikaye"
+date = "2016-10-15T14:52:14-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxphdrmarg3zx65ygqzed7v6vnuwkrfs4ju7w0ljg6hqrj777aufgtn6xds"
 +++
 
 Şehre gece yarısı girdi kamyon. Arkasında bir aile, çocuk 3 yaşlarında. Şehrin ışıkları cezbetmişti çocuğu ve sıcak yaz günü kokusu kamyonun arkasını sarmış karpuz. Ömür geçse unutulmayacak şeyler bunlar. Bir kamyon arkasında şehrin ışıklarını ilk görüş her şeydi. Daha önce böylesi görülmemişti malum ve etkilenmemek elde miydi?

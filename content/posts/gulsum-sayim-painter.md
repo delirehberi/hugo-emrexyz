@@ -1,14 +1,16 @@
 ---
-title:  'The Artful Journey of Gülsüm Sayım: A Deep Dive into Her World of Paintings '
-date: 2024-10-20
+title: 'The Artful Journey of Gülsüm Sayım: A Deep Dive into Her World of Paintings '
+date: '2024-10-19T20:00:00-04:00'
 cascade:
   params:
-    banner: '/gulsum-sayim/otoportre.jpg'
+    banner: /gulsum-sayim/otoportre.jpg
 tags:
-    - art
-    - artist
-    - interview 
-    - en
+  - art
+  - artist
+  - interview
+  - en
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzvnw3dleqzxx6uhylzw62kdmxcg6h807xfqwfvuk0wlw0t764qqcn8h6my
 ---
 
 

@@ -1,6 +1,7 @@
 +++
-title = 'Biocontainers'
-date = 2017-10-11T15:00:56-04:00
+title = "Biocontainers"
+date = "2017-10-11T15:00:56-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8360srsm7hu3t9mhman8tmczmqsvnx9vvae0zk5et7y977ulzt5qzgtwl6"
 +++
 
 Biyoinformatik çalışmak istediğinizde en dik yokuşlardan birisi kullanacağınız yazılımların kurulumu, konfigurasyonu, çalıştırılması süreçleridir. Aldığınız eğitim ne olursa olsun, kullanmak istediğiniz uygulamalara bağlı olarak linux öğrenmeniz gerekebilir, uygulama derlemeyi öğrenmeniz gerekebilir, kullanacağınız uygulamaların bağımlı olduğu uygulamaları bilip kurmanız ve ayarlamanız gerekebilir.

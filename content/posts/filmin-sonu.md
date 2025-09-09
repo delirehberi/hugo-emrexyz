@@ -1,9 +1,11 @@
 ---
 title: Filmin sonu
-description:
-date: 2023-01-28 
+description: null
+date: '2023-01-27T19:00:00-05:00'
 draft: false
-tags:  tr #hikaye
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxy7akpucq2e6rh9skwx7zpc2uqfp5ljnr0y9gy2wc8x0fehncx4gjdxtvq
 ---
 
 

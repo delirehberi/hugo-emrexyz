@@ -1,9 +1,11 @@
 ---
 title: 2020 hedeflerim son ceyrek
-description:
-date: 2020-10-07 
+description: null
+date: '2020-10-06T20:00:00-04:00'
 draft: false
-tags:  tr #kişisel
+tags: tr
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxhaq74feuvdrj42qkecxlpmpmdrnzsg4t96r422ldztgn79cfmnv345qgf
 ---
 
 

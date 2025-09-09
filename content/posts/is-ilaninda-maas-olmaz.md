@@ -1,9 +1,11 @@
 ---
 title: Is ilaninda maas olmaz
-description:
-date: 2020-09-22 
+description: null
+date: '2020-09-21T20:00:00-04:00'
 draft: false
-tags:  
+tags: null
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg86d2u5quhzn96vx9cguhzzersfcs2886xgdytnjsge6s9ljh5gksmvm2t4
 ---
 
 

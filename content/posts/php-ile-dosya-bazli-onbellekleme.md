@@ -1,6 +1,7 @@
 +++
-title = 'Php İle Dosya Bazlı Önbellekleme'
-date = 2013-10-20T14:38:32-04:00
+title = "Php İle Dosya Bazlı Önbellekleme"
+date = "2013-10-20T14:38:32-04:00"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzed7d72x6z54t7zkvjdwp5yx6xqrw7amzaghdmz6l88f3yrz8s7supu22n"
 +++
 
 Selamlar,

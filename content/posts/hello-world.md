@@ -1,9 +1,11 @@
 ---
 title: Hello world
-description:
-date: 2019-06-28 
+description: null
+date: '2019-06-27T20:00:00-04:00'
 draft: false
-tags:  en
+tags: en
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgydlwlrsftkzrzka5eqqrnskd2csmtsxlmc506j0l7qacashvnusua46ycq
 ---
 
 

@@ -1,9 +1,11 @@
 ---
 title: A journey with beeper the all in one messaging app
-description:
-date: 2023-06-09 
+description: null
+date: '2023-06-08T20:00:00-04:00'
 draft: false
-tags:  en #thoughts #messagingapps #telegram #whatsapp #discord
+tags: en
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgx62s6gp4ka9gdvuzwm3syf4qxlwhlc7hre97n3a5dst2xryzur7qmck40h
 ---
 
 

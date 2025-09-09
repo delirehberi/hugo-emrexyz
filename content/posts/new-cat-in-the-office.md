@@ -1,9 +1,11 @@
 ---
 title: New cat in the office
-description:
-date: 2019-06-30 
+description: null
+date: '2019-06-29T20:00:00-04:00'
 draft: false
-tags:  cat #office #en
+tags: cat
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgyrj77cqh8fpz0wm972clup4ez8r8gz9ttl2u8dfjcgsrm6ecn3lglyr8f6
 ---
 
 

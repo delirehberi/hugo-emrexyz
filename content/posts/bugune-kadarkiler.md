@@ -1,9 +1,10 @@
 +++
-categories=['deneme', 'Turkish']
-date='2024-02-02'
-description='Neler olmuş neler efendim. Kendimize gelmeliymişiz.'
-tags=['deneme','ferhangi', 'izmir']
-title='Bugüne kadarkiler'
+categories = ["deneme", "Turkish"]
+date = "2024-02-01T19:00:00-05:00"
+description = "Neler olmuş neler efendim. Kendimize gelmeliymişiz."
+tags = ["deneme", "ferhangi", "izmir"]
+title = "Bugüne kadarkiler"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxf3weqg8cmfcavjmp3nu63qzprrtrewt5ky0csy36w9s4e4v8glqj2ttsq"
 +++
 
 Sürüncemelerin devam ettiği geçiş dönemlerinde her daim varolan saçmalıklardan biri de bol hatalı düşüncenin çok da, pek de, hem de fena fena mantıklı gelmesidir. O yüzden kendimi nasıl değerlendireceğimi, kendim hakkında 
@@ -61,8 +62,3 @@ Anlaşılmazlıklar bitmemiş meğer, sanmış kı onda kalacağım, dürtüyor 
 Ama erken veda olmasın içelim mi lan birer bire, çıkar o kadar paramız herhalde dedik ve yaptık hesap kitap. İki salak eski günlere döndük, batık yitik ama keyfine düşkün. İçildi biralar edildi eksik kalan dedikodular, ohlar olsundu. 
 
 Geceyi kapatırken yine istasyon durağında son metroyla dönüldü eve...
-
-
-
-
-

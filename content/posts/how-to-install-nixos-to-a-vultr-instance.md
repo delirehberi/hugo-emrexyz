@@ -1,9 +1,11 @@
 ---
 title: How to install nixos to a vultr instance
-description:
-date: 2019-07-17 
+description: null
+date: '2019-07-16T20:00:00-04:00'
 draft: false
-tags:  nix #nixos #vultr #howto #en
+tags: nix
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrnwk3dv5nzqyyjnvnpv53pfkhtypqcdr0me5nvm8jdxahh3crnwcy94j74
 ---
 
 

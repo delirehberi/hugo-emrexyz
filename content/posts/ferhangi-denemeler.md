@@ -1,11 +1,11 @@
 +++
-categories=['deneme', 'Turkish']
-date='2024-01-29'
-description='Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. '
-tags=['deneme','ferhangi', 'otel']
-title='Ferhangi Denemeler'
+categories = ["deneme", "Turkish"]
+date = "2024-01-28T19:00:00-05:00"
+description = "Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. "
+tags = ["deneme", "ferhangi", "otel"]
+title = "Ferhangi Denemeler"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxqg4vsxjkzdvf73vfv6jmqsnsnavcmcx26l677u5zk66wu674y5s98r9yw"
 +++
-
 
 Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. Böyle sonuçlanacağını bildiğim bu durumdan daha önce defalarca kaçınmaya çalıştım. 
 Şartlar bu kadar zorlaşmamışken uzaklaşmaya yeniden başlamaya çalıştım. Ancak insan duygularına söz geçiremiyor. Derler ya, umut insana yapay çiçeği sulatır diye. 
@@ -75,5 +75,4 @@ Ilık ılık içilen bir kaç fırttan sonra da kalmıyor pek içilesi.
 
 Gece fifty fifty olunca otele dönülüyor. 
 
-Biraz depresyon, bol melankoli, bir kaç saçmalama. Sonra karar alınıyor bir yazıya. Yazılıyor siliniyor, en son silinmeyecek halde bir ferhangi yazıya dönüşüyor. 
-
+Biraz depresyon, bol melankoli, bir kaç saçmalama. Sonra karar alınıyor bir yazıya. Yazılıyor siliniyor, en son silinmeyecek halde bir ferhangi yazıya dönüşüyor.

@@ -1,9 +1,11 @@
 ---
 title: Bluesky atproto uzerindeki ozellestirilmis akislar
-description:
-date: 2023-07-19 
+description: null
+date: '2023-07-18T20:00:00-04:00'
 draft: false
-tags:  bluesky #atproto #customfeed #bilim #tr
+tags: bluesky
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgz8wjh5m3ax3uc3ccq6ays49ewhdmd4gggskjsssnxwvn6rr39mnccp5vn3
 ---
 
 
