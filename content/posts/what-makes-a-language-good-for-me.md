@@ -4,7 +4,6 @@ date = "2024-09-05T20:00:00-04:00"
 description = "I believe that humans evolved through language. All human languages are amazing because they allow us to express ourselves and our needs with high correctness."
 title = "What makes a language good for me?"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqstf5hzrp6gtm5shqxcpap8my7v8carp5gdqfwafelhzcz4gyn8a5sw6xwmf"
-type = "toml"
 +++
 
 In short: **Syntax**

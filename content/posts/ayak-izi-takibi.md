@@ -2,7 +2,6 @@
 title = "Ayak Izi Takibi"
 date = "2013-11-02T14:34:52-04:00"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs8uu2z6rjqznveqza86xw9usx2vfa43la4m25nhgn2v77xkfacd4qt6nkmn"
-type = "toml"
 +++
 
 Genel hatlarıyla, birilerinde fikirler oluşturabilir belki niyetiyle, birşeyler yazmadığımı farkettiğim için, daha önceden hazırlamış olduğum bir yazı.

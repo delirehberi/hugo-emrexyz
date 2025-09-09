@@ -3,7 +3,6 @@ title = "Güç Algısı"
 date = "2025-02-22T05:36:53-05:00"
 draft = false
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqspvspuf982x9f9dy6nppwyxjgu920plenvj9kp85a902kgj4rq4cq4yl43g"
-type = "toml"
 +++
 
 > burada bahsedilen konu yalnızca sosyal güç algısıdır. 

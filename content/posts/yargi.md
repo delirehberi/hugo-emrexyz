@@ -2,7 +2,6 @@
 title = "Yargı"
 date = "2013-02-26T14:49:03-05:00"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs20a70zzreqq324x4dyd7athdu4nl8u6wmjztwnd3y55x64plrpkgzeev70"
-type = "toml"
 +++
 
 Bir insan kendisini nasıl yargılar ki ? Nasıl kabullenir hatalarını ? Nasıl yok eder kendisini bir insan ? Doğru attım sandığı adımların hepsi boşa çıkınca nasıl bakar hayata insan ? Ne yana gider yön ? Deliliğe az mı kalmıştır, yoksa akla mı ? Düzelecek mi herşey ? Geçmez mi yoksa hiç birşey ? Farkına varmak ne demekti ?

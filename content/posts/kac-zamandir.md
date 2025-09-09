@@ -2,7 +2,6 @@
 title = "Kaç Zamandır"
 date = "2011-04-26T15:33:43-04:00"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs8q59909l3x2tyz2jugvksplrveajeqysqtxwap7drqzxf3jyxndgxskuk8"
-type = "toml"
 +++
 
 Çok uzak bir yerlerde. Coğrafi konumu belli olmayan bir kentte tüm insanlık bir arada yaşamaktaydı. O kadar çok insan vardı ki kimin akraban kimin kardeşin olduğunu bile karıştırırdın. Bunca insan arasında bir adam ve bir kadın vardı.

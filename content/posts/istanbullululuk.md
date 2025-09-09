@@ -5,7 +5,6 @@ description = "İstanbuldayım, yalnızım, 23 yaşındayım. O zamanlar allahı
 tags = ["deneme", "istanbul", "ankara"]
 title = "İstanbullululuk"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsdl9kt2zxrj43ltzucrzn45lwm227nlntcekhr3m06a0kg22p5kygug4ujk"
-type = "toml"
 +++
 
 İstanbuldayım, yalnızım, 23 yaşındayım. O zamanlar allahım var ama sevgilisiz kalmışım. Benazir çıkmış hayatımdan, alevi sünni meselesine. Vermediler kızı, kız da kaçmadı bana. Kader kısmet ayrılık oldu. Olmuş yani, ben ara verdik sanarken. Sonra öğrendim benden kurtulmak için başkasıyla evlenmeye niyetlenmiş. Şimdi evli, mutlu, çocuklu. Mantıklı hareketmiş. 

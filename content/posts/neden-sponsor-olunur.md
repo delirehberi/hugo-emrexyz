@@ -2,7 +2,6 @@
 title = "Neden Sponsor Olunur"
 date = "2017-10-28T14:57:31-04:00"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsqrn3au6rp52572l57lx92w2z0vn90kelvn8j88jljk4h006exn9sg426p0"
-type = "toml"
 +++
 
 5 yıldır etkinlikler organize eden biri olarak, şirketlerin sponsor olmalarındaki nedenler üzerine düşünmeye çalıştım. Sadece teknoloji etkinlikleri alt-dalında olan gözlemlerimi madde madde paylaşacağım. Sponsor olmak istiyor ama nasıl bir fayda kazanacağınızı bilemiyorsanız biraz fikir verebilecek net ve açık noktalara değineceğim.

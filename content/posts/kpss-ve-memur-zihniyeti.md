@@ -2,7 +2,6 @@
 title = "Kpss Ve Memur Zihniyeti"
 date = "2012-10-02T15:57:40-04:00"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsdnyfd4tj397fqmn5hgd00q3ldmsnu38trz0hw50gst69n84u7tqskw63gv"
-type = "toml"
 +++
 
 > 2025'den not; bu yaziyi yazan arkadasi buldugum yerde doverim haha, evet ben yazmisim da bu ne salak bi dusunce sekliymis boyle. Iyi ki ayni kafada kalmamisim. Eksik bilgiyle yazilmis bir yaziydi, o zamanlar bu kadar tecrubem yokmus. Simdi olsa yazmazdim.

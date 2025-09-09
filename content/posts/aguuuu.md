@@ -3,7 +3,6 @@ categories = ["tiyatro", "Turkish"]
 date = "2024-04-05T20:00:00-04:00"
 title = "Ağuuuu - Seikilos üzerine bir oyun"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs9x6eq2a89f6zw3a5egjfak55ehpnva0uhegv6wg6sl56hqthavdqjualdr"
-type = "toml"
 +++
 
 Aykaryay Aydın Tiyatro Derneği başkanı ve değerli emekli öğretmen Hüsnü Ertung tarafından yazılıp sahnelenen, aynı zamanda başrolünü oynadığı Seikilos Anıtı'nın Tralleis'den kaçırılmasını ve geri getirilme çabasını kurgulayan oyun Ağuuuu'yu izlemeye gittim dün.

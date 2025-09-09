@@ -2,7 +2,6 @@
 title = "Neden Etkinlik Duzenliyoruz"
 date = "2016-09-14T14:53:36-04:00"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsvz5a8eltswqdpm56kw6uammlt89w95g65wv0l9yn6y9cqyg9sees4ut2wj"
-type = "toml"
 +++
 
 İlk olarak Devİzmir olarak başladığım etkinlik yolculuğuna, WTK’14, AnkaraPHP, WebEnd olarak devam ediyorum. Neden yapıyorum peki bunu?
