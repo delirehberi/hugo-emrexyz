@@ -4,7 +4,8 @@ date = "2024-02-03T19:00:00-05:00"
 description = "Kalkedon kurulduğunda, güzelim İstanbulu bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbulun güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!"
 tags = ["sanat tarihi", "osman hamdi bey", "kaplumbağa terbiyecisi", "sanat"]
 title = "Osman Hamdi Bey"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpyrycpw6ejkl5whyevc0lpk5g3e4hzn3rckht4juru07huns43zvy4f09y"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqszgxfsza4n9dlgawfjesl7rdg3rntw98z83dwht9c8cla0e8ptzycvv7t2h"
+type = "toml"
 +++
 
 Kalkedon kurulduğunda, güzelim İstanbul'u bırakıp buraya kent kuran kördür deyip Körler Ülkesi adını vermiş birileri. Bugün Kadıköy dediğimiz İstanbul'un güzelim ilçesinin ilk belediye başkanıdır Osman Hamdi Bey!

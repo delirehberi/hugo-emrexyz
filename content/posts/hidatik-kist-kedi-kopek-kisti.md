@@ -2,7 +2,8 @@
 title = "Hidatik Kist - Kedi Köpek Kisti"
 date = "2025-07-12T11:27:35-04:00"
 draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrsvpqt44mrdkhypyz6y78y4m3f6gyxjx45jvvmnrt8gfa7mpcxz5rhm6rw"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs8qczqhttkxmdwgzg95fuwfthzn5sgdydtfycehxxkwsnmakrsv9gxzlq7n"
+type = "toml"
 +++
 
 Halk arasında aşırı yaygın bir inanışa göre, kedi veya köpek tüyüne maruz kalmak, daha doğrusu yutmak vücutta kist oluşumuna sebep oluyor. Bunun neden yanlış olduğuyla ilgili yazmak istiyorum. Çünkü, salaklaşmış medyamız hala bu başlıkla haberler yayınlıyor. Daha bugün "Trabzonda, 76 yaşındaki kadında 90cm kedi-köpek kisti" diye haber yapmışlar.

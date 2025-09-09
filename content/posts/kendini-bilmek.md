@@ -2,7 +2,8 @@
 title = "Kendini Bilmek"
 date = "2025-04-03T08:29:54-04:00"
 draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpv7v7m4hl4yl0u42rwhhn3xu7mev7dq08x05u76w0e5p00xzcv3clg25jn"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqszeueaht0l2f7le25xa008zdeahjeu6q7wvlfea5ulngz77v9sersduc76d"
+type = "toml"
 +++
 
 "İlim İlim Bilmektir, İlim Kendin Bilmektir." diyerek büyümüş bir insanım. Ve haliyle kendini bilmeye ve anlamaya takıntılı bir hale sahip bir kişilik geliştirdim. 

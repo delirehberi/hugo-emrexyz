@@ -2,7 +2,8 @@
 categories = ["tiyatro", "Turkish"]
 date = "2024-11-18T19:00:00-05:00"
 title = "Leblebi Tozu"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpttqavfwtqhasky90uz7us09ee8u7uru7yh6u6j20l0f4m9zae6q5xwgm2"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqszkkp6cjukp0mpvg2lc9aeq7tnj0eac8euf04e4y5l77ntk29mn5qg9xv0w"
+type = "toml"
 +++
 
 Çağımızın neredeyse vebasına dönüşen enerji tüketimi konusunda söyleyeceklerimiz var. Her yanımızda geri dönüşüm çılgınlığına katılınmış ve katı yakıtlara karşı cadı avına çıkılınmış durumda. Petrol üreticisi kardeşlerimizin düştüğü zavallı durumlara hergün şahit olmaktayız.

@@ -4,7 +4,8 @@ date = "2024-02-12T19:00:00-05:00"
 description = "Terapik yazılarımın üçüncüsüyle karşınızdayım sayın okur. Oradaysan ve okursan bil ki senin için değil bunlar, hep benlik. Sayın Ceza nın da dediği gibi ; Bu benim dünyam, sana göre belki palavra"
 tags = ["deneme", "terapik", "aydin"]
 title = "Evim evdir"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpl4nmp5m6wqfhuh52y4qjl6gascp8lp9ux0cxd9lezugwzkuus9uk0qzrv"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsrlt8krfh5uqn0e0g5f2p9l53mpsz07ztcvlsv6tlj9csu9deeqtc4dldms"
+type = "toml"
 +++
 
 Terapik yazılarımın üçüncüsüyle karşınızdayım sayın okur. Oradaysan ve okursan bil ki senin için değil bunlar, hep benlik. Sayın Ceza'nın da dediği gibi "Bu benim dünyam, sana göre belki palavra"

@@ -7,7 +7,8 @@ tags:
   - biography
   - tr
 nostr_id: >-
-  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpjmrm3mszpjr35zsm9ppd5j88svmmuzf55t5m50wrms503ynux6gxul8qp
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsr9k8hrhqyry8rg9pk2zzmfyw0qehhcynfghfhg7u8hpglzf8cd5sdw2t9a
+type: yaml
 ---
 
 Fikret Mualla cumhuriyet dönemi ressamlarından ve kendi tarzını bulabilmiş müthiş bir ressam olsa da hayatı çoğunlukla sorunlu geçmiş birisi. Picasso'nun hediye ettiği resmi dahi hiç parasına satacak kadar umursamaz bir insan olan Mualla'nın resimler günümüzde oldukça değerli. Fikret Mualla'yı bu kadar değerli yapan ilginç hayatına kısa bir göz atacağım. 

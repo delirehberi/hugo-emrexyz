@@ -1,7 +1,8 @@
 +++
 title = "Git Reset"
 date = "2014-11-16T13:33:58-05:00"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqnyn74q9kduanfusl6k7wjs4k4alvanruv40vlcxceesd4zrk0ayvw9emw"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqspxf8a2qtvmemxnepl4dua9ptdtm7emx8ce27elsd3nnqm2y8vl6g5tqh8z"
+type = "toml"
 +++
 
 Git üzerinde çalışıyorsunuz. Herşey müthiş. Kod yazılıyor, commitler, pushlar. Ooo süper dimi ?

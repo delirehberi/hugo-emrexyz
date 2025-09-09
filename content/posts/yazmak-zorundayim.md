@@ -2,7 +2,8 @@
 title = "Yazmak Zorundayım"
 date = "2025-03-04T07:37:09-05:00"
 draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgzj29umrdls7m338043rg04csh6gxzzzfkw43f4adfd3ljrd97h2ywuwwqv"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs9y5tekxmlpahrzwltzxslt3p05svyyynvatznt66jmrlyx6taw5gkxx09p"
+type = "toml"
 +++
 
 Terapitik yazılarıma, kendimi saklamak adına ara vermiştim. Oturdum dün, geçtiğimiz yılın yazılarını okudum. Ne de güzel yazmışım, ve ne de iyi gelmiş yazmak. Bir nevi güncemsi, ferhan lugatında yazmayı bırakmamak gerek. Ne olmuş yani birileri okuyup bunları bana karşı kullanıyorsa? 

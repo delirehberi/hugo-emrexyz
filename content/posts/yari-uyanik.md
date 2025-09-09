@@ -1,7 +1,8 @@
 +++
 title = "Yarı Uyanık"
 date = "2008-11-17T15:09:39-05:00"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqjw7ycnj9un0amsd0yyya4laz94n56xlefsvmhms3gufdup5ew6y7dxxtx"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqspyauf38ytexlmhq67ggfmtl6ytt8f5dljnqeh0hpz3cjmcrfja5gne87tv"
+type = "toml"
 +++
 
 Uzun zamandır hiç birşey yazmıyorum. Yazmamı bekleyen pek fazla insan yok fakat kendime saygısızlık ettiğimi hissediyorum. Aslında internete karşı büyük bir saygısızlık. İçinde yaşadığımız bu sanal dünyaya aslında çok değer verdiğimi zannediyorum fakat uzun zaman birşeyler yapmayınca saygımı yitirdim galiba demeye başlıyorum kendime. İnternetle varım diyebilirim aslında.

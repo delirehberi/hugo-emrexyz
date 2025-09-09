@@ -1,7 +1,8 @@
 +++
 title = "Centos Svn Kurulumu"
 date = "2013-10-15T14:39:55-04:00"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgyq7knz4e5zqgmamfeusvr3lt2v959kte57c54256rxltrghqma2csuql9t"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsgpadx9tngyq3hmknneqc8r7k5ctgtvhnfa3f24f5xd7kx3wph64su00vrd"
+type = "toml"
 +++
 
 Svn kullanıyorsanız kendinize private bir svn sunucusu kurmak isteyebilirsiniz. Bunun için yapmanız gereken adımları anlatmaya çalışacağım. Hem benim içinde bir not olmuş olacak.

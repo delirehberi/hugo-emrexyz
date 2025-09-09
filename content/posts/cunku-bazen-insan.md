@@ -4,7 +4,8 @@ date = "2024-02-08T19:00:00-05:00"
 description = "Terapik yazılarıma bir süre daha devam etmek durumundayım. Bireysel tedavi yöntemi uygulanmadığında yorucu geliyor herşey."
 tags = ["deneme", "günlük", "aydin"]
 title = "Çünkü bazen insan"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgqtlkgkh5fxwxa6lr0u9duny2km09pm8ehdcy8mnv4xgaaaw35vmg6f9xdv"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsqhlv3d0gjvudm47xlc2mexg4dk72rk0nwmsg0hxe2v3mm6argekspp3mnl"
+type = "toml"
 +++
 
 Terapik yazılarıma bir süre daha devam etmek durumundayım. Bireysel tedavi yöntemi uygulanmadığında yorucu geliyor herşey. 

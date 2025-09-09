@@ -4,7 +4,8 @@ description = "Feminizm üzerine okumalar yapmayı ve üzerine düşünmeyi sevd
 date = "2024-03-03T19:00:00-05:00"
 draft = "false"
 categories = ["feminizm", "Turkish"]
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgycgmtcl867w5kvflhv9c3v2pwht3uz9gel2pwgrerrul4d8k7a3vgr5l83"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsfs3kh3704uafvcnlwct3zc5zawhrcy23n75zus8jx8el260damzcjcjn4x"
+type = "toml"
 +++
 
 Feminizm üzerine okumalar yapmayı ve üzerine düşünmeyi sevdiğim bir konu. Çünkü varolanın karşısında konumlanmış bir ideoloji. İnsanlığın gelişiminin her zaman varolanın, alışılagelenin karşısında konumlanılabildiği sürece mümkün olduğunu düşünenlerdenim. 

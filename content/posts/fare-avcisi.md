@@ -2,7 +2,8 @@
 title = "Fare Avcısı"
 date = "2025-01-06T13:40:13-05:00"
 draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgztgkrt6w55xk6ul4gxw0nwvw0ygu5lqez87rnz3fu9ta3kjmzg2v47jgrm"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsyk3vxh5afgdd4el2svulxucu7g3ef7pjy0u8x9znc2hmrd9kys5crxlur4"
+type = "toml"
 +++
 
 Bir fareyi nasıl öldürmesi gerektiğini çok iyi biliyordu. Ancak o, okulda pek çok kez pratik ettiği gibi, omuriliğindeki doğru noktaya kesik atarak fareyi felç ederek devam edecekti. Yapacağı deney için en önemli nokta buydu. Fare önünde kıpırdamadan yatıyordu.

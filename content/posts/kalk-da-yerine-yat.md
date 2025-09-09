@@ -2,7 +2,8 @@
 title = "Kalk Da Yerine Yat"
 date = "2024-12-05T15:24:15-05:00"
 draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgpkg23rq3xan3kf9tdddam7wvudwxw6vl6pcz5y2r92xk3qpzfgqcla2n2z"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsrvs4zxpzdm8rvj2k66mmhuuec6uva5el5rs9gg5x25ddzqzyjspswutzpt"
+type = "toml"
 +++
 
 Boğum boğum boğulmakta zaman. Nefessizliğin ucunda bir sümkürük gibi bir hayat. Öksürüklerin ritmik dansıyla harmanlanmış bir yeşilçam filmine özenen bir heves. Kopan katır tırnağından öğütülmüş bir kahve tadında bir çaba. Oturmuşlar sanki dairesel bir kaba. Konuşanlar hep kaba saba, laf çakıyorlar sana bana. Durma, durma diyor rüyamdaki at. Kalk da yatağına yat dermiş gibisin sana alık alık bakan ata.

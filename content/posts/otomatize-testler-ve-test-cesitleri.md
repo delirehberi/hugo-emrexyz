@@ -5,7 +5,8 @@ description = "Yazdığınız kodun çalıştığını nasıl garanti edersiniz?
 slug = "otomatize-testler-ve-test-cesitleri"
 tags = ["test", "make", "phpunit"]
 title = "Otomatize Testler ve Test Çeşitleri"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrkt6uht92dv8hge6esej90nce6x25msg8knur9p3gz83lmq0tfns9s977v"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs8vh4ewk256c0w3n4npny2l83n5v4fhqs0d8cx2rzsy0rlkq7kn8qxwz28l"
+type = "toml"
 +++
 
 Yazdığınız kodun çalıştığını nasıl garanti edersiniz? 

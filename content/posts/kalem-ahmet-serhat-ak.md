@@ -2,7 +2,8 @@
 title = "Kalem - Ahmet Serhat Ak"
 date = "2025-07-13T12:08:58-04:00"
 draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgxe4hd65pr4r70udqzjyctp4h8mvxw6mtc83pz6x7qh50arvfskyutlqu8h"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsdntwm4gz828ulc6q9yfskrtw0kcva4khs0zz95dup0gl6xcnpvfc8araa0"
+type = "toml"
 +++
 
 Aşağıdaki metinle tanıtımı yapılan, pek değerli arkadaşım Ahmet Serhat Ak tarafından hem senaryosu yazılan hem yönetmenliği yapılan **Kalem** filmini henüz izleyebildim. Kısacık bir filmin beni bu kadar etkilemesini beklemezdim. Film eleştirmeni değilim, azıcık sanat tarihçisi sayılabilirim (hala öğrenciyim), o sebeple, bir eleştiriden daha çok, filmin bende uyandırdığı duyguları paylaşmak istiyorum. Öncelikle tanıtım metnini paylaşayım:

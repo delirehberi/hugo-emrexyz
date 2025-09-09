@@ -2,7 +2,8 @@
 title = "Zinnur Tiryaki"
 date = "2024-12-26T05:31:10-05:00"
 draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgyugltmnnsdsfj2sw82mte7qcu4950dl2dklsjk9fv3e2rdv6mp75l6wdjl"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsfc37hh88qmqny4quw4khnup3e2tg7m75mdlp9v2jerj5x6e4krag87nnah"
+type = "toml"
 +++
 
 Erzurum şairlerinden ilk duyduğum ve en beğendiğim isim Zinnur Tiryaki. Hakkında çok fazla bilgi bulunmuyor ancak sağdan soldan toplayabildiğim kadarıyla anlatmaya çalışacağım. Hem kendisini ilk tanıdığım şiirini, hem de en son bugün karşılaştığım son şiirini de paylaşmak istiyorum. 

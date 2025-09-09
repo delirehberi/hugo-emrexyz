@@ -1,7 +1,8 @@
 +++
 title = "Gravatar"
 date = "2013-10-12T14:41:51-04:00"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg9cprs2m6ljrn46kghv55ngwuz55taewgmza0yxpl9kpd7ecc3y8udakv9a"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqstsz8q4h4ly88t4v3weffxsac9fghmju3k967gvr7tvzman33zg0ctpvhcj"
+type = "toml"
 +++
 
 Bilenler bilir, gravatar.com a üye olduğunuzda wordpress alt yapısına sahip tüm bloglarda ve bazı sitelerde mail adresinizden tanınırsınız ve avatarınız otomatik olarak gravatar üzerinden çekilir. Bunun nasıl yapıldığından bahsedeceğim birazcık. Gravatar’dan kullanıcınızın avatar’ını çekmek sanıldığı kadar sıkıntılı bir işlem değildir. Kullanıcınızın mail adresine sahip olmanız gravatar üzerindeki avatarını çekebilmeniz için yeterlidir.

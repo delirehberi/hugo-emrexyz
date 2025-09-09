@@ -2,7 +2,8 @@
 title = "Tesadüf"
 date = "2025-07-03T06:58:58-04:00"
 draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqg8y7y7vnmc9g6y5j9hjd0q39hmn5lsyvfj9tagvnv2cpma8paqfxsw343c2"
+nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqswfufue8hs235ffyt0y67pzt0h8flqgcny2h6sexc4srh6wr6qjdqne0250"
+type = "toml"
 +++
 
 -- anlatı dili fazlasıyla basit tutulmuştur. farklı bir tarz deniyorum ama olup olmadığından emin değilim. edebi olarak zayıf bir metin olduğunu düşünüyorum. fikirlerinizi eposta ile iletebilirsiniz. --
