@@ -4,7 +4,7 @@ description: Fransız sarayı
 date: '2025-09-15T04:29:12-04:00'
 tags: []
 nostr_id: >-
-  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrpwfvs5n8svtgz4v839hr32tt8xcdj7vftcd94u3xr0fe3wkgltymjsd6s
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsxzujepfx0qcks92c0ztw8z5kkwdsm9ucjhs6ttezvx7nnzav37kg3duyjl
 ---
 İstanbul Beyoğlu’nda, Nuru Ziya sokakta bulunan bir yapı olan Fransız Sarayı, 1535 yılından bugüne Osmanlı ve Fransa ilişkilerinin sembolü gibidir. Aradan geçen 500 yılda, iki ülke arasında bir çok ilişkinin yaşandığı yapı onlarca badire atlatmıştır diplomatik ilişkilerimizde olduğu gibi. 
 
