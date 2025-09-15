@@ -1,8 +1,10 @@
 ---
-title: Fransız Sarayı 
-description: 'Fransız sarayı'
+title: Fransız Sarayı
+description: Fransız sarayı
 date: '2025-09-15T04:29:12-04:00'
 tags: []
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqqgrpwfvs5n8svtgz4v839hr32tt8xcdj7vftcd94u3xr0fe3wkgltymjsd6s
 ---
 İstanbul Beyoğlu’nda, Nuru Ziya sokakta bulunan bir yapı olan Fransız Sarayı, 1535 yılından bugüne Osmanlı ve Fransa ilişkilerinin sembolü gibidir. Aradan geçen 500 yılda, iki ülke arasında bir çok ilişkinin yaşandığı yapı onlarca badire atlatmıştır diplomatik ilişkilerimizde olduğu gibi. 
 
