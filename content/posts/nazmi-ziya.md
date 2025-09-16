@@ -1,8 +1,10 @@
 ---
 title: Nazmi Ziya
-description: 'Nazmi Ziya biyografisi ve eserleri üzerine kısa bir yazı.'
+description: Nazmi Ziya biyografisi ve eserleri üzerine kısa bir yazı.
 date: '2025-09-16T04:29:12-04:00'
 tags: []
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs099mp8npry60e9cjzc9vj253p0a694dsn423uma0hrn67fvgv40sfmqvty
 ---
 
 1914 kuşağının en iyi izlenimci ressamı olan Nazmi Ziya, 1881 yılında, Fatih Sultan Mehmet’in hocası Molla Gürani soyundan olan babası Mehmet Ziya Bey’in Aksaray Horhor mahallesindeki evinde dünyaya geldi. İçini kavuran resim aşkı ile babası için ev planları yapmış olsa da, babası karşı çıkarak Sanayi-i Nefise Mektebine gitmesine müsade etmedi ve eğitimini alması için Mekteb-i Mülkiye-i Şahaneye gönderdi. Nazmi Ziya içindeki ateşi hiç söndürmedi, resim öğretmeni olan amcasından, babasına yakalanana kadar resim eğitimi almaya devam etti. Mekteb-i Mülkiye-i Şahanesini bitirdikten sonra, babasını da kaybetmesiyle kendi kararını verip Sanayi-i Nefise Mektebi’ne başladı.
