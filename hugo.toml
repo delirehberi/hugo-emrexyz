@@ -1,4 +1,4 @@
-baseURL = 'https://emre.xyz/'
+baseURL = 'https://blog.emre.xyz/'
 languageCode = 'en-us'
 title = 'emre.xyz | @delirehberi'
 
@@ -36,7 +36,7 @@ url = "https://linkedin.com/in/delirehberi"
 [[params.social]]
 name = "VCF"
 icon = "phone"
-url = "http://emre.xyz/me.vcf"
+url = "http://blog.emre.xyz/me.vcf"
 
 [[menu.main]]
 name = "main"
@@ -82,6 +82,3 @@ enableInlineShortcodes = true
 
 [markup.goldmark.renderer]
 unsafe= true
-
-
-
