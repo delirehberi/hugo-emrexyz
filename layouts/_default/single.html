@@ -18,6 +18,9 @@
           <div class="nostr-id">
               <a href="https://njump.me/{{.Params.nostr_id | safeHTML }}">view in nostr/njump.me</a>
           </div>
+          <zap-threads
+                  anchor="{{.Params.nostr_id}}"
+/>
         </section>
         <div class="post-tags">
           {{ if ne .Type "page" }}
