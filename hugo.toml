@@ -10,6 +10,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+params.useCDN = true
 params.mode="toggle"
 
 params.subtitle ="Hi, I’m Emre. I’m a developer, an art history student, a beginner DJ, an amateur poet, an improv theater enthusiast, and I live with seven cats. I love coding, dancing, learning languages, and trying new things. This blog is where I bring together all the scattered but passionate parts of my life. My contents are mostly in turkish, but I try to write some in english too. I hope you find something interesting here. Feel free to reach out if you want to chat or collaborate!"
