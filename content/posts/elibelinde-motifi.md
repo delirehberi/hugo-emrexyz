@@ -19,7 +19,7 @@ kısmet, mutluluk ve neşeyi de sembolize eder.’’ (Erberk, 2002:12)
 
 Anadolu motifleri doğum ve doğurganlık, hayatın kendisi, ölüm ve sonrası şeklinde üç kategoride değerlendiriliyor. Elibelinde ise doğum ve doğurganlık kategorisine giriyor. Anadolu kilimlerinde sıkça karşılaşılıyor. 
 
-Bir kadının kürek kemiklerine dayadığı kolları ile oluşan elibelinde motifine mimari bir düşünce nasıl uydurulabilir? 
+Bir kadının leğen kemiklerine dayadığı kolları ile oluşan elibelinde motifine mimari bir düşünce nasıl uydurulabilir? 
 
 Tabi ki mimari yapılarda her motif süsleme amaçlı kullanılabilir ve kullanılmıştır. Benim favorim tabi ki Divriği Ulu cami ve Darüşşifası olacak yine. 
 
