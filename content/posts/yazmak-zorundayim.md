@@ -1,10 +1,10 @@
-+++
-title = "Yazmak Zorundayım"
-date = "2025-03-04T07:37:09-05:00"
-draft = false
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs9y5tekxmlpahrzwltzxslt3p05svyyynvatznt66jmrlyx6taw5gkxx09p"
-+++
-
+---
+title: Yazmak Zorundayım
+date: '2025-03-04T07:37:09-05:00'
+tags: []
+nostr_id: >-
+  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsg5gjhadym8sz8padc4c0ly8f0xtezwpwrd494f0dh8xuv44vywdgyl8nn4
+---
 Terapitik yazılarıma, kendimi saklamak adına ara vermiştim. Oturdum dün, geçtiğimiz yılın yazılarını okudum. Ne de güzel yazmışım, ve ne de iyi gelmiş yazmak. Bir nevi güncemsi, ferhan lugatında yazmayı bırakmamak gerek. Ne olmuş yani birileri okuyup bunları bana karşı kullanıyorsa? 
 
 Başlayan yılın saçmalığı ve umut doluluğu, tiyatro sevdasıyla perçinlenmişti. Gel zaman git zaman, kendini üstad sanan esnafla aramız açılmaya başladı. Laftan anlamaz egosuyla uğraşacak değilim ya lan, dedim ve elveda. Önce kendini sorgulamış olacak ki insanca iletişimi denedi, yemesem de peki demiş bulundum. Ve fakat o de nesi, enteresan bir triptonik döneme girildi ve kendisi benimle arasına örebildiği kalınlıkta duvarlar ördü. Elvada demiştim ya lan zaten sayın kendini üstad sanan esnaf, neyin oyunu bu. Sen istifa edemezsin, ben kovuyorumun sencesi mi?
