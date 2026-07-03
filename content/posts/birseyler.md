@@ -62,4 +62,3 @@ birleştik tek bedende iki ruh, ve iki kişilik bir yalnızlık ile yine tutsak 
 yalnızca elde edememek nefreti ile soğursun hayattan , yitersin dağ gibi bir bedende,
 kaçmak gelir yalnız elinden, savaşmaya korkarsın çünkü ve her malup gibi sevgiyle anılırsın – ki bu saygıdan değil acındığındandır halet-i ruhiyeye…
 
-—
