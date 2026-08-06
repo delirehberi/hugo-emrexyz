@@ -1,7 +1,8 @@
 ---
 title: How I've been hacked by Subdomain Takeover - Shopify
-date: '2026-08-05T18:43:09-04:00'
+date: 2026-08-05T18:43:09-04:00
 slug: how-i-hacked-by-subdomain-takeover-shopify
+draft: false
 tags: []
 nostr_id: >-
   nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsf33s7p3snstk3wdq6njqe0gaary6sj0fud5qh5ce6p7jv3jp8qlq490wfk
@@ -17,11 +18,8 @@ Since all my domains are managed through Cloudflare, I immediately dug into my D
 Here is what went down:
 
 - **The Stale CNAME:** Two years ago, I used this subdomain for a Shopify test store. When I closed the store, I forgot to clean up my DNS, leaving a `CNAME` record pointing straight to Shopify’s servers (`shops.myshopify.com`).
-    
 - **The Takeover:** Shopify recycled the routing. An attacker created a fresh Shopify store, claimed `electrouse.workouse.com` as their custom domain, and Shopify accepted it because the Cloudflare DNS record was still active and pointing right at them.
-    
 - **The GSC Claim:** Control of the store gave them full access to inject a Google site verification tag into their theme, instantly making them a verified property owner in Search Console.
-    
 
 ### Why Doesn't Shopify Protect Against This?
 
