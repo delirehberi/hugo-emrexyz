@@ -142,4 +142,4 @@ In such cases, assembling a dedicated, pure-TypeScript stack using **Next.js, Po
 
 ---
 
-*This technical analysis was authored by the Workouse. For custom enterprise AI platform architecture, consulting, and deployment, visit [Workhouse](https://workouse.com).*
+*This technical analysis was authored by the Workouse. For custom enterprise AI platform architecture, consulting, and deployment, visit [Workouse](https://workouse.com).*
