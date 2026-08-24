@@ -31,6 +31,18 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
+	<!-- Webmention -->
+	{{ with .Site.Params.webmention -}}
+	<link rel="webmention" href="{{ .endpoint | default "https://webmention.io/blog.emre.xyz/webmention" }}" />
+	<link rel="pingback" href="{{ .pingback | default "https://webmention.io/blog.emre.xyz/xmlrpc" }}" />
+	{{ end -}}
+
+	<!-- AI Agent Context -->
+	<link rel="help" type="text/markdown" href="{{ "llms.txt" | absURL }}" title="LLMs Context" />
+
+	<!-- IndieAuth / Verification -->
+	<link rel="me" href="https://github.com/delirehberi" />
+
 	{{ with .Site.Params.googleSiteVerification }}
 	<meta name="google-site-verification" content="{{ . }}" />
 	{{ end }}
