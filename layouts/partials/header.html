@@ -1,4 +1,4 @@
-<head lang="{{ .Site.Language.Lang }}">
+<head>
     <meta name="lightning" content="fallingwhimsy946296@getalby.com" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="canonical" href="{{ .Permalink }}" />
+	{{- if eq .Kind "404" -}}
+	<meta name="robots" content="noindex, nofollow" />
+	{{- end -}}
 
 	{{- $desc := "" -}}
 	{{- if .Description -}}
@@ -26,7 +29,16 @@
 		{{- $desc = .Site.Params.description -}}
 	{{- end -}}
 	<meta name="description" content="{{ $desc }}" />
-	<meta property="og:image" content="{{ .Site.Params.og_image | absURL }}"/>
+
+	{{- $img := .Site.Params.og_image | absURL -}}
+	{{- if .Params.image -}}
+		{{- $img = .Params.image | absURL -}}
+	{{- else if .Params.images -}}
+		{{- $img = (index .Params.images 0) | absURL -}}
+	{{- end -}}
+	<meta property="og:image" content="{{ $img }}"/>
+	<meta name="twitter:image" content="{{ $img }}"/>
+
 	{{ with .OutputFormats.Get "rss" -}}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
@@ -50,22 +62,30 @@
 	{{- template "_internal/opengraph.html" . -}}
 	{{- template "_internal/twitter_cards.html" . -}}
 
+	{{- $sameAs := slice "https://github.com/delirehberi" "https://linkedin.com/in/delirehberi" "https://youtube.com/EmreYILMAZ" -}}
+
 	{{ if .IsPage }}
 	{{- $schema := dict
 	  "@context" "https://schema.org"
 	  "@type" "BlogPosting"
+	  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
 	  "headline" .Title
 	  "description" $desc
 	  "url" .Permalink
+	  "image" $img
+	  "inLanguage" (.Site.Language.Lang | default "en-us")
 	  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
 	  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
 	  "author" (dict
 	    "@type" "Person"
 	    "name" (.Params.author | default "Emre Yılmaz")
+	    "url" ("about" | absURL)
+	    "sameAs" $sameAs
 	  )
 	  "publisher" (dict
-	    "@type" "Organization"
-	    "name" .Site.Title
+	    "@type" "Person"
+	    "name" "Emre Yılmaz"
+	    "url" .Site.BaseURL
 	  )
 	-}}
 	<script type="application/ld+json">
@@ -78,6 +98,13 @@
 	  "name" .Site.Title
 	  "url" .Site.BaseURL
 	  "description" .Site.Params.description
+	  "inLanguage" (.Site.Language.Lang | default "en-us")
+	  "author" (dict
+	    "@type" "Person"
+	    "name" "Emre Yılmaz"
+	    "url" .Site.BaseURL
+	    "sameAs" $sameAs
+	  )
 	-}}
 	<script type="application/ld+json">
 	{{ $schema | jsonify (dict "indent" "  ") | safeJS }}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "en" }}">
+    {{ partial "header.html" . }}
+    <body>
+        <div class="content">
+            {{ partial "head.html" . }}
+            <main class="list">
+                <h1>404 - Page Not Found</h1>
+                <div class="site-description">
+                    <p>Sorry, the page you are looking for doesn't exist or has been moved.</p>
+                </div>
+                <hr/>
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="{{ "/" | relURL }}">→ Home</a></li>
+                    <li><a href="{{ "/til/" | relURL }}">→ Today I Learned (TIL)</a></li>
+                    <li><a href="{{ "/about/" | relURL }}">→ About Me</a></li>
+                </ul>
+            </main>
+            {{ partial "footer.html" . }}
+        </div>
+    </body>
+</html>
