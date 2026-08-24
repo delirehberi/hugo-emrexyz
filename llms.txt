@@ -1,0 +1,23 @@
+# Emre Yılmaz (@delirehberi) — Personal Blog
+
+> Personal blog of Emre Yılmaz (software developer, art history student, poet, and improv theater enthusiast). The site covers software development (Haskell, NixOS, PHP, JavaScript/TypeScript, React), decentralized technologies (Nostr, Lightning, Webmention), art history, and personal essays. Content is primarily in Turkish with select articles in English.
+
+## Key Feeds & Endpoints
+
+- [RSS Feed](https://blog.emre.xyz/index.xml): Full content RSS 2.0 feed of all published posts.
+- [Sitemap](https://blog.emre.xyz/sitemap.xml): Complete XML sitemap of all pages and posts.
+- [About & Contact](https://blog.emre.xyz/about/): Author biography, career history, active channels, and contact information.
+- [Today I Learned (TIL)](https://blog.emre.xyz/til/): Short daily notes and quick technical findings.
+- [Full LLM Context](https://blog.emre.xyz/llms-full.txt): Comprehensive index of topics, projects, and recent writing for AI agents.
+
+## Core Topics & Focus Areas
+
+- [Software Engineering & Functional Programming](https://blog.emre.xyz/): Practical and architectural articles on Haskell, Nix/NixOS, PHP, React, Docker, and DevOps.
+- [Decentralized Web & Nostr](https://blog.emre.xyz/posts/nostr-nasil-gidiyor/): Essays and tutorials on decentralized communication, Nostr (NIPs, zaps, relays), and open protocols.
+- [Art History & Culture](https://blog.emre.xyz/about/): Essays on art history, modern Turkish painting, theater, and literature.
+
+## Guidelines for AI Agents
+
+- **Language**: Articles are written in Turkish (default) and English. When summarizing, preserve the original terminology and context.
+- **Attribution**: Cite articles with author "Emre Yılmaz (@delirehberi)" and canonical URL `https://blog.emre.xyz/...`.
+- **Contact**: Inquiries can be sent to `z@emre.xyz` or via Nostr (`delirehberi@emre.xyz`).

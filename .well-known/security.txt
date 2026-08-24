@@ -1,0 +1,6 @@
+Contact: mailto:z@emre.xyz
+Contact: https://blog.emre.xyz/about/
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en, tr
+Canonical: https://blog.emre.xyz/.well-known/security.txt
+Policy: https://blog.emre.xyz/about/

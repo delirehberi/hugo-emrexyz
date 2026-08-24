@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://blog.emre.xyz/sitemap.xml
+# LLM Context: https://blog.emre.xyz/llms.txt
+

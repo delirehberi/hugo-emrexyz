@@ -1,0 +1,45 @@
+# Emre Yılmaz (@delirehberi) — Full Context
+
+> Comprehensive context document for Large Language Models and AI agents reading https://blog.emre.xyz/.
+
+## About the Author
+
+Emre Yılmaz is a software developer since 2007 and freelancer since 2016 based in Turkey. He is also an Art History student at Adnan Menderes University, amateur poet, improv theater actor, and salsa dancer.
+
+- **Primary Technologies**: Haskell, Nix / NixOS, PHP / Symfony, JavaScript / TypeScript, React, Docker, Kubernetes, Nginx.
+- **Decentralized Tech**: Nostr protocol contributor/enthusiast (NIP-05, Nostr relays, Zap threads, Alby Lightning integration, hugo2nostr, bunker.workouse.com, bridge.workouse.com), Webmention, IndieWeb.
+- **Community Leadership**: Founder/organizer of community groups such as HaskellTürkiye, Devİzmir, WTKİzmir'14, WebEnd, AnkaraPHP, and Aydın Yazılımcı Ağı.
+
+## Primary Links & Endpoints
+
+- Base URL: https://blog.emre.xyz/
+- Main Personal Website: https://emre.xyz
+- RSS Feed: https://blog.emre.xyz/index.xml
+- Sitemap: https://blog.emre.xyz/sitemap.xml
+- About Page: https://blog.emre.xyz/about/
+- TIL (Today I Learned): https://blog.emre.xyz/til/
+- Resume / CV: https://emre.xyz/resume.pdf
+- Security Policy: https://blog.emre.xyz/.well-known/security.txt
+- Webmention Endpoint: https://webmention.io/blog.emre.xyz/webmention
+- Webmention Pingback: https://webmention.io/blog.emre.xyz/xmlrpc
+
+## Contact & Online Identities
+
+- Email: z@emre.xyz
+- Nostr: nostr.emre.xyz / NIP-05: delirehberi@emre.xyz
+- GitHub: https://github.com/delirehberi
+- LinkedIn: https://linkedin.com/in/delirehberi
+- YouTube: https://youtube.com/EmreYILMAZ
+- Telegram: https://t.me/delirehberi
+- Reddit: https://reddit.com/u/aybarscengaver
+- Bluesky: https://bsky.app/profile/emre.xyz
+
+## Featured Post Topics
+
+1. **Nostr & Decentralized Protocols**:
+   - `nostr-nasil-gidiyor`: Overview of Nostr protocol, NIPs, Zaps, Lightning Network integration, and self-hosted relays.
+   - `bluesky-atproto-uzerindeki-ozellestirilmis-akislar` & `bluesky-nedir`: ATProto and Bluesky feeds.
+2. **Haskell & Nix**:
+   - `nix-integration-for-stack`: Integrating Nix environment with Haskell Stack builds.
+3. **Art History & Essays**:
+   - Essays on painters (Fikret Muallâ, Gülsüm Sayım, Osman Hamdi Bey), Istanbul art venues, and philosophy.
