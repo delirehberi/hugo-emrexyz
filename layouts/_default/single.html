@@ -19,15 +19,15 @@
           <div class="nostr-id">
               <a href="https://njump.me/{{.Params.nostr_id | safeHTML }}">view in nostr/njump.me</a>
           </div>
-          <zap-threads
-                  anchor="{{.Params.nostr_id}}"
-                  relays='wss://relay.emre.xyz, wss://relay.nostr.band, wss://relay.damus.io, wss://relay.snort.social, wss://nos.lol, wss://relay.primal.net, wss://nostr.mom, wss://relay.nos.social, wss://articles.layer3.news, wss://mls.akdeniz.edu.tr/nostr'
-            />
+          <div id="nostr-comments"
+               data-anchor="{{.Params.nostr_id}}"
+               data-relays="wss://relay.emre.xyz, wss://relay.nostr.band, wss://relay.damus.io, wss://relay.snort.social, wss://nos.lol, wss://relay.primal.net, wss://nostr.mom, wss://relay.nos.social, wss://articles.layer3.news, wss://mls.akdeniz.edu.tr/nostr">
+          </div>
               {{ else }}
-              <zap-threads
-                  anchor="{{.Permalink}}"
-                  relays='wss://relay.emre.xyz, wss://relay.nostr.band, wss://relay.damus.io, wss://relay.snort.social, wss://nos.lol, wss://relay.primal.net, wss://nostr.mom, wss://relay.nos.social, wss://articles.layer3.news, wss://mls.akdeniz.edu.tr/nostr'
-            />
+          <div id="nostr-comments"
+               data-anchor="{{.Permalink}}"
+               data-relays="wss://relay.emre.xyz, wss://relay.nostr.band, wss://relay.damus.io, wss://relay.snort.social, wss://nos.lol, wss://relay.primal.net, wss://nostr.mom, wss://relay.nos.social, wss://articles.layer3.news, wss://mls.akdeniz.edu.tr/nostr">
+          </div>
         {{ end }}
         </section>
         <div class="post-tags">
