@@ -18,7 +18,9 @@ const DEFAULT_RELAYS = [
   'wss://nostr.mom',
   'wss://relay.nos.social',
   'wss://articles.layer3.news',
-  'wss://mls.akdeniz.edu.tr/nostr'
+  'wss://mls.akdeniz.edu.tr/nostr',
+  'wss://relay.nostr.org.tr',
+  'wss://purplepag.es'
 ];
 
 // Helper: Escape HTML to strictly prevent XSS
@@ -252,9 +254,11 @@ class NostrCommentsApp {
     const filters = [];
     if (this.rootInfo.coordinate) {
       filters.push({ '#a': [this.rootInfo.coordinate], kinds: [1, 1111] });
+      filters.push({ '#A': [this.rootInfo.coordinate], kinds: [1, 1111] });
     }
     if (this.rootInfo.eventId) {
       filters.push({ '#e': [this.rootInfo.eventId], kinds: [1, 1111] });
+      filters.push({ '#E': [this.rootInfo.eventId], kinds: [1, 1111] });
     }
     if (this.rootInfo.url) {
       filters.push({ '#r': [this.rootInfo.url], kinds: [1, 1111] });
@@ -270,11 +274,31 @@ class NostrCommentsApp {
     if (this.rootInfo.authorPubkey) authorsToFetch.add(this.rootInfo.authorPubkey);
 
     try {
-      const events = await this.pool.querySync(this.rootInfo.relays, filters);
-      for (const ev of events) {
-        if (ev.id === this.rootInfo.eventId) continue;
-        eventsMap.set(ev.id, ev);
-        authorsToFetch.add(ev.pubkey);
+      // Query each filter individually with valid single filter objects
+      for (const filter of filters) {
+        const events = await this.pool.querySync(this.rootInfo.relays, filter);
+        for (const ev of events) {
+          if (ev.id === this.rootInfo.eventId) continue;
+          // Strictly allow only text notes (1) and comments (1111)
+          if (ev.kind !== 1 && ev.kind !== 1111) continue;
+          eventsMap.set(ev.id, ev);
+          authorsToFetch.add(ev.pubkey);
+        }
+      }
+
+      // Query any threaded replies to the comments found so far
+      if (eventsMap.size > 0) {
+        const commentIds = Array.from(eventsMap.keys());
+        const replyEvents = await this.pool.querySync(this.rootInfo.relays, {
+          '#e': commentIds,
+          kinds: [1, 1111]
+        });
+        for (const ev of replyEvents) {
+          if (ev.id === this.rootInfo.eventId) continue;
+          if (ev.kind !== 1 && ev.kind !== 1111) continue;
+          eventsMap.set(ev.id, ev);
+          authorsToFetch.add(ev.pubkey);
+        }
       }
     } catch (err) {
       console.warn('Error querying comments:', err);
@@ -297,9 +321,10 @@ class NostrCommentsApp {
     if (missing.length === 0) return;
 
     try {
-      const profileEvents = await this.pool.querySync(this.relays, [
-        { kinds: [0], authors: missing }
-      ]);
+      const profileEvents = await this.pool.querySync(this.relays, {
+        kinds: [0],
+        authors: missing
+      });
       for (const ev of profileEvents) {
         try {
           const data = JSON.parse(ev.content);
@@ -383,14 +408,21 @@ class NostrCommentsApp {
   }
 
   findParentCommentId(comment) {
-    const eTags = comment.tags.filter(t => t[0] === 'e');
+    const eTags = comment.tags.filter(t => t[0] === 'e' || t[0] === 'E');
     if (eTags.length === 0) return null;
 
+    // NIP-10: check for explicit 'reply' marker
     const replyTag = eTags.find(t => t[3] === 'reply');
     if (replyTag && replyTag[1] !== this.rootInfo?.eventId) return replyTag[1];
 
+    // If only one e-tag and it points to root event, it's a top-level reply
     if (eTags.length === 1 && eTags[0][1] === this.rootInfo?.eventId) return null;
 
+    // In NIP-22: ["A", coordinate], ["e", parentCommentId]
+    const lowerETag = comment.tags.find(t => t[0] === 'e' && t[1] !== this.rootInfo?.eventId);
+    if (lowerETag) return lowerETag[1];
+
+    // Otherwise, last e-tag is usually parent
     const lastTag = eTags[eTags.length - 1];
     if (lastTag[1] !== this.rootInfo?.eventId) return lastTag[1];
 
@@ -631,6 +663,7 @@ class NostrCommentsApp {
       if (!parentCommentId) {
         // Root reply
         if (this.rootInfo?.coordinate) {
+          tags.push(['A', this.rootInfo.coordinate, relayHint]);
           tags.push(['a', this.rootInfo.coordinate, relayHint, 'root']);
         }
         if (this.rootInfo?.eventId) {
@@ -643,6 +676,7 @@ class NostrCommentsApp {
         // Reply to existing comment
         const parentComment = this.comments.find(c => c.id === parentCommentId);
         if (this.rootInfo?.coordinate) {
+          tags.push(['A', this.rootInfo.coordinate, relayHint]);
           tags.push(['a', this.rootInfo.coordinate, relayHint, 'root']);
         }
         if (this.rootInfo?.eventId) {
