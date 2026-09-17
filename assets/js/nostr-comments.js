@@ -23,6 +23,8 @@ const DEFAULT_RELAYS = [
   'wss://purplepag.es'
 ];
 
+const DEFAULT_CACHE_RELAY = 'wss://cache.nostr.org.tr';
+
 // Helper: Escape HTML to strictly prevent XSS
 function escapeHtml(str) {
   if (!str) return '';
@@ -66,6 +68,8 @@ class NostrCommentsApp {
     this.anchor = container.getAttribute('data-anchor') || '';
     const relaysAttr = container.getAttribute('data-relays');
     this.relays = relaysAttr ? relaysAttr.split(',').map(r => r.trim()).filter(Boolean) : DEFAULT_RELAYS;
+    const cacheRelayAttr = container.getAttribute('data-cache-relay');
+    this.cacheRelay = cacheRelayAttr !== null ? cacheRelayAttr.trim() : DEFAULT_CACHE_RELAY;
     
     this.pool = new SimplePool();
     this.rootInfo = null;
@@ -77,6 +81,19 @@ class NostrCommentsApp {
     this.activeReplyToId = null;
 
     this.init();
+  }
+
+  getReadRelays(upstreamRelays = this.relays) {
+    if (!this.cacheRelay || this.cacheRelay === 'false') {
+      return upstreamRelays;
+    }
+    const cleanRelays = (upstreamRelays || [])
+      .map(r => r.trim())
+      .filter(r => Boolean(r) && !r.startsWith(this.cacheRelay));
+    if (cleanRelays.length === 0) {
+      return [this.cacheRelay];
+    }
+    return [`${this.cacheRelay}?relays=${cleanRelays.join(',')}`];
   }
 
   async init() {
@@ -211,7 +228,7 @@ class NostrCommentsApp {
 
         // Fetch root event to check if it's kind 30023 and retrieve its d-tag
         try {
-          const rootEvent = await this.pool.get(relays, { ids: [eventId] });
+          const rootEvent = await this.pool.get(this.getReadRelays(relays), { ids: [eventId] });
           if (rootEvent) {
             authorPubkey = rootEvent.pubkey;
             if (rootEvent.kind === 30023) {
@@ -276,7 +293,7 @@ class NostrCommentsApp {
     try {
       // Query each filter individually with valid single filter objects
       for (const filter of filters) {
-        const events = await this.pool.querySync(this.rootInfo.relays, filter);
+        const events = await this.pool.querySync(this.getReadRelays(this.rootInfo.relays), filter);
         for (const ev of events) {
           if (ev.id === this.rootInfo.eventId) continue;
           // Strictly allow only text notes (1) and comments (1111)
@@ -289,7 +306,7 @@ class NostrCommentsApp {
       // Query any threaded replies to the comments found so far
       if (eventsMap.size > 0) {
         const commentIds = Array.from(eventsMap.keys());
-        const replyEvents = await this.pool.querySync(this.rootInfo.relays, {
+        const replyEvents = await this.pool.querySync(this.getReadRelays(this.rootInfo.relays), {
           '#e': commentIds,
           kinds: [1, 1111]
         });
@@ -321,7 +338,7 @@ class NostrCommentsApp {
     if (missing.length === 0) return;
 
     try {
-      const profileEvents = await this.pool.querySync(this.relays, {
+      const profileEvents = await this.pool.querySync(this.getReadRelays(this.relays), {
         kinds: [0],
         authors: missing
       });

@@ -19,9 +19,12 @@ try {
   fs.symlinkSync(path.join(rootDir, 'node_modules'), path.join(tempDir, 'node_modules'), 'dir');
   fs.symlinkSync(path.join(rootDir, 'assets'), path.join(tempDir, 'assets'), 'dir');
 
+  const cacheDir = path.join(tempDir, 'cache');
+  fs.mkdirSync(cacheDir, { recursive: true });
+
   fs.writeFileSync(
     path.join(tempDir, 'hugo.toml'),
-    'baseURL = "https://example.com"\n'
+    `baseURL = "https://example.com"\ncacheDir = "${cacheDir}"\n`
   );
 
   fs.writeFileSync(
@@ -30,7 +33,7 @@ try {
     '<script src="{{ $js.RelPermalink }}"></script>\n'
   );
 
-  execSync('hugo', { cwd: tempDir, stdio: 'pipe' });
+  execSync(`hugo --cacheDir "${cacheDir}" --ignoreCache --cleanDestinationDir --gc`, { cwd: tempDir, stdio: 'pipe' });
 
   const generatedBundle = path.join(tempDir, 'public', 'nostr-comments.bundle.js');
   if (fs.existsSync(generatedBundle)) {
