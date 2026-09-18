@@ -10,3 +10,13 @@
 .custom-title a:hover{
     background-color: red;
 }
+
+.nostr-profile-section {
+    margin: 1.5rem 0 2rem 0;
+}
+
+.nostr-profile-section nostr-event {
+    display: block;
+    width: 100%;
+}
+
