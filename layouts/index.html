@@ -27,9 +27,9 @@
 				</div>
 			</div>
 
-			<div class="post-list">
-				{{ range $trPosts }}
-				<section class="list-item custom-title">
+			<div class="post-list" id="tr-post-list">
+				{{ range $index, $post := $trPosts }}
+				<section class="list-item custom-title{{ if ge $index 5 }} post-hidden{{ end }}">
 					<span class="title">> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 						{{ with .Params.categories }}
 							{{ range $cat := . }}
@@ -43,6 +43,13 @@
 				</section>
 				{{ end }}
 			</div>
+			{{ if gt (len $trPosts) 5 }}
+			<div class="load-more-container">
+				<button type="button" class="load-more-btn" data-target="tr-post-list" data-step="5" data-label="Daha fazla göster" aria-expanded="false">
+					Daha fazla göster <span class="remaining-count">({{ sub (len $trPosts) 5 }})</span>
+				</button>
+			</div>
+			{{ end }}
 		</div>
 
 		<!-- Right Column: English Posts -->
@@ -61,9 +68,9 @@
 				</div>
 			</div>
 
-			<div class="post-list">
-				{{ range $enPosts }}
-				<section class="list-item custom-title">
+			<div class="post-list" id="en-post-list">
+				{{ range $index, $post := $enPosts }}
+				<section class="list-item custom-title{{ if ge $index 5 }} post-hidden{{ end }}">
 					<span class="title">> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 						{{ with .Params.categories }}
 							{{ range $cat := . }}
@@ -77,7 +84,50 @@
 				</section>
 				{{ end }}
 			</div>
+			{{ if gt (len $enPosts) 5 }}
+			<div class="load-more-container">
+				<button type="button" class="load-more-btn" data-target="en-post-list" data-step="5" data-label="Show more" aria-expanded="false">
+					Show more <span class="remaining-count">({{ sub (len $enPosts) 5 }})</span>
+				</button>
+			</div>
+			{{ end }}
 		</div>
 	</div>
+
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		document.querySelectorAll('.load-more-btn').forEach(function(btn) {
+			btn.addEventListener('click', function() {
+				var targetId = btn.getAttribute('data-target');
+				var step = parseInt(btn.getAttribute('data-step') || '5', 10);
+				var list = document.getElementById(targetId);
+				if (!list) return;
+
+				var hiddenItems = list.querySelectorAll('.post-hidden');
+				var countToShow = Math.min(step, hiddenItems.length);
+
+				for (var i = 0; i < countToShow; i++) {
+					hiddenItems[i].classList.remove('post-hidden');
+				}
+
+				var remaining = hiddenItems.length - countToShow;
+				if (remaining > 0) {
+					var countEl = btn.querySelector('.remaining-count');
+					if (countEl) {
+						countEl.textContent = '(' + remaining + ')';
+					}
+				} else {
+					btn.setAttribute('aria-expanded', 'true');
+					var container = btn.closest('.load-more-container');
+					if (container) {
+						container.remove();
+					} else {
+						btn.remove();
+					}
+				}
+			});
+		});
+	});
+	</script>
 </main>
 {{ end }}
