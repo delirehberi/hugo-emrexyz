@@ -1,5 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang | default "en" }}">
+{{- $lang := "tr" -}}
+{{- if .Params.lang -}}
+  {{- $lang = .Params.lang -}}
+{{- else if and .Params.tags (in .Params.tags "en") -}}
+  {{- $lang = "en" -}}
+{{- else if and .Params.tags (in .Params.tags "en-tech-developers") -}}
+  {{- $lang = "en" -}}
+{{- else if .Site.Language.Lang -}}
+  {{- $lang = .Site.Language.Lang -}}
+{{- end -}}
+<html lang="{{ $lang }}">
     {{- partial "header.html" . -}}
     <body{{ if .IsHome }} class="home"{{ end }}>
         <div class="content">

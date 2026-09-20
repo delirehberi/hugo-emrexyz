@@ -14,10 +14,25 @@
 	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
 	{{- end -}}
 
+	{{- $lang := "tr" -}}
+	{{- if .Params.lang -}}
+	  {{- $lang = .Params.lang -}}
+	{{- else if and .Params.tags (in .Params.tags "en") -}}
+	  {{- $lang = "en" -}}
+	{{- else if and .Params.tags (in .Params.tags "en-tech-developers") -}}
+	  {{- $lang = "en" -}}
+	{{- else if .Site.Language.Lang -}}
+	  {{- $lang = .Site.Language.Lang -}}
+	{{- end -}}
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="canonical" href="{{ .Permalink }}" />
 	{{- if eq .Kind "404" -}}
 	<meta name="robots" content="noindex, nofollow" />
+	{{- else if or (in (slice "taxonomy" "term") .Kind) (in (slice "tags" "categories") .Section) -}}
+	<meta name="robots" content="noindex, follow" />
+	{{- else -}}
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 	{{- end -}}
 
 	{{- $desc := "" -}}
@@ -73,7 +88,7 @@
 	  "description" $desc
 	  "url" .Permalink
 	  "image" $img
-	  "inLanguage" (.Site.Language.Lang | default "en-us")
+	  "inLanguage" $lang
 	  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
 	  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
 	  "author" (dict
@@ -98,7 +113,7 @@
 	  "name" .Site.Title
 	  "url" .Site.BaseURL
 	  "description" .Site.Params.description
-	  "inLanguage" (.Site.Language.Lang | default "en-us")
+	  "inLanguage" $lang
 	  "author" (dict
 	    "@type" "Person"
 	    "name" "Emre Yılmaz"

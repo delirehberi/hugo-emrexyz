@@ -1,5 +1,5 @@
 baseURL = 'https://blog.emre.xyz/'
-languageCode = 'en-us'
+languageCode = 'tr-tr'
 title = 'emre.xyz | @delirehberi'
 
 theme="archie"
