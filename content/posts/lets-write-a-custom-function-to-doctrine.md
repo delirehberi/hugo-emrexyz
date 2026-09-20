@@ -1,5 +1,8 @@
 ---
 title: Lets write a custom function to doctrine
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2022-01-26T19:00:00-05:00'
 draft: false

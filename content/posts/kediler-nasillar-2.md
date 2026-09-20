@@ -1,5 +1,8 @@
 ---
 title: Kediler Nasıllar - 2
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2026-05-20T04:57:50-04:00'
 slug: 3cbb084b
 tags: []

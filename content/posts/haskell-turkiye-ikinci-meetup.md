@@ -1,5 +1,8 @@
 ---
 title: Haskell turkiye ikinci meetup
+lang: "tr"
+categories:
+  - "Topluluk"
 description: null
 date: '2021-03-28T20:00:00-04:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: How to use voter capabilities with workflow in symfony
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2020-01-15T19:00:00-05:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: Cocugumla evde nasil daha verimli vakit gecirebilirim
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2020-05-14T20:00:00-04:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: Aydin yazilimci bulusmasi notlari 1
+lang: "tr"
+categories:
+  - "Topluluk"
 description: null
 date: '2022-12-17T19:00:00-05:00'
 draft: false

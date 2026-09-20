@@ -1,6 +1,7 @@
 +++
-categories = ["deneme", "Turkish"]
 date = "2024-02-01T19:00:00-05:00"
+lang = "tr"
+categories = ["Yaşam"]
 description = "Neler olmuş neler efendim. Kendimize gelmeliymişiz."
 tags = ["deneme", "ferhangi", "izmir"]
 title = "Bugüne kadarkiler"

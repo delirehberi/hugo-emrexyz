@@ -1,5 +1,8 @@
 ---
 title: Get current file path in vim
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2019-07-08T20:00:00-04:00'
 draft: false

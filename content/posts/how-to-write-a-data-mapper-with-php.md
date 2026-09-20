@@ -1,5 +1,8 @@
 ---
 title: How to write a data mapper with php
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2019-07-06T20:00:00-04:00'
 draft: false

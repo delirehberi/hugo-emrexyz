@@ -1,5 +1,8 @@
 ---
 title: Searching with the power of postgresql in symfony applications
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2020-06-14T20:00:00-04:00'
 draft: false

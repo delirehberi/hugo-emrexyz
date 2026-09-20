@@ -1,5 +1,8 @@
 ---
 title: İnternet Değişiyor
+lang: "tr"
+categories:
+  - "Yazılım"
 date: '2026-09-08T17:56:16-04:00'
 slug: internet-degisiyor
 hero_image: >-

@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1 class="page-title">{{ if eq .Data.Plural "categories" }}Categories{{ else }}Tags{{ end }}</h1>
+
+<div class="category-nav terms-overview">
+	{{ range $key, $value := .Data.Terms.ByCount }}
+	<a class="category-pill" href="{{ .Page.RelPermalink }}">
+		{{ $value.Name }} <span class="category-count">({{ $value.Count }})</span>
+	</a>
+	{{ end }}
+</div>
+{{ end }}

@@ -1,5 +1,8 @@
 ---
 title: Simple zero downtime deployment with github actions
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2023-09-13T20:00:00-04:00'
 draft: false

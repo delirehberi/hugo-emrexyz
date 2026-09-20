@@ -1,5 +1,8 @@
 ---
 title: 'Şükür, İsyan ve Manipülasyon'
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2026-08-04T15:38:36-04:00'
 slug: sukur-isyan-ve-manipulasyon
 hero_image: >-

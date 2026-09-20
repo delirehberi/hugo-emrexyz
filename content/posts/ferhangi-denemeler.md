@@ -1,6 +1,7 @@
 +++
-categories = ["deneme", "Turkish"]
 date = "2024-01-28T19:00:00-05:00"
+lang = "tr"
+categories = ["Yaşam"]
 description = "Tek başıma bi otel odasındayım. Günlerdir ne yapacağımı ne yöne yürüyeceğimi bilmediğim bir haldeyim. "
 tags = ["deneme", "ferhangi", "otel"]
 title = "Ferhangi Denemeler"

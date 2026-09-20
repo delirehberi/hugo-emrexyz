@@ -1,5 +1,8 @@
 ---
 title: Kültürel Milliyetçilik
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2026-04-13T02:34:07-04:00'
 slug: 214cb7662d195d4e
 hero_image: >-

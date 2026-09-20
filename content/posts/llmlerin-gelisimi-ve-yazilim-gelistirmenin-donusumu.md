@@ -1,5 +1,8 @@
 ---
 title: LLM’lerin Geleceği ve Yazılım Geliştirmenin Dönüşümü
+lang: "tr"
+categories:
+  - "Yazılım"
 description: 'LLM''lerin gelecegi uzerine ongoruler. '
 date: '2025-12-11T09:08:03-05:00'
 tags: []

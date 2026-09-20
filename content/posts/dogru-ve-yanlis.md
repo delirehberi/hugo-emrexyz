@@ -1,5 +1,8 @@
 ---
 title: Doğru ve Yanlış Üzerine Düşüncelerim
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2024-10-25T20:00:00-04:00'
 tags:
   - düşünce

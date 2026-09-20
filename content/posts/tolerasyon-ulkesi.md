@@ -1,5 +1,8 @@
 ---
 title: Tolerasyon Ülkesi
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2026-08-25T14:04:25-04:00'
 slug: tolerasyon-ulkesi
 tags: []

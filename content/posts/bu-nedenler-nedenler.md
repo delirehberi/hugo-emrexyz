@@ -1,5 +1,8 @@
 ---
 title: Bu nedenler nedenler
+lang: "tr"
+categories:
+  - "Şiir"
 description: null
 date: '2021-02-01T19:00:00-05:00'
 draft: false

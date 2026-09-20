@@ -1,0 +1,20 @@
+{{ define "main" }}
+<h1 class="page-title">{{ if eq .Data.Plural "categories" }}Category: {{ .Title }}{{ else }}Tag: {{ .Title }}{{ end }}</h1>
+
+<div class="category-post-list">
+	{{- range .Data.Pages -}}
+		{{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
+		<section class="list-item custom-title">
+			<span class="title">> <a href="{{ .RelPermalink }}">{{.Title}}</a>
+				{{ with .Params.categories }}
+					{{ range . }}
+						<span class="category-tag">{{ . }}</span>
+					{{ end }}
+				{{ end }}
+			</span>
+			<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+		</section>
+		{{- end -}}
+	{{- end -}}
+</div>
+{{ end }}

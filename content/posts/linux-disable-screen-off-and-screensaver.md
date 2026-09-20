@@ -1,5 +1,8 @@
 ---
 title: Disabling Screen Off and Screensaver on Debian / Linux
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2024-07-24T20:00:00-04:00'
 draft: false

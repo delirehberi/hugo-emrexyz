@@ -1,5 +1,8 @@
 ---
 title: Gürültülü Dünyada Akıl Sağlığını Koruma Rehberi
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2026-07-31T11:20:38-04:00'
 slug: gurultulu-dunyada-akil-sagligini-koruma-rehberi
 tags: []

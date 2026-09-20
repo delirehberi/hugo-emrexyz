@@ -1,6 +1,7 @@
 +++
-categories = ["deneme", "Turkish"]
 date = "2024-02-08T19:00:00-05:00"
+lang = "tr"
+categories = ["Yaşam"]
 description = "Terapik yazılarıma bir süre daha devam etmek durumundayım. Bireysel tedavi yöntemi uygulanmadığında yorucu geliyor herşey."
 tags = ["deneme", "günlük", "aydin"]
 title = "Çünkü bazen insan"

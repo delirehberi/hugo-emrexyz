@@ -1,5 +1,8 @@
 ---
 title: 'The Artful Journey of Gülsüm Sayım: A Deep Dive into Her World of Paintings '
+lang: "tr"
+categories:
+  - "Sanat"
 date: '2024-10-19T20:00:00-04:00'
 cascade:
   params:

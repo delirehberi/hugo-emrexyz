@@ -1,5 +1,8 @@
 ---
 title: Sessiz istifa nedir
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2023-07-31T20:00:00-04:00'
 draft: false

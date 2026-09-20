@@ -1,5 +1,8 @@
 ---
 title: Symfony 5 giris
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2020-04-27T20:00:00-04:00'
 draft: false

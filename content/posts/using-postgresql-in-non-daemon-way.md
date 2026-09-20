@@ -1,5 +1,8 @@
 ---
 title: Using postgresql in non daemon way
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2021-12-11T19:00:00-05:00'
 draft: false

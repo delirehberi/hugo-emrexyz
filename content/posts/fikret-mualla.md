@@ -1,5 +1,8 @@
 ---
 title: 'Fikret Mualla: Sanat ve Melankoli Üzerine Bir Portre'
+lang: "tr"
+categories:
+  - "Sanat"
 date: '2024-10-21T20:00:00-04:00'
 tags:
   - art

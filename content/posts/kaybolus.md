@@ -1,5 +1,8 @@
 ---
 title: Kaybolus
+lang: "tr"
+categories:
+  - "Şiir"
 description: null
 date: '2019-12-25T19:00:00-05:00'
 draft: false

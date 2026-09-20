@@ -1,5 +1,8 @@
 ---
 title: Otuzu devirenler
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2021-03-07T19:00:00-05:00'
 draft: false

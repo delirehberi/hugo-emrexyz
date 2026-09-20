@@ -1,5 +1,8 @@
 ---
 title: Bilo the Bunker!
+lang: "en"
+categories:
+  - "Tech"
 date: '2026-08-13T19:32:11-04:00'
 slug: bilo-the-bunker
 tags: []

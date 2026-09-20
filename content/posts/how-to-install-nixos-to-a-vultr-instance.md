@@ -1,5 +1,8 @@
 ---
 title: How to install nixos to a vultr instance
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2019-07-16T20:00:00-04:00'
 draft: false

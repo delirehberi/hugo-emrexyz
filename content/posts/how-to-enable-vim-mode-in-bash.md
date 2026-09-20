@@ -1,5 +1,8 @@
 ---
 title: How to enable vim mode in bash
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2019-07-11T20:00:00-04:00'
 draft: false

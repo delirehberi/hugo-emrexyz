@@ -1,5 +1,8 @@
 ---
 title: How to run commands as synchronous all tmux panes
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2019-07-03T20:00:00-04:00'
 draft: false

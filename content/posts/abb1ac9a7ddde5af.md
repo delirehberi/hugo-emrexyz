@@ -1,5 +1,8 @@
 ---
 title: Yalancı umutlar
+lang: "tr"
+categories:
+  - "Şiir"
 date: '2026-03-15T15:35:04-04:00'
 slug: abb1ac9a7ddde5af
 hero_image: >-

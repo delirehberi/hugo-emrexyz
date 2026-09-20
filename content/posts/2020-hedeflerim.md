@@ -1,5 +1,8 @@
 ---
 title: 2020 hedeflerim
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2020-01-10T19:00:00-05:00'
 draft: false

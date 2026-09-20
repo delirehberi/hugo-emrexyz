@@ -1,5 +1,8 @@
 ---
 title: 5 lira bagis mi olur
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2020-11-06T19:00:00-05:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: 2020 hedeflerim ikinci ceyrek
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2020-03-30T20:00:00-04:00'
 draft: false

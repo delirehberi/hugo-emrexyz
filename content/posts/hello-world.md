@@ -1,5 +1,8 @@
 ---
 title: Hello world
+lang: "en"
+categories:
+  - "Life"
 description: null
 date: '2019-06-27T20:00:00-04:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: Bluesky nedir
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2023-07-27T20:00:00-04:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: Adım Adım Nostr'a Giriş Rehberi
+lang: "tr"
+categories:
+  - "Yazılım"
 date: '2026-09-15T08:49:08-04:00'
 slug: adim-adim-nostr-giris-rehberi
 hero_image: >-

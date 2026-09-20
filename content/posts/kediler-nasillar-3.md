@@ -1,5 +1,8 @@
 ---
 title: Kediler Nasıllar? - 3
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2026-07-23T07:37:49-04:00'
 slug: kediler-nasillar-3
 tags: [kediler]

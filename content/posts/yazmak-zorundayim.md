@@ -1,5 +1,8 @@
 ---
 title: Yazmak Zorundayım
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2025-03-04T07:37:09-05:00'
 slug: yazmak-zorundayim
 tags: []

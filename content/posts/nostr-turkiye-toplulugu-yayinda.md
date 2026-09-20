@@ -1,5 +1,8 @@
 ---
 title: Nostr Türkiye Topluluğu Yayında!
+lang: "tr"
+categories:
+  - "Topluluk"
 date: '2026-09-02T09:45:24-04:00'
 slug: nostr-turkiye-toplulugu-yayinda
 hero_image: >-

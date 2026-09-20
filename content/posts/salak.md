@@ -1,5 +1,8 @@
 ---
 title: Salak
+lang: "tr"
+categories:
+  - "Yaşam"
 description: >-
   "Kendinize vurmak pahasına başkasına vicdanlı davranabiliyorsanız salaklıkta
   bir seviye daha atladınız."

@@ -1,5 +1,8 @@
 ---
 title: Nostalji sever
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2020-11-23T19:00:00-05:00'
 draft: false

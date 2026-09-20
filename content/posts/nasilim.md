@@ -1,5 +1,8 @@
 ---
 title: Nasılım?
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2026-07-31T11:32:51-04:00'
 slug: nasilim
 tags: []

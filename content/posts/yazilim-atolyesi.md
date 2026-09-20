@@ -1,5 +1,8 @@
 ---
 title: Yazılım Atölyesi Eğitim Serisi
+lang: "tr"
+categories:
+  - "Topluluk"
 description: >-
   Gatherin.life üzerinde yayınlanacak 17 hafta sürecek bir yazılım öğrenme
   serüveni

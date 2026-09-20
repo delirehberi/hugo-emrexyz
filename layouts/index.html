@@ -1,30 +1,83 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang | default "en" }}">
-	{{ partial "header.html" . }}
-	<body>
-		<div class="content">
-			{{ partial "head.html" . }}
-			
-			<main class="list">
-				<div class="nostr-profile-section">
-					<nostr-event event="delirehberi@emre.xyz">
-						<a href="nostr:delirehberi@emre.xyz" rel="me">Emre Yılmaz on Nostr (delirehberi@emre.xyz)</a>
-					</nostr-event>
+{{ define "main" }}
+<main class="list">
+	<div class="nostr-profile-section">
+		<nostr-event event="delirehberi@emre.xyz">
+			<a href="nostr:delirehberi@emre.xyz" rel="me">Emre Yılmaz on Nostr (delirehberi@emre.xyz)</a>
+		</nostr-event>
+	</div>
+
+	{{ $allPosts := where .Site.RegularPages "Section" "posts" }}
+	{{ $trPosts := where $allPosts "Params.lang" "tr" }}
+	{{ $enPosts := where $allPosts "Params.lang" "en" }}
+
+	<div class="home-dual-columns">
+		<!-- Left Column: Turkish Posts -->
+		<div class="home-column">
+			<div class="column-header">
+				<h2>Türkçe Yazılar</h2>
+				<div class="category-nav">
+					<a class="category-pill all" href="{{ "/categories/" | relURL }}">Tümü <span class="category-count">({{ len $trPosts }})</span></a>
+					{{ range $catName := slice "Yazılım" "Yaşam" "Sanat" "Topluluk" "Şiir" }}
+						{{ with (index $.Site.Taxonomies.categories (lower $catName)) }}
+							<a class="category-pill" href="{{ .Page.RelPermalink }}">
+								{{ $catName }} <span class="category-count">({{ .Count }})</span>
+							</a>
+						{{ end }}
+					{{ end }}
 				</div>
-                <h2>All posts</h2>
-				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
+			</div>
+
+			<div class="post-list">
+				{{ range $trPosts }}
 				<section class="list-item custom-title">
-                    <span class="title ">> <a href="{{ .RelPermalink }}">{{.Title}}</a></span>
-					<time>{{ dateFormat ":date_full" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+					<span class="title">> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+						{{ with .Params.categories }}
+							{{ range $cat := . }}
+								{{ with (index $.Site.Taxonomies.categories (lower $cat)) }}
+									<a href="{{ .Page.RelPermalink }}" class="category-tag">{{ $cat }}</a>
+								{{ end }}
+							{{ end }}
+						{{ end }}
+					</span>
+					<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 				</section>
 				{{ end }}
-                <hr/>
-				{{ template "partials/paginator.html" . }}
-			</main>
-			{{ partial "footer.html" . }}
+			</div>
 		</div>
-		
-	</body>
-</html>
+
+		<!-- Right Column: English Posts -->
+		<div class="home-column">
+			<div class="column-header">
+				<h2>English Posts</h2>
+				<div class="category-nav">
+					<a class="category-pill all" href="{{ "/categories/" | relURL }}">All <span class="category-count">({{ len $enPosts }})</span></a>
+					{{ range $catName := slice "Tech" "Life" "Community" "Art" "Poetry" }}
+						{{ with (index $.Site.Taxonomies.categories (lower $catName)) }}
+							<a class="category-pill" href="{{ .Page.RelPermalink }}">
+								{{ $catName }} <span class="category-count">({{ .Count }})</span>
+							</a>
+						{{ end }}
+					{{ end }}
+				</div>
+			</div>
+
+			<div class="post-list">
+				{{ range $enPosts }}
+				<section class="list-item custom-title">
+					<span class="title">> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+						{{ with .Params.categories }}
+							{{ range $cat := . }}
+								{{ with (index $.Site.Taxonomies.categories (lower $cat)) }}
+									<a href="{{ .Page.RelPermalink }}" class="category-tag">{{ $cat }}</a>
+								{{ end }}
+							{{ end }}
+						{{ end }}
+					</span>
+					<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+				</section>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</main>
+{{ end }}

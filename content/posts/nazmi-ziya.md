@@ -1,5 +1,8 @@
 ---
 title: Nazmi Ziya
+lang: "tr"
+categories:
+  - "Sanat"
 description: Nazmi Ziya biyografisi ve eserleri üzerine kısa bir yazı.
 date: '2025-09-16T04:29:12-04:00'
 tags: []

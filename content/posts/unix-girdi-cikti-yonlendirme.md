@@ -1,5 +1,8 @@
 ---
 title: Unix girdi cikti yonlendirme
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2019-09-22T20:00:00-04:00'
 draft: false

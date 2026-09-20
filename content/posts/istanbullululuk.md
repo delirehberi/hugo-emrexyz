@@ -1,6 +1,7 @@
 +++
-categories = ["deneme", "Turkish"]
 date = "2024-02-16T19:00:00-05:00"
+lang = "tr"
+categories = ["Yaşam"]
 description = "İstanbuldayım, yalnızım, 23 yaşındayım. O zamanlar allahım var ama sevgilisiz kalmışım."
 tags = ["deneme", "istanbul", "ankara"]
 title = "İstanbullululuk"

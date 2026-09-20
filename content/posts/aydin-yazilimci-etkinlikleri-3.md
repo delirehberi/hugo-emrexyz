@@ -1,5 +1,8 @@
 ---
 title: Aydin yazilimci etkinlikleri 3
+lang: "tr"
+categories:
+  - "Topluluk"
 description: null
 date: '2023-06-22T20:00:00-04:00'
 draft: false

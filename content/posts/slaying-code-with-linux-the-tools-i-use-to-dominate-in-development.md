@@ -1,5 +1,8 @@
 ---
 title: Slaying code with linux the tools i use to dominate in development
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2023-04-24T20:00:00-04:00'
 draft: false

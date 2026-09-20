@@ -1,5 +1,8 @@
 ---
 title: iki bin yirmi alti
+lang: "tr"
+categories:
+  - "Yazılım"
 description: ''
 date: '2026-01-27T13:55:11-05:00'
 slug: cfd02a14

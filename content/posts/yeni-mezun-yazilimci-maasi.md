@@ -1,5 +1,8 @@
 ---
 title: Yeni mezun yazilimci maasi
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2019-11-05T19:00:00-05:00'
 draft: false

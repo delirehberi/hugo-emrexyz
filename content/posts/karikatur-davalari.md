@@ -1,5 +1,8 @@
 ---
 title: Karikatur davalari
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2020-12-16T19:00:00-05:00'
 draft: false

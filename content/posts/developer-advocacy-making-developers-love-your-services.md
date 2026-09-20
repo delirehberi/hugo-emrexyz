@@ -1,5 +1,8 @@
 ---
 title: 'Developer Advocacy: Making Developers Love Your Services'
+lang: "en"
+categories:
+  - "Community"
 description: null
 date: '2023-12-10T19:00:00-05:00'
 draft: false

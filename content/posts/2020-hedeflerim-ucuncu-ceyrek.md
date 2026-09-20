@@ -1,5 +1,8 @@
 ---
 title: 2020 hedeflerim ucuncu ceyrek
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2020-06-11T20:00:00-04:00'
 draft: false

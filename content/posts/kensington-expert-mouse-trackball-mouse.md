@@ -1,5 +1,8 @@
 ---
 title: Kensington expert mouse trackball mouse
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2021-03-18T20:00:00-04:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: Okul hikayesi
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2020-03-18T20:00:00-04:00'
 draft: false

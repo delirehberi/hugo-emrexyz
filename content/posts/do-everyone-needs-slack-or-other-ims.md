@@ -1,5 +1,8 @@
 ---
 title: Do everyone needs slack or other ims
+lang: "en"
+categories:
+  - "Life"
 description: null
 date: '2021-10-23T20:00:00-04:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: Add essential dotenv support to your wordpress without a plugin
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2022-10-15T20:00:00-04:00'
 draft: false

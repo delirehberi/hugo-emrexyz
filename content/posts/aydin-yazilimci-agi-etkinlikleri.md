@@ -1,5 +1,8 @@
 ---
 title: Aydin yazilimci agi etkinlikleri
+lang: "tr"
+categories:
+  - "Topluluk"
 description: null
 date: '2023-06-08T20:00:00-04:00'
 draft: false

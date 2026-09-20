@@ -1,5 +1,8 @@
 ---
 title: Burnout'un Üç Yılı Kendi Kendimin Labirentinde Kaybolmak
+lang: "tr"
+categories:
+  - "Yaşam"
 description: Burnout ve kişisel yolculuğum üzerine bir sohbet
 date: '2025-12-02T08:15:39-05:00'
 tags: []

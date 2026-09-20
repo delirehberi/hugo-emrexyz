@@ -1,5 +1,8 @@
 ---
 title: Kendi blogunu kendin kodla 4 symfony form components
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2020-11-15T19:00:00-05:00'
 draft: false

@@ -1,5 +1,8 @@
 ---
 title: Journal Guardian
+lang: "en"
+categories:
+  - "Tech"
 description: A tool to watch system logs for errors and find solutions with AI
 date: '2026-01-07T05:11:29-05:00'
 tags: []

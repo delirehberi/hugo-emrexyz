@@ -1,5 +1,8 @@
 ---
 title: Doctrine postgresql fonksiyonlari
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2020-05-07T20:00:00-04:00'
 draft: false

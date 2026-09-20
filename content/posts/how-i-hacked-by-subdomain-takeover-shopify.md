@@ -1,5 +1,8 @@
 ---
 title: How I've been hacked by Subdomain Takeover - Shopify
+lang: "en"
+categories:
+  - "Tech"
 date: 2026-08-05T18:43:09-04:00
 slug: how-i-hacked-by-subdomain-takeover-shopify
 draft: false

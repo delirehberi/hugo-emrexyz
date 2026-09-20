@@ -1,5 +1,8 @@
 ---
 title: Nostr Nasıl Gidiyor?
+lang: "tr"
+categories:
+  - "Yazılım"
 date: '2026-08-19T20:01:42-04:00'
 slug: nostr-nasil-gidiyor
 tags: []

@@ -1,5 +1,8 @@
 ---
 title: Absolit İsmail
+lang: "tr"
+categories:
+  - "Sanat"
 date: '2026-07-20T04:23:40-04:00'
 slug: absolit-ismail
 tags: [oyun, tiyatro]

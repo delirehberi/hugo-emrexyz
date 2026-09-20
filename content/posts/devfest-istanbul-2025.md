@@ -1,5 +1,8 @@
 ---
 title: DevFest Istanbul 2025
+lang: "tr"
+categories:
+  - "Topluluk"
 description: DevFest Istanbul ozeti
 date: '2025-12-07T14:05:28-05:00'
 tags: []

@@ -1,5 +1,8 @@
 ---
 title: Neden teknoloji takip etmek yerine yaratmiyoruz
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2023-08-07T20:00:00-04:00'
 draft: false

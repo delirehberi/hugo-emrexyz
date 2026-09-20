@@ -1,5 +1,8 @@
 ---
 title: Elibelinde Motifi ve Mimari
+lang: "tr"
+categories:
+  - "Sanat"
 description: 'Elibelinde motifi üzerine bazı düşüncelerim. '
 date: '2025-09-15T04:29:12-04:00'
 tags: []

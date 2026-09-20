@@ -1,5 +1,8 @@
 ---
 title: Custom LNAddress with Self-Hosted AlbyHub
+lang: "en"
+categories:
+  - "Tech"
 description: My adventure to have custom LNAddres
 date: '2025-09-30T09:59:22-04:00'
 tags: []

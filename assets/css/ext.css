@@ -1,16 +1,38 @@
-.custom-title{
-    padding: 6px 0;
+/* Base Custom Title Styling */
+.custom-title {
+    padding: 8px 0;
     border-bottom: 1px solid #eee;
-}
-.custom-title a{
-    border-bottom: 0;
-    text-decoration: none;
-    padding: 3px;
-}
-.custom-title a:hover{
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
 }
 
+.custom-title .title {
+    flex: 1;
+    min-width: 0;
+    word-break: break-word;
+}
+
+.custom-title a {
+    border-bottom: 0;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.custom-title a:hover {
+    background-color: var(--maincolor, red);
+    color: #fff;
+}
+
+.custom-title time {
+    font-size: 0.85rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* Nostr Profile Section */
 .nostr-profile-section {
     margin: 1.5rem 0 2rem 0;
 }
@@ -20,3 +42,127 @@
     width: 100%;
 }
 
+/* Homepage Dual-Column Layout */
+body.home .content {
+    max-width: 1120px;
+    padding: 0 1.5ch;
+}
+
+.home-dual-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    margin-top: 1.5rem;
+    align-items: start;
+}
+
+@media screen and (max-width: 860px) {
+    .home-dual-columns {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+.home-column {
+    min-width: 0;
+}
+
+.column-header {
+    margin-bottom: 1rem;
+}
+
+.column-header h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+/* Category Navigation Bar */
+.category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0.75rem 0 1rem 0;
+}
+
+.category-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+    color: #334155;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: all 0.15s ease-in-out;
+}
+
+.category-pill:hover {
+    background-color: var(--maincolor, red) !important;
+    border-color: var(--maincolor, red) !important;
+    color: #ffffff !important;
+}
+
+.category-pill .category-count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+}
+
+/* Inline Category Tag in Post Lists */
+.category-tag {
+    display: inline-block;
+    font-size: 0.68rem;
+    line-height: 1.2;
+    padding: 1px 6px;
+    margin-left: 6px;
+    border-radius: 4px;
+    background-color: #f1f5f9;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    vertical-align: middle;
+    transition: all 0.15s ease-in-out;
+}
+
+.category-tag:hover {
+    background-color: var(--maincolor, red) !important;
+    border-color: var(--maincolor, red) !important;
+    color: #ffffff !important;
+}
+
+/* Category Post List & Terms Overview */
+.category-post-list {
+    margin-top: 1.5rem;
+}
+
+.terms-overview {
+    margin-top: 1.5rem;
+    gap: 10px;
+}
+
+.terms-overview .category-pill {
+    font-size: 0.9rem;
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+/* Dark Mode Theme Support */
+html.dark .custom-title {
+    border-bottom-color: #334155;
+}
+
+html.dark .category-pill {
+    background-color: #1e293b;
+    border-color: #334155;
+    color: #cbd5e1;
+}
+
+html.dark .category-tag {
+    background-color: #1e293b;
+    border-color: #334155;
+    color: #94a3b8;
+}

@@ -1,6 +1,7 @@
 +++
-categories = ["Development", "Test", "Turkish"]
 date = "2024-01-28T19:00:00-05:00"
+lang = "tr"
+categories = ["Yazılım"]
 description = "Yazdığınız kodun çalıştığını nasıl garanti edersiniz? Sürekli gelişen ve değişen karmaşık sistemlerin en büyük sorunu ise geliştirmeyi yapan kişinin iş üzerindeki kontrolünün zaman içinde kaybolmasıdır."
 slug = "otomatize-testler-ve-test-cesitleri"
 tags = ["test", "make", "phpunit"]

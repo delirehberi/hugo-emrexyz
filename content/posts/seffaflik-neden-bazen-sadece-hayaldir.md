@@ -1,5 +1,8 @@
 ---
 title: Şeffaflık Neden Bazen Sadece Bir Hayaldir?
+lang: "tr"
+categories:
+  - "Yaşam"
 date: '2026-07-31T11:45:38-04:00'
 slug: seffaflik-neden-bazen-sadece-hayaldir
 tags: []

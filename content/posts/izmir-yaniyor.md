@@ -1,5 +1,8 @@
 ---
 title: İzmir Yanıyor
+lang: "tr"
+categories:
+  - "Yazılım"
 date: '2026-07-29T18:27:32-04:00'
 slug: izmir-yaniyor
 tags: []

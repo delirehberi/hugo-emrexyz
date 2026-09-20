@@ -1,5 +1,8 @@
 ---
 title: 2021 yilinda nasil yazilimci olunur
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2021-01-13T19:00:00-05:00'
 draft: false

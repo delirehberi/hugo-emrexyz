@@ -1,5 +1,8 @@
 ---
 title: My morning routine
+lang: "en"
+categories:
+  - "Life"
 description: null
 date: '2019-06-28T20:00:00-04:00'
 draft: false

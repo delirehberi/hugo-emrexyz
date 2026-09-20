@@ -1,5 +1,8 @@
 ---
 title: A journey with beeper the all in one messaging app
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2023-06-08T20:00:00-04:00'
 draft: false

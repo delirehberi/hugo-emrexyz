@@ -1,5 +1,8 @@
 ---
 title: Filmin sonu
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2023-01-27T19:00:00-05:00'
 draft: false

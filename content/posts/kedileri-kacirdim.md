@@ -1,5 +1,8 @@
 ---
 title: Kedileri Kaçırdım!
+lang: "tr"
+categories:
+  - "Yaşam"
 description: ''
 date: '2026-01-20T11:00:55-05:00'
 slug: '189876e2'

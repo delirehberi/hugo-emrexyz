@@ -1,5 +1,8 @@
 ---
 title: New cat in the office
+lang: "en"
+categories:
+  - "Life"
 description: null
 date: '2019-06-29T20:00:00-04:00'
 draft: false

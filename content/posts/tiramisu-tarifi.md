@@ -1,5 +1,8 @@
 ---
 title: Tiramisu tarifi
+lang: "tr"
+categories:
+  - "Yaşam"
 description: null
 date: '2020-10-04T20:00:00-04:00'
 draft: false

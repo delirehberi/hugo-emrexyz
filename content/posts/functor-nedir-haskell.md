@@ -1,5 +1,8 @@
 ---
 title: Functor nedir haskell
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2019-10-27T20:00:00-04:00'
 draft: false

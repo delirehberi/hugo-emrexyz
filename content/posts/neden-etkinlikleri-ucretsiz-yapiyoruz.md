@@ -1,5 +1,7 @@
 +++
 title = "Neden Etkinlikleri Ucretsiz Yapiyoruz"
+lang = "tr"
+categories = ["Topluluk"]
 date = "2017-11-01T14:59:07-04:00"
 nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsfprt6l7jjtjkmy9g9dwy0ehjvvm5rcmn5968nc5pfygnnj9uzj3qq34rn4"
 +++

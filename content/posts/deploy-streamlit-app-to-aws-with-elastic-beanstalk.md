@@ -1,5 +1,8 @@
 ---
 title: Deploy streamlit app to aws with elastic beanstalk
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2023-03-29T20:00:00-04:00'
 draft: false

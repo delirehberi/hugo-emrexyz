@@ -1,5 +1,8 @@
 ---
 title: 'Cloudflare OS, is it worth?'
+lang: "en"
+categories:
+  - "Tech"
 date: '2026-08-11T21:17:08-04:00'
 slug: 2be69f5e
 tags: []

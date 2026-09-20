@@ -1,5 +1,8 @@
 ---
 title: Fransız Sarayı
+lang: "tr"
+categories:
+  - "Sanat"
 description: Fransız sarayı
 date: '2025-09-15T04:29:12-04:00'
 tags: []

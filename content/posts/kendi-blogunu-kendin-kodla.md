@@ -1,5 +1,8 @@
 ---
 title: Kendi blogunu kendin kodla
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2020-09-14T20:00:00-04:00'
 draft: false

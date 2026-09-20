@@ -1,5 +1,8 @@
 ---
 title: Haftalik yazilimci bulusmalari
+lang: "tr"
+categories:
+  - "Topluluk"
 description: null
 date: '2022-11-18T19:00:00-05:00'
 draft: false

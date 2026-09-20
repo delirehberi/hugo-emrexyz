@@ -1,5 +1,8 @@
 ---
 title: Para!
+lang: "tr"
+categories:
+  - "Yaşam"
 description: ''
 date: '2025-11-10T07:11:16-05:00'
 tags: []

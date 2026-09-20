@@ -1,5 +1,8 @@
 ---
 title: Doctrine fixtures nedir nasil kullanilir
+lang: "en"
+categories:
+  - "Tech"
 description: null
 date: '2020-09-06T20:00:00-04:00'
 draft: false

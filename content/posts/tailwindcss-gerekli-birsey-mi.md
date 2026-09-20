@@ -1,5 +1,8 @@
 ---
 title: Tailwindcss gerekli birsey mi
+lang: "tr"
+categories:
+  - "Yazılım"
 description: null
 date: '2023-08-03T20:00:00-04:00'
 draft: false
