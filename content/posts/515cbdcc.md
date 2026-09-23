@@ -1,13 +1,13 @@
 ---
 title: Burnout'un Üç Yılı Kendi Kendimin Labirentinde Kaybolmak
-lang: "tr"
+lang: tr
 categories:
-  - "Yaşam"
+  - Yaşam
 description: Burnout ve kişisel yolculuğum üzerine bir sohbet
 date: '2025-12-02T08:15:39-05:00'
 tags: []
 nostr_id: >-
-  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsp4dg5kgf4n3dk29qj9rgkrcfzndjzq4t9tt275xduh7qr7zh4rrcy6sufn
+  naddr1qvzqqqr4gupzq3hnc7an8npsryzfkaku38dmjm35cfrmmkngk6kcvvngy7fllzs6qy28wumn8ghj7un9d3shjtn9d4ex2tnc09aqz9nhwden5te0wfjkccte9ehx7um5wghxyctwvsq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7qgcwaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmqpp4mhxue69uhkummn9ekx7mqpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqg0waehxw309ahx7um5wghx6mmdqyt8wumn8ghj7un9d3shjtnwdaejuum0vd5kzmqprfmhxue69uhkzun5d93kcetn9ekxz7t9wgejumn9waesz8nhwden5te0d4k8xtnpddjx2mnf0ghx2er49e68ytmwdaehgusqpq6nzdtrvfjxxccwjmxpt
 ---
 Arkadaşım bugün ChatGPT'ye şunu sormuş; “Koşullar düzeldikten sonra hafif burnout 3–6 ayda, ağır burnout 9–12 ayda toparlar” demiş. Bunun üzerine biraz konuşalım dedik. Ama bende üç yıl oldu. Sorun koşulların ortadan kalkmaması değil yalnızca; koşullar düzelmiş olsa bile içimdeki yük hâlâ aynı ağırlıkta duruyor.
 

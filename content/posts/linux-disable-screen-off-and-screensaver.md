@@ -1,14 +1,14 @@
 ---
 title: Disabling Screen Off and Screensaver on Debian / Linux
-lang: "en"
+lang: en
 categories:
-  - "Tech"
+  - Tech
 description: null
 date: '2024-07-24T20:00:00-04:00'
 draft: false
 tags: en
 nostr_id: >-
-  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs0x9s2gk33w5nvq4x8uczcdnhft6sa5lwl8vstut554z6xu9zgz2ce2ujam
+  naddr1qvzqqqr4gupzq3hnc7an8npsryzfkaku38dmjm35cfrmmkngk6kcvvngy7fllzs6qy28wumn8ghj7un9d3shjtn9d4ex2tnc09aqz9nhwden5te0wfjkccte9ehx7um5wghxyctwvsq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7qgcwaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmqpp4mhxue69uhkummn9ekx7mqpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqg0waehxw309ahx7um5wghx6mmdqyt8wumn8ghj7un9d3shjtnwdaejuum0vd5kzmqprfmhxue69uhkzun5d93kcetn9ekxz7t9wgejumn9waesz8nhwden5te0d4k8xtnpddjx2mnf0ghx2er49e68ytmwdaehgusq9pkxjmn40qkkg6tnv93xcefdwd3hyet9dckk7enx94skuepdwd3hyet9deekzan9wga97zw0
 ---
 
 If you're using a Linux system and want to prevent your screen from turning off or your screensaver from activating, you can use the `xset` command to adjust your Display Power Management Signaling (DPMS) settings and screensaver settings. Here’s how you can do it:

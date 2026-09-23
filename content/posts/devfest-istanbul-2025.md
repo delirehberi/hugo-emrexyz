@@ -1,13 +1,13 @@
 ---
 title: DevFest Istanbul 2025
-lang: "tr"
+lang: tr
 categories:
-  - "Topluluk"
+  - Topluluk
 description: DevFest Istanbul ozeti
 date: '2025-12-07T14:05:28-05:00'
 tags: []
 nostr_id: >-
-  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsww8pwu9ujuvz9kuzhgu03teuh4vsyx8aa3xey0wv86ud2pf25w3c06cswv
+  naddr1qvzqqqr4gupzq3hnc7an8npsryzfkaku38dmjm35cfrmmkngk6kcvvngy7fllzs6qy28wumn8ghj7un9d3shjtn9d4ex2tnc09aqz9nhwden5te0wfjkccte9ehx7um5wghxyctwvsq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7qgcwaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmqpp4mhxue69uhkummn9ekx7mqpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqg0waehxw309ahx7um5wghx6mmdqyt8wumn8ghj7un9d3shjtnwdaejuum0vd5kzmqprfmhxue69uhkzun5d93kcetn9ekxz7t9wgejumn9waesz8nhwden5te0d4k8xtnpddjx2mnf0ghx2er49e68ytmwdaehgusqppjkyvrpve3nyvqd0tumu
 ---
 Bugün, DevFest İstanbul etkinliğinde, Nostr: A Protocol for freedom of speech (Nostr: İfade özgürlüğü için bir protokol) adlı konuşmamı yapmak üzere bulundum. Her zaman olduğu gibi, niş ve yeni konularda diğer oturumlardan daha az katılımcı bulunması şaşırtmadı. Yaklaşık 40-50 katılımcıya Nostr'dan ve bizim için ne anlama geldiğinde geleceği nasıl şekillendirdiğinden bahsettim. 
 

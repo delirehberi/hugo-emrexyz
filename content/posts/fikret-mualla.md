@@ -1,8 +1,8 @@
 ---
 title: 'Fikret Mualla: Sanat ve Melankoli Üzerine Bir Portre'
-lang: "tr"
+lang: tr
 categories:
-  - "Sanat"
+  - Sanat
 date: '2024-10-21T20:00:00-04:00'
 tags:
   - art
@@ -10,7 +10,7 @@ tags:
   - biography
   - tr
 nostr_id: >-
-  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsr9k8hrhqyry8rg9pk2zzmfyw0qehhcynfghfhg7u8hpglzf8cd5sdw2t9a
+  naddr1qvzqqqr4gupzq3hnc7an8npsryzfkaku38dmjm35cfrmmkngk6kcvvngy7fllzs6qy28wumn8ghj7un9d3shjtn9d4ex2tnc09aqz9nhwden5te0wfjkccte9ehx7um5wghxyctwvsq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7qgcwaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmqpp4mhxue69uhkummn9ekx7mqpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqg0waehxw309ahx7um5wghx6mmdqyt8wumn8ghj7un9d3shjtnwdaejuum0vd5kzmqprfmhxue69uhkzun5d93kcetn9ekxz7t9wgejumn9waesz8nhwden5te0d4k8xtnpddjx2mnf0ghx2er49e68ytmwdaehgusqp4nxj6mjv46z6mt4v9kxccg8glgwf
 ---
 
 Fikret Mualla cumhuriyet dönemi ressamlarından ve kendi tarzını bulabilmiş müthiş bir ressam olsa da hayatı çoğunlukla sorunlu geçmiş birisi. Picasso'nun hediye ettiği resmi dahi hiç parasına satacak kadar umursamaz bir insan olan Mualla'nın resimler günümüzde oldukça değerli. Fikret Mualla'yı bu kadar değerli yapan ilginç hayatına kısa bir göz atacağım. 

@@ -1,14 +1,14 @@
 ---
 title: How I've been hacked by Subdomain Takeover - Shopify
-lang: "en"
+lang: en
 categories:
-  - "Tech"
-date: 2026-08-05T18:43:09-04:00
+  - Tech
+date: 2026-08-05T22:43:09.000Z
 slug: how-i-hacked-by-subdomain-takeover-shopify
 draft: false
 tags: []
 nostr_id: >-
-  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsf33s7p3snstk3wdq6njqe0gaary6sj0fud5qh5ce6p7jv3jp8qlq490wfk
+  naddr1qvzqqqr4gupzq3hnc7an8npsryzfkaku38dmjm35cfrmmkngk6kcvvngy7fllzs6qy28wumn8ghj7un9d3shjtn9d4ex2tnc09aqz9nhwden5te0wfjkccte9ehx7um5wghxyctwvsq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7qgcwaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmqpp4mhxue69uhkummn9ekx7mqpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqg0waehxw309ahx7um5wghx6mmdqyt8wumn8ghj7un9d3shjtnwdaejuum0vd5kzmqprfmhxue69uhkzun5d93kcetn9ekxz7t9wgejumn9waesz8nhwden5te0d4k8xtnpddjx2mnf0ghx2er49e68ytmwdaehgusqpp3xvctpvenxgwgfn4gs5
 ---
 **Disclaimer:** _While I’m discussing how Shopify could implement better safeguards against this, I fully acknowledge that keeping my DNS clean and removing unused subdomains is ultimately my own responsibility._
 

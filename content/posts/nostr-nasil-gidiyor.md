@@ -1,13 +1,13 @@
 ---
 title: Nostr Nasıl Gidiyor?
-lang: "tr"
+lang: tr
 categories:
-  - "Yazılım"
+  - Yazılım
 date: '2026-08-19T20:01:42-04:00'
 slug: nostr-nasil-gidiyor
 tags: []
 nostr_id: >-
-  nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqs8zjxy4gawkk6n8f93r2vsrr3cm3s47um298sxwdz6hka9aphzlkc6dvjeu
+  naddr1qvzqqqr4gupzq3hnc7an8npsryzfkaku38dmjm35cfrmmkngk6kcvvngy7fllzs6qy28wumn8ghj7un9d3shjtn9d4ex2tnc09aqz9nhwden5te0wfjkccte9ehx7um5wghxyctwvsq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7qgcwaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmqpp4mhxue69uhkummn9ekx7mqpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqg0waehxw309ahx7um5wghx6mmdqyt8wumn8ghj7un9d3shjtnwdaejuum0vd5kzmqprfmhxue69uhkzun5d93kcetn9ekxz7t9wgejumn9waesz8nhwden5te0d4k8xtnpddjx2mnf0ghx2er49e68ytmwdaehgusqpp3rwetpvg6rqvctay7ke
 description: Nostr maceramın özeti
 ---
 Birkaç yıl önce **Jack (Jack Dorsey)**[^1] sayesinde **[Nostr protokolünü](https://nostr.com/)**[^2] keşfetmiştim. O günden bu yana aktif olarak kullanıyorum. Zaten yıllardır dağıtık sosyal ağlara ilgim vardı. **[ActivityPub](https://activitypub.rocks/)**[^3] denedim bir süre. Bir şeyler oturmadı. O sırada Jack Twitter içerisinde **[ATProto](https://atproto.com/)**[^4]'ya başladı, ancak orada da bir şeyler oturmuyordu. Daha öncelerindeki yöntemleri kullanmaya bile yeltenmemiştim zaten.

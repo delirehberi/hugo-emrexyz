@@ -3,7 +3,7 @@ title = "Birseyler"
 lang = "tr"
 categories = ["Şiir"]
 date = "2011-03-18T15:37:19-04:00"
-nostr_id = "nevent1qvzqqqr4guq3gamnwvaz7tmjv4kxz7fwv4khyefw0puh5qgkwaehxw309aex2mrp0yhxummnw3ezucnpdejqz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcprpmhxue69uhhyetvv9ujuumwdae8gtnnda3kjctvqyxhwumn8ghj7mn0wvhxcmmvqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqppamhxue69uhkummnw3ezumt0d5q3vamnwvaz7tmjv4kxz7fwdehhxtnnda3kjctvqyd8wumn8ghj7ctjw35kxmr9wvhxcctev4erxtnwv4mhxqg7waehxw309akkcuewv94kgetwd9azuetyw5h8gu30dehhxarjqqsvy6wc6qtl79agspcayhdu73c0e2duqemvh78wxxd2jc77vx4qrqccz34e6"
+nostr_id = "naddr1qvzqqqr4gupzq3hnc7an8npsryzfkaku38dmjm35cfrmmkngk6kcvvngy7fllzs6qy28wumn8ghj7un9d3shjtn9d4ex2tnc09aqz9nhwden5te0wfjkccte9ehx7um5wghxyctwvsq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7qgcwaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmqpp4mhxue69uhkummn9ekx7mqpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqg0waehxw309ahx7um5wghx6mmdqyt8wumn8ghj7un9d3shjtnwdaejuum0vd5kzmqprfmhxue69uhkzun5d93kcetn9ekxz7t9wgejumn9waesz8nhwden5te0d4k8xtnpddjx2mnf0ghx2er49e68ytmwdaehgusqp93xjunnv4ukcetjx52zhl"
 +++
 
 Yok artık…
@@ -63,4 +63,3 @@ birleştik tek bedende iki ruh, ve iki kişilik bir yalnızlık ile yine tutsak 
 Şu ölüm meselesi ise aşk icin değildir aslen hic bir kalpte,
 yalnızca elde edememek nefreti ile soğursun hayattan , yitersin dağ gibi bir bedende,
 kaçmak gelir yalnız elinden, savaşmaya korkarsın çünkü ve her malup gibi sevgiyle anılırsın – ki bu saygıdan değil acındığındandır halet-i ruhiyeye…
-
