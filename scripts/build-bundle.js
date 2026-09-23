@@ -7,8 +7,18 @@ const rootDir = path.resolve(__dirname, '..');
 const outDir = path.join(rootDir, 'static', 'js');
 const outBundle = path.join(outDir, 'nostr-comments.bundle.js');
 
-console.log('Building Nostr Comments bundle...');
+console.log('Building Nostr Comments & Highlights bundle...');
 fs.mkdirSync(outDir, { recursive: true });
+
+const cssSrcDir = path.join(rootDir, 'assets', 'css');
+const cssOutDir = path.join(rootDir, 'static', 'css');
+fs.mkdirSync(cssOutDir, { recursive: true });
+if (fs.existsSync(cssSrcDir)) {
+  const cssFiles = fs.readdirSync(cssSrcDir).filter(f => f.startsWith('nostr-') && f.endsWith('.css'));
+  for (const file of cssFiles) {
+    fs.copyFileSync(path.join(cssSrcDir, file), path.join(cssOutDir, file));
+  }
+}
 
 const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'hugo-bundle-'));
 try {

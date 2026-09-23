@@ -1,6 +1,7 @@
 import { SimplePool, finalizeEvent, getPublicKey, generateSecretKey } from 'nostr-tools';
 import * as nip19 from 'nostr-tools/nip19';
 import { BunkerSigner, parseBunkerInput } from 'nostr-tools/nip46';
+import './nostr-highlights.js';
 
 /**
  * Nostr Comments Component for blog.emre.xyz
@@ -193,12 +194,20 @@ class NostrCommentsApp {
       this.renderReplyBox();
     });
     this.renderReplyBox();
+
+    // Sync with highlights app if present
+    if (window.nostrHighlights && !window.nostrHighlights.currentUser) {
+      window.nostrHighlights.setLoggedInUser(type, pubkey, signer, extra);
+    }
   }
 
   logout() {
     this.currentUser = null;
     localStorage.removeItem('nostr_comments_auth');
     sessionStorage.removeItem('nostr_comments_nsec');
+    if (window.nostrHighlights) {
+      window.nostrHighlights.currentUser = null;
+    }
     this.renderReplyBox();
   }
 
