@@ -69,6 +69,35 @@
 
 	<!-- IndieAuth / Verification -->
 	<link rel="me" href="https://github.com/delirehberi" />
+	{{ with .Site.Params.nostr -}}
+	{{ $authorNostr := trim . " \t\n\r" -}}
+	{{ if not (hasPrefix $authorNostr "nostr:") -}}
+	  {{ $authorNostr = printf "nostr:%s" $authorNostr -}}
+	{{ end -}}
+	<link rel="me" href="{{ $authorNostr | safeURL }}" />
+	{{ end -}}
+
+	<!-- Nostr Entity Link (Web-to-Nostr Article / Note discovery) -->
+	{{- $nostrEntity := "" -}}
+	{{- with .Params.nostr_id -}}
+	  {{- $nostrEntity = . -}}
+	{{- else with .Params.naddr -}}
+	  {{- $nostrEntity = . -}}
+	{{- else with .Params.nevent -}}
+	  {{- $nostrEntity = . -}}
+	{{- else with .Params.nostr_uri -}}
+	  {{- $nostrEntity = . -}}
+	{{- else with .Params.nostr -}}
+	  {{- $nostrEntity = . -}}
+	{{- end -}}
+	{{- if $nostrEntity -}}
+	  {{- $nostrEntity = trim $nostrEntity " \t\n\r" -}}
+	  {{- $nostrHref := $nostrEntity -}}
+	  {{- if not (hasPrefix $nostrHref "nostr:") -}}
+	    {{- $nostrHref = printf "nostr:%s" $nostrEntity -}}
+	  {{- end -}}
+	<link rel="alternate" href="{{ $nostrHref | safeURL }}" />
+	{{- end }}
 
 	{{ with .Site.Params.googleSiteVerification }}
 	<meta name="google-site-verification" content="{{ . }}" />

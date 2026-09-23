@@ -65,7 +65,19 @@ function shortenKey(key) {
 class NostrCommentsApp {
   constructor(container) {
     this.container = container;
-    this.anchor = container.getAttribute('data-anchor') || '';
+    let anchor = container.getAttribute('data-anchor') || '';
+    if (!anchor || anchor.startsWith('http://') || anchor.startsWith('https://')) {
+      // Auto-discover from HTML head <link rel~="alternate"[href^="nostr:"]>
+      const linkTag = document.querySelector('link[rel~="alternate"][href^="nostr:"]');
+      if (linkTag) {
+        const nostrUri = linkTag.getAttribute('href') || '';
+        const discovered = nostrUri.replace(/^nostr:/i, '').trim();
+        if (discovered) {
+          anchor = discovered;
+        }
+      }
+    }
+    this.anchor = anchor;
     const relaysAttr = container.getAttribute('data-relays');
     this.relays = relaysAttr ? relaysAttr.split(',').map(r => r.trim()).filter(Boolean) : DEFAULT_RELAYS;
     const cacheRelayAttr = container.getAttribute('data-cache-relay');
@@ -213,12 +225,17 @@ class NostrCommentsApp {
     let authorPubkey = null;
     let url = null;
 
-    if (!anchor) {
+    let cleanAnchor = (anchor || '').trim();
+    if (cleanAnchor.toLowerCase().startsWith('nostr:')) {
+      cleanAnchor = cleanAnchor.slice(6).trim();
+    }
+
+    if (!cleanAnchor) {
       return { relays, eventId: null, coordinate: null, authorPubkey: null, url: window.location.href };
     }
 
-    if (anchor.startsWith('nevent1')) {
-      const decoded = nip19.decode(anchor);
+    if (cleanAnchor.startsWith('nevent1')) {
+      const decoded = nip19.decode(cleanAnchor);
       if (decoded.type === 'nevent') {
         eventId = decoded.data.id;
         if (decoded.data.relays && decoded.data.relays.length > 0) {
@@ -240,8 +257,8 @@ class NostrCommentsApp {
           console.warn('Could not fetch root event directly; relying on eventId:', fetchErr);
         }
       }
-    } else if (anchor.startsWith('naddr1')) {
-      const decoded = nip19.decode(anchor);
+    } else if (cleanAnchor.startsWith('naddr1')) {
+      const decoded = nip19.decode(cleanAnchor);
       if (decoded.type === 'naddr') {
         const { kind, pubkey, identifier, relays: hintRelays } = decoded.data;
         coordinate = `${kind}:${pubkey}:${identifier}`;
@@ -250,13 +267,13 @@ class NostrCommentsApp {
           relays = Array.from(new Set([...hintRelays, ...relays]));
         }
       }
-    } else if (anchor.startsWith('note1')) {
-      const decoded = nip19.decode(anchor);
+    } else if (cleanAnchor.startsWith('note1')) {
+      const decoded = nip19.decode(cleanAnchor);
       if (decoded.type === 'note') {
         eventId = decoded.data;
       }
     } else {
-      url = anchor;
+      url = cleanAnchor;
     }
 
     return { relays, eventId, coordinate, authorPubkey, url };

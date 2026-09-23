@@ -23,22 +23,36 @@
         </div>{{ end }}
         <section class="body">
           {{ .Content }}
-          {{ if isset .Params "nostr_id" }}
+          {{- $nostrEntity := "" -}}
+          {{- with .Params.nostr_id -}}
+            {{- $nostrEntity = . -}}
+          {{- else with .Params.naddr -}}
+            {{- $nostrEntity = . -}}
+          {{- else with .Params.nevent -}}
+            {{- $nostrEntity = . -}}
+          {{- else with .Params.nostr_uri -}}
+            {{- $nostrEntity = . -}}
+          {{- else with .Params.nostr -}}
+            {{- $nostrEntity = . -}}
+          {{- end -}}
+          {{- if $nostrEntity -}}
+            {{- $nostrEntity = trim $nostrEntity " \t\n\r" -}}
+            {{- $njumpTarget := strings.TrimPrefix "nostr:" $nostrEntity -}}
           <div class="nostr-id">
-              <a href="https://njump.me/{{.Params.nostr_id | safeHTML }}">view in nostr/njump.me</a>
+              <a href="https://njump.me/{{ $njumpTarget | safeURL }}" target="_blank" rel="noopener noreferrer">view in nostr/njump.me</a>
           </div>
           <div id="nostr-comments"
-               data-anchor="{{.Params.nostr_id}}"
+               data-anchor="{{ $nostrEntity }}"
                data-cache-relay="wss://cache.nostr.org.tr"
                data-relays="wss://relay.emre.xyz, wss://relay.nostr.band, wss://relay.damus.io, wss://relay.snort.social, wss://nos.lol, wss://relay.primal.net, wss://nostr.mom, wss://relay.nos.social, wss://articles.layer3.news, wss://mls.akdeniz.edu.tr/nostr">
           </div>
-              {{ else }}
+          {{ else }}
           <div id="nostr-comments"
                data-anchor="{{.Permalink}}"
                data-cache-relay="wss://cache.nostr.org.tr"
                data-relays="wss://relay.emre.xyz, wss://relay.nostr.band, wss://relay.damus.io, wss://relay.snort.social, wss://nos.lol, wss://relay.primal.net, wss://nostr.mom, wss://relay.nos.social, wss://articles.layer3.news, wss://mls.akdeniz.edu.tr/nostr">
           </div>
-        {{ end }}
+          {{ end }}
         </section>
         <div class="post-tags">
           {{ if ne .Type "page" }}
