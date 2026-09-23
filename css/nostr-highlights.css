@@ -1,0 +1,403 @@
+/* ==========================================================================
+   Nostr Highlights (NIP-84) Styles - blog.emre.xyz
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Floating Selection Popover
+   -------------------------------------------------------------------------- */
+.nh-selection-popover {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #1e293b;
+  color: #f8fafc;
+  padding: 5px 8px;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-family: inherit;
+  font-size: 0.8125rem;
+  user-select: none;
+  pointer-events: auto;
+  opacity: 0;
+  transform: translateY(6px) scale(0.95);
+  transition: opacity 0.18s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nh-selection-popover.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Arrow indicator */
+.nh-selection-popover::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+}
+
+.nh-selection-popover.arrow-bottom::after {
+  bottom: -12px;
+  border-top-color: #1e293b;
+}
+
+.nh-selection-popover.arrow-top::after {
+  top: -12px;
+  border-bottom-color: #1e293b;
+}
+
+.nh-popover-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  color: #f8fafc;
+  padding: 5px 10px;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+}
+
+.nh-popover-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.nh-popover-btn svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+}
+
+.nh-popover-divider {
+  width: 1px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* --------------------------------------------------------------------------
+   Inline Highlight Markings on Article
+   -------------------------------------------------------------------------- */
+mark.nh-highlight {
+  background-color: rgba(250, 204, 21, 0.3);
+  color: inherit;
+  border-bottom: 2px solid rgba(234, 179, 8, 0.7);
+  padding: 1px 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+html.dark mark.nh-highlight {
+  background-color: rgba(234, 179, 8, 0.25);
+  border-bottom-color: rgba(250, 204, 21, 0.6);
+}
+
+mark.nh-highlight:hover {
+  background-color: rgba(250, 204, 21, 0.5);
+}
+
+html.dark mark.nh-highlight:hover {
+  background-color: rgba(234, 179, 8, 0.45);
+}
+
+/* --------------------------------------------------------------------------
+   Highlight Details Popover (on click of existing highlight)
+   -------------------------------------------------------------------------- */
+.nh-detail-popover {
+  position: absolute;
+  z-index: 1050;
+  max-width: 320px;
+  width: calc(100vw - 32px);
+  background: #ffffff;
+  color: #1e293b;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+html.dark .nh-detail-popover {
+  background: #1e293b;
+  color: #f1f5f9;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.nh-detail-popover.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nh-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+}
+
+.nh-detail-author {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.nh-detail-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: rgba(140, 140, 140, 0.2);
+}
+
+.nh-detail-time {
+  opacity: 0.6;
+  font-size: 0.75rem;
+}
+
+.nh-detail-comment {
+  margin: 6px 0 8px 0;
+  padding: 6px 8px;
+  background: rgba(140, 140, 140, 0.08);
+  border-left: 3px solid #3b82f6;
+  border-radius: 4px;
+  font-size: 0.825rem;
+}
+
+.nh-detail-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(140, 140, 140, 0.15);
+  font-size: 0.75rem;
+}
+
+.nh-detail-link {
+  color: #3b82f6;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.nh-detail-link:hover {
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   Modals (Quote & Auth)
+   -------------------------------------------------------------------------- */
+.nh-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.nh-modal-backdrop.visible {
+  opacity: 1;
+}
+
+.nh-modal-content {
+  background: #ffffff;
+  color: #0f172a;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: scale(0.95);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html.dark .nh-modal-content {
+  background: #1e293b;
+  color: #f8fafc;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.nh-modal-backdrop.visible .nh-modal-content {
+  transform: scale(1);
+}
+
+.nh-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.nh-modal-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nh-modal-close {
+  background: transparent;
+  border: none;
+  font-size: 1.35rem;
+  line-height: 1;
+  color: inherit;
+  opacity: 0.6;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.nh-modal-close:hover {
+  opacity: 1;
+}
+
+.nh-quote-preview {
+  margin: 0 0 1rem 0;
+  padding: 8px 12px;
+  background: rgba(140, 140, 140, 0.08);
+  border-left: 3px solid #eab308;
+  border-radius: 4px;
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.nh-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 85px;
+  background: rgba(140, 140, 140, 0.06);
+  border: 1px solid rgba(140, 140, 140, 0.25);
+  border-radius: 8px;
+  color: inherit;
+  padding: 10px;
+  font-size: 0.925rem;
+  font-family: inherit;
+  resize: vertical;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.nh-textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.nh-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+
+.nh-status {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.nh-status.error {
+  color: #ef4444;
+  opacity: 1;
+}
+
+.nh-status.success {
+  color: #10b981;
+  opacity: 1;
+}
+
+.nh-btn-row {
+  display: flex;
+  gap: 8px;
+}
+
+.nh-btn {
+  background: rgba(140, 140, 140, 0.15);
+  border: 1px solid rgba(140, 140, 140, 0.25);
+  border-radius: 6px;
+  color: inherit;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nh-btn:hover:not(:disabled) {
+  background: rgba(140, 140, 140, 0.25);
+}
+
+.nh-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.nh-btn-primary {
+  background: #3b82f6;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.nh-btn-primary:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+/* Toast notification */
+.nh-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 2500;
+  background: #1e293b;
+  color: #f8fafc;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  pointer-events: none;
+}
+
+.nh-toast.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
