@@ -2,6 +2,9 @@
 title: 'Owner, Not User'
 date: '2026-09-28T09:26:39-04:00'
 slug: owner-not-user
+lang: en
+categories:
+  - Tech
 tags:
   - nostr
   - bitcoin
