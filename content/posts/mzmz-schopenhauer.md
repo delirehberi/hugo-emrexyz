@@ -2,7 +2,7 @@
 title: Mızmız Schopenhauer!
 date: '2026-09-30T21:34:46-04:00'
 slug: mzmz-schopenhauer
-l: tr
+lang: tr
 tags:
   - schopenhauer
   - felsefe
