@@ -2,7 +2,7 @@
 title: Why I Like Quiet Tools
 date: '2026-09-30T17:27:19-04:00'
 slug: why-i-like-quiet-tools
-l: en
+lang: en
 tags:
   - unix
   - software
