@@ -2,7 +2,7 @@
 title: 'jotstr.com Yayında: Nostr Üzerinde Sahibi Olduğun Bir Blog'
 date: '2026-10-05T12:58:57-04:00'
 slug: jotstr-yayinda
-l: tr
+lang: tr
 tags:
   - jotstr
   - nostr
